@@ -1,2 +1,2 @@
-# yungay
-Implementing with jekyll framework.
+# hammock
+web with jekyll
