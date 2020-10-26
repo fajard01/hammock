@@ -1,1 +1,10 @@
+title: "Jekyll Actions Demo"
+baseurl: /yungay
 theme: jekyll-theme-hacker
+collections:
+  authors:
+    output: true
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
