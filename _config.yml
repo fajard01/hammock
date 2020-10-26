@@ -1,5 +1,5 @@
 title: "Jekyll Actions Demo"
-baseurl: /yungay
+baseurl: /hammock
 theme: jekyll-theme-hacker
 collections:
   authors:
