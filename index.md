@@ -1,4 +1,12 @@
-## Welcome to GitHub Pages
+---
+---
+
+## Welcome to hammock GitHub Pages
+
+{% assign date = '2020-04-13T10:20:00Z' %}
+
+- Original date - {{ date }}
+- With timeago filter - {{ date | timeago }}
 
 You can use the [editor on GitHub](https://github.com/fajard01/perumereida/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

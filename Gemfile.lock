@@ -53,10 +53,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-<<<<<<< HEAD
     mini_i18n (0.8.0)
-=======
->>>>>>> 7eac14f (initial commit)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
@@ -76,16 +73,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
   jekyll (~> 4.0)
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-theme-hacker (~> 0.1.1)
   jekyll-timeago (~> 0.13.1)
-=======
-  jekyll
->>>>>>> 7eac14f (initial commit)
 
 BUNDLED WITH
    2.1.4
