@@ -1,0 +1,18 @@
+<!-- IMAGE NAVIGATION LINKS -->
+<div class="container">
+  <div class="row">
+    {% for photo in site.data.navigation.photo_links %}
+    <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto img-row">
+      <a href={{ photo.link | prepend:site.baseurl }}>
+        <img id={{ photo.id }}
+             alt={{ photo.alt }}
+             class={{ photo.class }}
+             src={{ photo.src | prepend:site.baseurl }} />
+        <div class="title">
+          {{ photo.title }}
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

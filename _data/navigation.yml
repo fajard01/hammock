@@ -1,8 +1,41 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html
+brand:
+  name: Mereida Fajardo
+  alt: Mereida Logo
+  id: imgLogo
+  src: /assets/img/init/meee.png
+
+photo_links:
+  - title: In
+    link: /in.html
+    id: in
+    alt: Newsletter
+    class: link-img
+    src: /assets/img/init/in.jpg
+  - title: Space
+    link: /space.html
+    id: space
+    alt: Places
+    class: link-img
+    src: /assets/img/init/space.jpg
+  - title: TIME
+    link: /time.html
+    id: time
+    alt: Timeline
+    class: link-img
+    src: /assets/img/init/time.jpg
+  - title: Out
+    link: /out.html
+    id: out
+    alt: Departure
+    class: link-img
+    src: /assets/img/init/out.jpg
+
+pages:
+  - name: Home
+    link: /
+  - name: About
+    link: /about.html
+  - name: Blog
+    link: /blog.html
+  - name: Staff
+    link: /staff.html
