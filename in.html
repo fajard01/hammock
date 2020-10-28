@@ -3,21 +3,25 @@ layout: default
 title: In
 ---
 
+<link rel="stylesheet"
+      type="text/css"
+      href={{ "/assets/css/in.css" | relative_url }} />
 <div class="content">
   <section>
     <h2>My Blog!</h2>
-    <div class=container>
-      <a href="#"><img class="newsletter"
-             alt="1 News!"
-             src="img/in/1_m.jpg" />
+    {% for news in site.data.in_data %}
+    <div class="container"
+         <a
+         href="#"><img class="image"
+           alt={{ news.title }}
+           src={{ news.src | relative_url }} />
       </a>
       <div class="overlay">
-        1 News!
+        <div class="text">
+          {{ news.title }}
+        </div>
       </div>
     </div>
-    <a href="#"><img class="newsletter"
-           alt="2 News 2"
-           src="img/in/2_m.jpg" />
-    </a>
+    {% endfor %}
   </section>
 </div>

@@ -3,11 +3,11 @@
   <div class="row">
     {% for photo in site.data.navigation.photo_links %}
     <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto img-row">
-      <a href={{ photo.link | prepend:site.baseurl }}>
+      <a href={{ photo.link | relative_url }}>
         <img id={{ photo.id }}
              alt={{ photo.alt }}
              class={{ photo.class }}
-             src={{ photo.src | prepend:site.baseurl }} />
+             src={{ photo.src | relative_url }} />
         <div class="title">
           {{ photo.title }}
         </div>

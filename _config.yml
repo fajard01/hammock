@@ -1,11 +1,11 @@
 title: "Jekyll Actions Demo"
 baseurl: /hammock
 theme: jekyll-theme-hacker
-collections:
-  authors:
-    output: true
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 livereload: true
+collections:
+  newblogs:
+    output: true

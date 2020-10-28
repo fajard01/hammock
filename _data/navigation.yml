@@ -17,7 +17,7 @@ photo_links:
     alt: Places
     class: link-img
     src: /assets/img/init/space.jpg
-  - title: TIME
+  - title: Time
     link: /time.html
     id: time
     alt: Timeline
