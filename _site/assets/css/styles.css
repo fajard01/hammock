@@ -51,4 +51,9 @@ body { font-size: 16px; color: #fff; background-color: black; }
 
 @media (max-width: 332px) { .header-title { padding-top: 300px; } }
 
+/***** NAVBAR *****/
+.btn { text-align: center; font-weight: bold; color: white; border: black; outline: none; padding: 10px 16px; background-color: black; cursor: pointer; font-size: 18px; margin: 5px; }
+
+.btn:hover { background-color: white; color: black; }
+
 /*# sourceMappingURL=styles.css.map */

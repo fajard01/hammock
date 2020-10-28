@@ -1,9 +1,4 @@
----
-layout: default
-title: Home
----
-
-## Welcome to hammock GitHub Pages
+## Welcome to GitHub Pages
 
 {% assign date = '2020-04-13T10:20:00Z' %}
 

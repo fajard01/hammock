@@ -1,0 +1,13 @@
+<div id="navbarMain"
+     class="container-fluid">
+  <div id="main-nav"
+       class="btn-group d-flex"
+       role="group">
+    {% for button in site.data.navigation.buttons %}
+    <a href={{ button.link | prepend:site.baseurl }}
+       type={{ button.type }}
+       role={{ button.role }}
+       class={{ button.class }}>{{ button.name }}</a>
+    {% endfor %}
+  </div>
+</div>

@@ -30,12 +30,29 @@ photo_links:
     class: link-img
     src: /assets/img/init/out.jpg
 
-pages:
+buttons:
   - name: Home
+    type: button
+    role: button
+    class: btn btn-primary w-10
     link: /
-  - name: About
-    link: /about.html
-  - name: Blog
-    link: /blog.html
-  - name: Staff
-    link: /staff.html
+  - name: In
+    type: button
+    role: button
+    class: btn btn-primary w-10
+    link: /in.html
+  - name: Space
+    type: button
+    role: button
+    class: btn btn-primary w-10
+    link: /space.html
+  - name: Time
+    type: button
+    role: button
+    class: btn btn-primary w-10
+    link: /time.html
+  - name: Out
+    type: button
+    role: button
+    class: btn btn-primary w-10
+    link: /out.html
