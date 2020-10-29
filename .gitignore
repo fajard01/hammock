@@ -1,5 +1,7 @@
 _site
+_python
 .bundle
+.idea
 .sass-cache
 .jekyll-cache
 .jekyll-metadata

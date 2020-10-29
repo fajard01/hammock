@@ -4,7 +4,7 @@ brand:
   id: imgLogo
   src: /assets/img/init/meee.png
 
-photo_links:
+greet_links:
   - title: In
     link: /in.html
     id: in
@@ -17,7 +17,7 @@ photo_links:
     alt: Places
     class: link-img
     src: /assets/img/init/space.jpg
-  - title: Time
+  - title: Time   (is)
     link: /time.html
     id: time
     alt: Timeline
@@ -46,7 +46,7 @@ buttons:
     role: button
     class: btn btn-primary w-10
     link: /space.html
-  - name: Time
+  - name: Time  (is)
     type: button
     role: button
     class: btn btn-primary w-10
