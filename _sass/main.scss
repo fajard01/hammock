@@ -8,20 +8,22 @@
   }
 }
 
-.m-name {
-  color: black;
-  font-size: 25px;
-  font-weight: bold;
+/***** _includes.greet_nav | navigation.brand *****/
+.fixed-top{
+  background-color: black;
+  .m-name {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .fab {
+    color: white;
+    padding-top: 14px;
+    margin-left: 20px;
+  }
 }
 
-/***** SOCIAL MEDIA ICONS *****/
-.fab {
-  color: white;
-  padding-top: 14px;
-  margin-left: 20px;
-}
-
-/***** MAIN IMAGE *****/
+/***** index *****/
 #imgGreeter {
   padding: 0;
   margin: 0;
@@ -38,13 +40,7 @@
     }
   }
 }
-
-.fixed-top {
-  filter: invert(1);
-}
-
-/***** 1News! TEXT BEGIN *****/
-.blog {
+.welcome {
   height: 400px;
   margin-bottom: 250px;
   .intro {
@@ -59,7 +55,7 @@
   }
 }
 
-/***** GREET LINKS *****/
+/***** _includes.greet_links | navigation.greet_links *****/
 .img-row {
   position: relative;
   padding-bottom: 100px;
@@ -113,21 +109,37 @@
   }
 }
 
-/***** NAVBAR *****/
-.btn {
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  border: black;
-  outline: none;
-  padding: 10px 16px;
-  background-color: black;
-  cursor: pointer;
-  font-size: 18px;
-  margin: 5px;
+/***** _includes.navbar | navigation.nav_links *****/
+#mainNav {
+  width: 100%;
+  overflow: auto;
+  a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+  }
+  a:hover {
+    background-color: white;
+    color: black;
+  }
 }
 
-.btn:hover {
-  background-color: white;
-  color: black;
-}
+// .btn {
+//   text-align: center;
+//   font-weight: bold;
+//   color: white;
+//   padding: 10px 16px;
+//   background-color: black;
+//   cursor: pointer;
+//   font-size: 20px;
+//   margin: 10px;
+// }
+// .btn:hover {
+//   background-color: white;
+//   color: black;
+// }

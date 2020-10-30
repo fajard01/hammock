@@ -6,53 +6,38 @@ brand:
 
 greet_links:
   - title: In
-    link: /in.html
+    link: /_pages/in.html
     id: in
     alt: Newsletter
     class: link-img
     src: /assets/img/init/in.jpg
   - title: Space
-    link: /space.html
+    link: /_pages/space.html
     id: space
     alt: Places
     class: link-img
     src: /assets/img/init/space.jpg
   - title: Time   (is)
-    link: /time.html
+    link: /_pages/time.html
     id: time
     alt: Timeline
     class: link-img
     src: /assets/img/init/time.jpg
   - title: Out
-    link: /out.html
+    link: /_pages/out.html
     id: out
     alt: Departure
     class: link-img
     src: /assets/img/init/out.jpg
 
-buttons:
+nav_links:
   - name: Home
-    type: button
-    role: button
-    class: btn btn-primary w-10
     link: /
   - name: In
-    type: button
-    role: button
-    class: btn btn-primary w-10
-    link: /in.html
+    link: /_pages/in.html
   - name: Space
-    type: button
-    role: button
-    class: btn btn-primary w-10
-    link: /space.html
+    link: /_pages/space.html
   - name: Time  (is)
-    type: button
-    role: button
-    class: btn btn-primary w-10
-    link: /time.html
+    link: /_pages/time.html
   - name: Out
-    type: button
-    role: button
-    class: btn btn-primary w-10
-    link: /out.html
+    link: /_pages/out.html

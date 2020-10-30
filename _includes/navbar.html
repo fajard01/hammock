@@ -1,13 +1,18 @@
-<div id="navbarMain"
-     class="container-fluid">
-  <div id="main-nav"
-       class="btn-group d-flex"
-       role="group">
-    {% for button in site.data.navigation.buttons %}
-    <a href={{ button.link | relative_url }}
-       type={{ button.type }}
-       role={{ button.role }}
-       class={{ button.class }}>{{ button.name }}</a>
-    {% endfor %}
-  </div>
+<div class="navbar navbar-expand-lg fixed-top"
+     id="mainNav">
+  <!-- <div id="navbarMain"
+       class="container-fluid fixed-top">
+    <div id="main-nav"
+         class="btn-group d-flex"
+         role="group"> -->
+  {% for button in site.data.navigation.nav_links %}
+  <a href={{ button.link | relative_url }}>{{ button.name }}</a>
+  <!--
+     type={{ button.type }}
+     role={{ button.role }}
+     class={{ button.class }}
+     -->
+  {% endfor %}
 </div>
+<!-- </div>
+</div> -->

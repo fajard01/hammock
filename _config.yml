@@ -5,7 +5,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-timeago
+  - jekyll-handlebars
 livereload: true
-collections:
-  newblogs:
-    output: true
+include:
+  - _pages
