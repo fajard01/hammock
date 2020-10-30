@@ -13,5 +13,4 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
   gem 'jekyll-timeago', '~> 0.13.1'
-  gem 'jekyll-handlebars'
 end

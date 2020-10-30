@@ -6,7 +6,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-timeago
-  - jekyll-handlebars
 livereload: true
 include:
   - _pages
