@@ -4,7 +4,7 @@ brand:
   id: imgLogo
   src: /assets/img/init/meee.png
 
-greet_links:
+photolinks:
   - title: In
     link: /_pages/in.html
     id: in

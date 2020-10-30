@@ -8,7 +8,7 @@
   }
 }
 
-/***** _includes.greet_nav | navigation.brand *****/
+/***** _includes.navhead.html | navigation.brand *****/
 .fixed-top{
   background-color: black;
   .m-name {
@@ -23,7 +23,7 @@
   }
 }
 
-/***** index *****/
+/***** index.html *****/
 #imgGreeter {
   padding: 0;
   margin: 0;
@@ -55,8 +55,8 @@
   }
 }
 
-/***** _includes.greet_links | navigation.greet_links *****/
-.img-row {
+/***** _includes.photolinks.html | navigation.photolinks *****/
+.img-wrapper {
   position: relative;
   padding-bottom: 100px;
   .link-img {
@@ -128,18 +128,3 @@
     color: black;
   }
 }
-
-// .btn {
-//   text-align: center;
-//   font-weight: bold;
-//   color: white;
-//   padding: 10px 16px;
-//   background-color: black;
-//   cursor: pointer;
-//   font-size: 20px;
-//   margin: 10px;
-// }
-// .btn:hover {
-//   background-color: white;
-//   color: black;
-// }

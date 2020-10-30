@@ -12,16 +12,17 @@ title: In
     {% for news in site.data.newsblogs %}
     <div class="container"
          <a
-         href="#"><img class="image"
+         onclick="location.href={{ '/' | relative_url }}"><img class="image"
            alt={{ news.title }}
            src={{ news.src | relative_url }} />
-      </a>
+
       <div class="overlay">
         <div class="text">
           {{ news.title }}
-          <p>--></p>
+
         </div>
       </div>
+      </a>
     </div>
     {% endfor %}
   </section>

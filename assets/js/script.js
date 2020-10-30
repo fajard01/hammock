@@ -24,3 +24,9 @@ $(function(){
         }
     })
 });
+
+// const var blogModal = document.getElementById('blogModal')
+// const var blogInput = document.getElementById('blogInput')
+// blogModal.addEventListener('shown.bs.modal', () =>
+//   blogInput.focus()
+// })
