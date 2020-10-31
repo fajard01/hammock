@@ -25,8 +25,25 @@ $(function(){
     })
 });
 
-// const var blogModal = document.getElementById('blogModal')
-// const var blogInput = document.getElementById('blogInput')
-// blogModal.addEventListener('shown.bs.modal', () =>
-//   blogInput.focus()
-// })
+// var interval = setInterval(function(){
+//     var countForVideo = document.getElementById('videoID').readyState;
+//     if(countForVideo == 4){
+//         document.getElementById('videoID').play();
+//         clearInterval(interval);
+//     }
+// },2000);
+
+// $(document).ready(function(){
+//     $('.blog-sender').on('click',function(){
+//         var dataURL = $(this).attr('data-href');
+//         $('.modal-body').load(dataURL,function(){
+//             $('#blogModal').modal({show:true});
+//         });
+//     });
+// });
+
+// $('.blog-sender').on('click',function(){
+//     $('.modal-body').load($this,function(){
+//         $('#blogModal').modal({show:true});
+//     });
+// });
