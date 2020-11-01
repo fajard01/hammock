@@ -3,7 +3,7 @@
        id="mainNav">
     <div class="container-fluid">
       {% for button in site.data.navigation.nav_links %}
-      <a href={{ button.link | relative_url }}>{{ button.name }}</a>
+      <a href={{ button.link | relative_url }}>{{ button.title }}</a>
       {% endfor %}
     </div>
   </nav>

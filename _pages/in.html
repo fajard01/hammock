@@ -7,19 +7,21 @@ title: In
       type="text/css"
       href={{ "/assets/css/in.css" | relative_url }} />
 <div class="content">
-  <h2>My Blog!</h2>
+  <div class="container">
+    <h2>My Blog!</h2>
+  </div>
   {% for news in site.data.newsblogs %}
   <div class="container">
-    <a href={{ "/_blogs/1_News!.html" | relative_url }}><img class="image"
+    <a href={{ news.href | relative_url }}><img class="image"
            alt={{ news.title }}
            src={{ news.src | relative_url }} />
 
-      <div class="overlay">
-        <div class="text">
-          {{ news.title }}
-
-        </div>
+      <!-- <div class="overlay"> -->
+      <div class="text">
+        {{ news.title }}
+        <p>{{ news.date | date: "%-d %B %Y" }}</p>
       </div>
+      <!-- </div> -->
     </a>
   </div>
   {% endfor %}

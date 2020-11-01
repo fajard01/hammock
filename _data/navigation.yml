@@ -4,6 +4,18 @@ brand:
   id: imgLogo
   src: /assets/img/init/meee.png
 
+nav_links:
+  - title: Home
+    link: /
+  - title: In
+    link: /_pages/in.html
+  - title: Space
+    link: /_pages/space.html
+  - title: Time
+    link: /_pages/time.html
+  - title: Out
+    link: /_pages/out.html
+
 photolinks:
   - title: In
     link: /_pages/in.html
@@ -17,7 +29,7 @@ photolinks:
     alt: Places
     class: link-img
     src: /assets/img/init/space.jpg
-  - title: Time   (is)
+  - title: Time
     link: /_pages/time.html
     id: time
     alt: Timeline
@@ -29,15 +41,3 @@ photolinks:
     alt: Departure
     class: link-img
     src: /assets/img/init/out.jpg
-
-nav_links:
-  - name: Home
-    link: /
-  - name: In
-    link: /_pages/in.html
-  - name: Space
-    link: /_pages/space.html
-  - name: Time  (is)
-    link: /_pages/time.html
-  - name: Out
-    link: /_pages/out.html
