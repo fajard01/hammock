@@ -7,12 +7,10 @@ title: In
       type="text/css"
       href={{ "/assets/css/in.css" | relative_url }} />
 <div class="content">
-  <section>
-    <h2>My Blog!</h2>
-    {% for news in site.data.newsblogs %}
-    <div class="container"
-         <a
-         onclick="location.href={{ '/' | relative_url }}"><img class="image"
+  <h2>My Blog!</h2>
+  {% for news in site.data.newsblogs %}
+  <div class="container">
+    <a href={{ "/_blogs/1_News!.html" | relative_url }}><img class="image"
            alt={{ news.title }}
            src={{ news.src | relative_url }} />
 
@@ -22,8 +20,7 @@ title: In
 
         </div>
       </div>
-      </a>
-    </div>
-    {% endfor %}
-  </section>
+    </a>
+  </div>
+  {% endfor %}
 </div>
