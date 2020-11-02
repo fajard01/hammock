@@ -2,10 +2,15 @@
 layout: default
 title: Space
 ---
-<link rel="stylesheet"
-      type="text/css"
-      href={{ "/assets/css/in.css" | relative_url }} />
-<div class="content">
 
-  <h1>Under construction</h1>
+<h1>Under construction</h1>
+
+<div class="container">
+
+  {% for button in site.data.images.location.Lima %}
+  <p>
+    {{ button.src }}
+  </p>
+  {% endfor %}
+  <h2>Test location url linking works!!</h2>
 </div>

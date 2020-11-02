@@ -2,7 +2,7 @@ brand:
   name: Mereida Fajardo
   alt: Mereida Logo
   id: imgLogo
-  src: /assets/img/init/meee.png
+  src: /assets/img/init/bug.gif
 
 nav_links:
   - title: Home

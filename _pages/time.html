@@ -2,10 +2,15 @@
 layout: default
 title: Time
 ---
-<link rel="stylesheet"
-      type="text/css"
-      href={{ "/assets/css/in.css" | relative_url }} />
-<div class="content">
 
-  <h1>Under construction</h1>
+<h1>Under construction</h1>
+
+<div class="container">
+
+  {% for button in site.data.images.month.October %}
+  <p>
+    {{ button.src }}
+  </p>
+  {% endfor %}
+  <h2>Test month url linking works!!</h2>
 </div>

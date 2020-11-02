@@ -37,35 +37,75 @@
 .blog-title {
   margin-bottom: 50px;
 }
-.row {
+.blog-row {
   display: flex;
-  max-height: 450px;
+  height: 600px;
   .blog-column {
     display: block;
-    width: 33.33%;
+    width: 100%;
     margin-bottom: 50px;
     .blog-img {
-      width: 100%
+      width: 100%;
+      margin-top: 20px;
+    }
+    #videoID {
+      padding-top: 70px;
+      margin-top: 20px;
+    }
+    h4 {
+      text-align: center;
     }
     .vert-img {
-      max-height: 400px;;
+      padding-top: 30px;
+      max-height: 60%;
     }
   }
 }
-.hello {
-  margin-top: 140px;
-  margin-left: 150px;
-  font-size: 4em;
+
+.hello-row{
+  display: flex;
+  margin-top: 50px;
+  height: 400px;
+  .span-column {
+    display: block;
+    width: 100%;
+    // max-height: 400px;
+    .span-img {
+      float: left;
+      height: 18%;
+    }
+    .hello {
+      float: right;
+      color: white;
+      text-align: center;
+      margin-top: 80px;
+      margin-left: 50px;
+      font-size: 4em;
+      width: 33.33%;
+    }
+  }
 }
 
-// .column {
-//   width: 10.33%;
-//   padding: 5px;
-// }
+.blog {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: center;
+}
 
-/* Clear floats after image containers */
-// .row::after {
-//   content: "";
-//   clear: both;
-//   display: table;
-// }
+.draw-row {
+  display: flex;
+  margin-top: 50px;
+  height: 400px;
+  .draw-column {
+    display: block;
+    max-height: 300px;
+    width: 60%;
+    .draw-img {
+      float: left;
+      max-height: 100%;
+    }
+  }
+}
+.coda{
+  margin-top: 60px;
+}
