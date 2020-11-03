@@ -1,0 +1,13 @@
+#svgMap {
+  margin-top: 200px;
+  margin-left: -500px;
+}
+
+svg g g path:hover {
+  opacity: 0.5;
+}
+
+#region.label {
+  font: italic 8px sans-serif;
+  fill: white;
+}

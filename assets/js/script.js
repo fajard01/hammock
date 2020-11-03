@@ -10,7 +10,7 @@
 //         $('.fixed-top').css('filter', 'invert(1)');
 //     }
 // });
-
+// var svg = document.getElementById('svgMap');
 
 $(function(){
     var current = location.pathname;
@@ -25,6 +25,9 @@ $(function(){
     })
 });
 
+// function mapFunction(){
+//   alert("I'm clicked!");
+// }
 // var interval = setInterval(function(){
 //     var countForVideo = document.getElementById('videoID').readyState;
 //     if(countForVideo == 4){
