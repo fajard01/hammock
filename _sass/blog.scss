@@ -1,4 +1,5 @@
-/***** CLOSE X BUTTON | _layout.blog.html *****/
+/* _layout.blog.html */
+/* close X button */
 .close {
   position: absolute;
   right: 32px;
@@ -25,79 +26,105 @@
   transform: rotate(-45deg);
 }
 
-/***** _layout.blog.html *****/
+/* _layout.blog.html */
 #blogBody {
+  // padding: 0;
+  // margin: 0;
   width: 100%;
   position: relative;
   padding-top: 150px;
 }
 
 
-/***** _blogs.***.html *****/
+/* _blogs */
+/* blog title and date */
 .blog-title {
   margin-bottom: 50px;
 }
-.blog-row {
+
+/* top mix row elements */
+.mix-row {
   display: flex;
   height: 600px;
-  .blog-column {
+  .mix-column {
+    // border-radius: 2px;
+    // border-style: dashed;
     display: block;
     width: 100%;
+    max-height: 550px;
     margin-bottom: 50px;
-    .blog-img {
+    .depart {
       width: 100%;
-      margin-top: 20px;
+      margin-top: 80px;
     }
-    #videoID {
-      padding-top: 70px;
-      margin-top: 20px;
+    #videoID1 {
+      padding-top: 10px;
+      margin-left: 38px;
+      margin-top: 10px;
     }
     h4 {
       text-align: center;
     }
     .vert-img {
-      padding-top: 30px;
-      max-height: 60%;
+      margin-top: -5px;
+      padding-top: 20px;
+      max-height: 50%;
+      margin-left: 40px;
     }
   }
 }
 
+/* Peru image span and Welcome greeting */
 .hello-row{
-  display: flex;
-  margin-top: 50px;
-  height: 400px;
+  margin-top: 30px;
+  height: 350px;
   .span-column {
+    // border-radius: 2px;
+    // border-style: dashed;
     display: block;
     width: 100%;
-    // max-height: 400px;
     .span-img {
-      float: left;
-      height: 18%;
+      width:100%;
     }
-    .hello {
-      float: right;
+    .welcome {
+      height: 50px;
       color: white;
       text-align: center;
-      margin-top: 80px;
-      margin-left: 50px;
-      font-size: 4em;
-      width: 33.33%;
+      display: d-flex;
+      margin-bottom: 50px;
     }
   }
 }
 
+/* begin of blog */
 .blog {
+  // border-radius: 2px;
+  // border-style: dashed;
   margin-top: 50px;
   margin-bottom: 70px;
   text-align: center;
+  .news {
+    float: left !important;
+  }
+  .video-column {
+    margin-top: 90px;
+    margin-left: 50px;
+    #videoID2 {
+      padding-top: 70px;
+      margin-top: 10px;
+    }
+  }
 }
 
+/* row of drawings */
 .draw-row {
+  // border-radius: 2px;
+  // border-style: dashed;
   display: flex;
-  margin-top: 50px;
-  height: 400px;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 300px;
   .draw-column {
-    display: block;
     max-height: 300px;
     width: 60%;
     .draw-img {
@@ -105,7 +132,37 @@
       max-height: 100%;
     }
   }
+  .video-column {
+    margin-top: 90px;
+    margin-left: 50px;
+    #videoID2 {
+      padding-top: 90px;
+      margin-top: 10px;
+    }
+  }
+}
+
+/* row of 4 landscape photos */
+.land-4-row{
+  // border-radius: 2px;
+  // border-style: dashed;
+  display: flex;
+  margin-top: 30px;
+  // height: 400px;
+  .land-4-column {
+    // float: left;
+    width: 100%;
+    .land-img {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  .blog {
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 .coda{
-  margin-top: 60px;
+  margin-top: 10px;
 }

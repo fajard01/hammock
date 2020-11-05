@@ -1,0 +1,10 @@
+<header>
+
+  <nav class="nav navbar navbar-expand-lg fixed-top"
+       id="mainNav">
+    {% for button in site.data.navigation.navlinks %}
+    <a href={{ button.link | relative_url }}>{{ button.title }}</a>
+    {% endfor %}
+  </nav>
+
+</header>

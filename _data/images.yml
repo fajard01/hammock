@@ -44,6 +44,10 @@ img_021: &img_021
   src: /assets/img/pix/021.jpg
 img_022: &img_022
   src: /assets/img/pix/022.jpg
+img_023:
+  src: /assets/img/pix/023.jpg
+
+
 location:
   London:
     - *img_000

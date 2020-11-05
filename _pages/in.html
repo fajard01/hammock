@@ -3,17 +3,18 @@ layout: default
 title: In
 ---
 
+<!-- Central Container -->
 <div class="content">
   <div class="container">
     <h2>My Blog!</h2>
   </div>
   {% for news in site.data.newsblogs %}
   <div class="container">
-    <a href={{ news.href | relative_url }}><img class="image"
+    <a href={{ news.href | relative_url }}><img class="news-image"
            alt={{ news.title }}
            src={{ news.src | relative_url }} />
 
-      <!-- <div class="overlay"> -->
+      <!-- *optional* <div class="overlay"> -->
       <div class="text">
         {{ news.title }}
         <p>{{ news.date | date: "%-d %B %Y" }}</p>

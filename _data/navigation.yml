@@ -4,7 +4,7 @@ brand:
   id: imgLogo
   src: /assets/img/init/bug.gif
 
-nav_links:
+navlinks:
   - title: Home
     link: /
   - title: In

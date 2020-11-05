@@ -2,20 +2,22 @@
 layout: blog
 title: 1 News!
 date: 12 October 2019
+order: 1
 ---
 
-<div class="row blog-row">
-  <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto blog-column">
+<!-- Top row mixed elements -->
+<div class="row justify-content-md-center mix-row">
+  <div class="col-xs-12 col-lg-3 mx-auto mix-column">
 
-    <img class="blog-img"
+    <img class="depart"
          src={{ site.data.images.img_000.src | relative_url}} />
 
-    <img class="blog-img"
+    <img class="depart"
          src={{ site.data.images.img_001.src | relative_url}} />
   </div>
 
-  <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto blog-column">
-    <video id="videoID"
+  <div class="col-xs-12 col-sm-6  mx-auto mix-column">
+    <video id="videoID1"
            type="video/mp4"
            width="460"
            height="345"
@@ -28,83 +30,146 @@ date: 12 October 2019
       <br />Hello. <br />This became a bit longer than expected <br /><i>oops</i><br />Anyway...
     </h4>
   </div>
-  <div class="col-xs-12 col-sm-8 col-lg-2 mx-auto blog-column">
+  <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto mix-column">
     <img class="vert-img"
          src={{ site.data.images.img_002.src | relative_url}} />
-  </div>
-  <div class="col-xs-12 col-sm-8 col-lg-2 mx-auto blog-column">
     <img class="vert-img"
          src={{ site.data.images.img_003.src | relative_url}} />
   </div>
-</div>
-<div class="row hello-row">
-  <div class="col-lg-4 span-column">
-    <img class="span-img"
-         src={{ site.data.images.img_004.src | relative_url}} />
+
+  <!-- Peru banner with Welcome -->
+  <div class="row justify-content-md-center hello-row">
+    <div class="col-12 mx-auto span-column">
+      <h2 class="welcome">Welcome to Peru!!</h2>
+    </div>
+    <div class="col-12 span-column">
+      <img class="span-img"
+           src={{ site.data.images.img_004.src | relative_url}} />
+    </div>
   </div>
-  <div class="col-lg-6 mx-auto span-column">
-    <h1 class="hello">Welcome to Peru!!</h1>
+
+  <!-- Begin blog with video -->
+  <div class="row justify-content-md-center blog">
+    <div class="col-xs-12 col-sm-6 mx-auto draw-column">
+      <p>
+        We are in lima.<br /> It's mad and it's dusty and it's the most relaxed place I've known in a while. <br />
+        Time here is more languid, stretching out like Lima spreads along the coast to each horizon. <br />
+        We are living in the moment more so than I have ever before.<br />
+        We flow without forcing the shape of the day.<br />
+        There is no job, no stresses, no planning or dividing up the time.<br />
+        We are thinking ahead but only to the next meal,
+        moving instead from minute to minute as between display cases in a museum,<br /> soaking up everything but holding onto nothing.<br />
+        It is good. It feels healthy.<br />
+        It also helps that we're both drawing so much, filling up so many sketchbook pages a day it's sent us into panic that we
+        won't have enough paper!<br />
+        I found it hard to draw just for the sake of drawing back home - G is better with this, but both of us
+        have benefitted from the change of pace and place to just let go and draw as a means of absorbing, processing sensations.<br />
+        Instead of putting pressure on the outcome as we are taught in school and college, and befitting two people who want to make a
+        career in the creative industries, here there is nothing but Draw.<br />Look, see and draw.<br />
+        I don't know how long the momentum will hold up, but it's been creatively loosening.
+      </p>
+    </div>
+    <div class="col-xs-12 col-sm-4 mx-auto video-column">
+      <video id="videoID2"
+             type="video/mp4"
+             width="460"
+             height="345"
+             controls>
+        <source src={{ "/assets/vid/01_lima.mp4" | relative_url }}
+                type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </div>
-</div>
-<div class="blog">
-  <p>
-    We are in lima. It's mad and it's dusty and it's the most relaxed place I've known in a while. <br />
-    Time here is more languid, stretching out like Lima spreads along the coast to each horizon. <br />
-    We are living in the moment more so than I have ever before.<br />
-    We flow without forcing the shape of the day.<br />
-    There is no job, no stresses, no planning or dividing up the time.<br />
-    We are thinking ahead but only to the next meal,
-    moving instead from minute to minute as between display cases in a museum, soaking up everything but holding onto nothing.<br />
-    It is good. It feels healthy.<br />
-    It also helps that we're both drawing so much, filling up so many sketchbook pages a day it's sent us into panic that we
-    won't have enough paper!<br />
-    I found it hard to draw just for the sake of drawing back home - G is better with this, but both of us
-    have benefitted from the change of pace and place to just let go and draw as a means of absorbing, processing sensations.<br />
-    Instead of putting pressure on the outcome as we are taught in school and college, and befitting two people who want to make a
-    career in the creative industries, here there is nothing but Draw.<br />Look, see and draw.<br />
-    I don't know how long the momentum will hold up, but it's been creatively loosening.</p>
-</div>
-<div class="row draw-row">
-  <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto draw-column">
-    <video id="videoID"
-           type="video/mp4"
-           width="460"
-           height="345"
-           controls>
-      <source src={{ "/assets/vid/01_lima.mp4" | relative_url }}
-              type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+
+  <!-- Row of drawings -->
+  <div class="row draw-row">
+    <div class="col-xs-12 col-sm-4 col-lg-2 mx-auto draw-column">
+      <img class="draw-img"
+           src={{ site.data.images.img_015.src | relative_url}} />
+    </div>
+    <div class="col-xs-12 col-sm-4 col-lg-2 mx-auto draw-column">
+      <img class="draw-img"
+           src={{ site.data.images.img_023.src | relative_url}} />
+    </div>
+    <div class="col-xs-12 col-sm-4 col-lg-2 mx-auto draw-column">
+      <img class="draw-img"
+           src={{ site.data.images.img_016.src | relative_url}} />
+    </div>
+    <div class="col-xs-12 col-sm-4 col-lg-2 mx-auto draw-column">
+      <img class="draw-img"
+           src={{ site.data.images.img_017.src | relative_url}} />
+    </div>
+    <div class="col-xs-12 col-sm-4 col-lg-2 mx-auto draw-column">
+      <img class="draw-img"
+           src={{ site.data.images.img_018.src | relative_url}} />
+    </div>
   </div>
-  <div class="col-xs-12 col-sm-4 col-lg-2 mx-auto draw-column">
-    <img class="draw-img"
-         src={{ site.data.images.img_015.src | relative_url}} />
+
+  <!-- Blog continues -->
+  <div class="row land-4-row">
+    <div class="col-sm-12 col-md-4 land-4-column">
+      <img class="land-img"
+           src={{ site.data.images.img_020.src | relative_url}} />
+      <img class="land-img"
+           src={{ site.data.images.img_005.src | relative_url}} />
+      <img class="land-img"
+           src={{ site.data.images.img_019.src | relative_url}} />
+      <img class="land-img"
+           src={{ site.data.images.img_022.src | relative_url}} />
+    </div>
+    <div class="col-sm-12 col-md-8">
+      <div class="row justify-content-md-center blog">
+        <p>
+          What I've loved most so far is sitting in the back of J's banged up merc, driving and just looking.
+        </p>
+        <div class="row">
+          <video id="videoID2"
+                 type="video/mp4"
+                 width="460"
+                 height="345"
+                 controls>
+            <source src={{ "/assets/vid/02_car.mp4" | relative_url }}
+                    type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="row justify-content-md-center blog">
+          <p>
+            Most of our time has been spent in Tupac, in the outskirt district of Chorillos, where the buildings are built by hand, the streets are paved
+            not with tarmac but with stray dogs and street sellers, and everything is coated in a perpetual layer of dust.<br />
+            The houses are rectangular and boxy, stacked up in natural growth up into the sides of the hills. It feels much like Manila - square
+            houses, cables knotted up into salads above the streets, billboards and palm trees looming over tiny stalls as everyone works to make ends meet.<br />
+            But it's also more open, wide roads welcoming the flat grey sky that never presses on to the city as one
+            might expect.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-xs-12 col-sm-4 col-lg-2 mx-auto draw-column">
-    <img class="draw-img"
-         src={{ site.data.images.img_016.src | relative_url}} />
-  </div>
-  <div class="col-xs-12 col-sm-4 col-lg-2 mx-auto draw-column">
-    <img class="draw-img"
-         src={{ site.data.images.img_017.src | relative_url}} />
-  </div>
-  <div class="col-xs-12 col-sm-4 col-lg-2 mx-auto draw-column">
-    <img class="draw-img"
-         src={{ site.data.images.img_018.src | relative_url}} />
-  </div>
-</div>
-<div class="blog">
-  <p>
-    What I've loved most so far is sitting in the back of J's banged up merc, driving and just looking.<br />
-    Most of our time has been spent in Tupac, in the outskirt district of Chorillos, where the buildings are built by hand, the streets are paved
-    not with tarmac but with stray dogs and street sellers, and everything is coated in a perpetual layer of dust.<br />
-    The houses are rectangular and boxy, stacked up in natural growth up into the sides of the hills. It feels much like Manila - square
-    houses, cables knotted up into salads above the streets, billboards and palm trees looming over tiny stalls as everyone works to make ends meet.<br />
-    But it's also more open, wide roads welcoming the flat grey sky that never presses on to the city as one
-    might expect.
-  </p>
-</div>
-<div class="row blog-row">
+
+  <!-- Row of Lima pictures -->
+  <!-- <div class="row land-4-row">
+    <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto land-4-column">
+      <img class="land-img"
+           src={{ site.data.images.img_020.src | relative_url}} />
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto land-4-column">
+      <img class="land-img"
+           src={{ site.data.images.img_005.src | relative_url}} />
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto land-4-column">
+      <img class="land-img"
+           src={{ site.data.images.img_019.src | relative_url}} />
+    </div>
+    <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto land-4-column">
+      <img class="land-img"
+           src={{ site.data.images.img_022.src | relative_url}} />
+    </div>
+  </div> -->
+
+
+  <!-- <div class="row blog-row">
   <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto blog-column">
     <img class="blog-img"
          src={{ site.data.images.img_019.src | relative_url}} />
@@ -131,7 +196,7 @@ date: 12 October 2019
               type="video/mp4">
       Your browser does not support the video tag.
     </video>
-  </div>
+  </div> -->
   <div class="col-xs-12 col-lg-9 mx-auto blog">
     <p class="coda">
       It's beautiful despite the all-pervading dust which makes each view look overbearingly brown (the colour of all the bricks here).<br />

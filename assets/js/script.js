@@ -1,3 +1,12 @@
+"use strict"
+
+
+// CHECK event.target CAPTURE AND BUBBLE PHASE
+// for(let elem of document.querySelectorAll('*')) {
+//   elem.addEventListener("click", e => alert(`Capturing: ${elem.tagName}`), true);
+//   elem.addEventListener("click", e => alert(`Bubbling: ${elem.tagName}`));
+// }
+
 
 // TOGGLE TRANSPARENCY ON SCROLL //
 // $(window).scroll(function(){
@@ -12,6 +21,8 @@
 // });
 // var svg = document.getElementById('svgMap');
 
+
+// ACTIVE HIGHLIGHT -> navbar.html //
 $(function(){
     var current = location.pathname;
     $('#mainNav a').each(function(){
@@ -25,28 +36,7 @@ $(function(){
     })
 });
 
-// function mapFunction(){
-//   alert("I'm clicked!");
-// }
-// var interval = setInterval(function(){
-//     var countForVideo = document.getElementById('videoID').readyState;
-//     if(countForVideo == 4){
-//         document.getElementById('videoID').play();
-//         clearInterval(interval);
-//     }
-// },2000);
 
-// $(document).ready(function(){
-//     $('.blog-sender').on('click',function(){
-//         var dataURL = $(this).attr('data-href');
-//         $('.modal-body').load(dataURL,function(){
-//             $('#blogModal').modal({show:true});
-//         });
-//     });
-// });
-
-// $('.blog-sender').on('click',function(){
-//     $('.modal-body').load($this,function(){
-//         $('#blogModal').modal({show:true});
-//     });
-// });
+$(window).load(function(){
+    $('#blogModal').modal('show');
+});
