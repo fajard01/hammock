@@ -20,22 +20,14 @@ $background-color: black;
   }
 }
 
-/***** _includes.navbar | navigation.nav_links *****/
-#mainNav {
-  width: 100%;
-  overflow: auto;
-  a {
-    float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-    width: 20%;
-    margin: 10px;
-    text-align: center;
-  }
-  a:hover {
-    background-color: white;
-    color: black;
-  }
-}
+/***** MEDIA QUERIES *****/
+/********** Large devices only **********/
+@media (min-width: 1200px) {}
+/********** Medium devices only *********/
+@media (min-width: 992px) and (max-width: 1199px) {}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {}
+/********** Small devices only **********/
+@media (max-width: 767px) {}
+/********** Extra small devices only ****/
+@media (max-width: 332px) {}

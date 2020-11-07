@@ -4,7 +4,7 @@
   <div class="row">
     {% for photo in site.data.navigation.photolinks %}
 
-    <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto img-wrapper">
+    <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto photolink-wrapper">
       <a href={{ photo.link | relative_url }}>
         <img id={{ photo.id }}
              alt={{ photo.alt }}
