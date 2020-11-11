@@ -1,22 +1,28 @@
-/* central container */
+// central container
+
 .content {
-  padding-top: 200px;
-  max-width: 768px;
-  max-height: 432;
   margin: auto;
+  max-height: 432;
+
+  max-width: 768px;
+  padding-top: 200px;
+
+
   .container {
     position: relative;
     width: 100%;
+
+
     .news-image {
-      width: 100%;
-      height: 100%;
       display: block;
+      height: 100%;
       margin-bottom: 10px;
+      width: 100%;
     }
   }
 }
 
-/* optional overlay */
+// optional overlay
 //   .overlay {
 //     position: absolute;
 //     top: 0;
@@ -24,7 +30,7 @@
 //     left: 0;
 //     bottom: 0;
 //     background: rgb(0, 0, 0);
-//     /* Black see-through */
+//     /* $black see-through */
 //     background: rgba(0, 0, 0, 0.5);
 //     color: #f1f1f1;
 //     width: 100%;
@@ -35,7 +41,7 @@
 // }
 //
 .text {
-  color: white;
+  color: $white;
   font-size: 15px;
   margin-bottom: 50px;
   // position: absolute;

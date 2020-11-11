@@ -19,25 +19,20 @@ navlinks:
 photolinks:
   - title: In
     link: /_pages/in.html
-    id: in
     alt: Newsletter
-    class: link-photo
     src: /assets/img/init/in.jpg
   - title: Space
     link: /_pages/space.html
-    id: space
+    
     alt: Places
-    class: link-photo
     src: /assets/img/init/space.jpg
   - title: Time
     link: /_pages/time.html
-    id: time
+  
     alt: Timeline
-    class: link-photo
     src: /assets/img/init/time.jpg
   - title: Out
     link: /_pages/out.html
-    id: out
+
     alt: Departure
-    class: link-photo
     src: /assets/img/init/out.jpg

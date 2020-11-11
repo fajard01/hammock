@@ -1,9 +1,10 @@
 ---
 ---
-$baseUrl: "{{ site.baseurl }}";
-@import "main";
-@import "landing";
-@import "defaultnav";
-@import "in";
-@import "blog";
-@import "map";
+
+$baseurl: '{{ site.baseurl }}';
+@import 'main';
+@import 'landing';
+@import 'navigation';
+@import 'in';
+@import 'blog';
+@import 'map';

@@ -1,11 +1,20 @@
+<!-- default page -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include headTag.html %}
+  <head>
+    {% include headTag.html %}
+  </head>
 
   <body>
-    {% include defaultNav.html %}
-    {{ content }}
+    <header>
+      {% include defaultNav.html %}
+    </header>
+    <main>
+      {{ content }}
+    </main>
   </body>
 
 </html>

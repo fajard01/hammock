@@ -1,18 +1,13 @@
 .map-container {
   margin-top: 200px;
   padding-left: 200px;
-  #svgMap {
-    // margin-top: 200px;
-    // margin-left: -500px;
-  }
+}
 
-  svg g g path:hover {
-    opacity: 0.5;
-  }
+svg g path:hover {
+  opacity: .5;
+}
 
-  #region.label {
-    font: italic 8px sans-serif;
-    fill: white;
-  }
-
+.label {
+  fill: $white;
+  font: italic 8px sans-serif;
 }

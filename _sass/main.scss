@@ -1,33 +1,40 @@
-/* Icons */
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+// main stylesheet
 
-/* Font */
+// icons
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+// font
 @import url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
 
-/* Global Variables */
+// global variables
 $font-stack: Helvetica, sans-serif;
-$primary-color: white;
-$background-color: black;
+$white: #fff;
+$black: #000;
 
-/* Global Settings */
+
+// global settings
 * {
   box-sizing: border-box;
-  body {
-    font-family: 'Space Mono', monospace;
-    font-size: 16px;
-    color: $primary-color;
-    background-color: $background-color;
-  }
+  margin: 0;
+  padding: 0;
 }
 
-/***** MEDIA QUERIES *****/
-/********** Large devices only **********/
+
+body {
+  background-color: $black;
+  color: $white;
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
+}
+
+
+//************* large devices only ******************//
 @media (min-width: 1200px) {}
-/********** Medium devices only *********/
+//************* medium devices only *****************//
 @media (min-width: 992px) and (max-width: 1199px) {}
-/********** Small devices only **********/
+//************* small devices only ******************//
 @media (min-width: 768px) and (max-width: 991px) {}
-/********** Small devices only **********/
+//************* small devices only ******************//
 @media (max-width: 767px) {}
-/********** Extra small devices only ****/
+//************** extra small devices only ***********//
 @media (max-width: 332px) {}

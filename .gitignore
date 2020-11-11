@@ -5,6 +5,8 @@ _python
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.sass-lint.yml
+.scss-lint.yml
 vendor
 perufiles
 logo.png
