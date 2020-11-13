@@ -1,0 +1,31 @@
+// aztec font
+
+@font-face {
+  font-display: block;
+  font-family: 'aztec';
+  font-style: normal;
+  font-weight: normal;
+  src: url($baseurl + '/assets/fonts/aztec.ttf?bp361u') format('truetype'),
+    url($baseurl + '/assets/fonts/aztec.woff?bp361u') format('woff'),
+    url($baseurl + '/assets/fonts/aztec.svg?bp361u#aztec') format('svg');
+}
+
+.icon-aztec {
+  font-family: 'aztec';
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+.icon-aztec::before {
+  content: '\e900';
+}
+
+// .20_x {
+//   font-size: 150px;
+// }

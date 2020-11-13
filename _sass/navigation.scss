@@ -1,18 +1,50 @@
 //  landing page nav
-.fixed-top {
+
+.main-nav {
+  align-items: center;
+  //background: transparent;
   background-color: $black;
+  display: flex;
+  justify-content: space-between;
+  opacity: .8;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
-  .brand-name {
+  .logo {
     color: $white;
-    font-size: 25px;
     font-weight: bold;
+
+    .icon-4rem {
+      font-size: 4rem;
+      font-weight: lighter;
+    }
   }
 
-  .fab {
-    color: $white;
-    margin-left: 20px;
-    padding-top: 14px;
+  .link-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-top: 8px;
+
+    .link {
+      color: $white;
+      flex: 1 0;
+      font-weight: 600;
+      margin: 0 20px;
+      text-decoration: none;
+    }
+
+    .link:hover {
+      border-bottom: $white 2px solid;
+    }
   }
+}
+
+.top {
+  background: transparent;
 }
 
 
@@ -45,28 +77,25 @@
 
 
 // default page nav
-.main-nav {
-  overflow: auto;
-  width: 100%;
-
-  a {
-    // border-radius: 3px;
-    // border-style: dashed;
-    color: $white;
-    float: left;
-    font-size: 24px;
-    margin: 10px;
-    padding: 12px;
-    text-align: center;
-    text-decoration: none;
-    width: 20%;
-  }
 
 
-  a:hover {
-    background-color: $white;
-    color: $black;
-  }
+a {
+  // border-radius: 3px;
+  // border-style: dashed;
+  // color: $white;
+  // float: left;
+  // font-size: 24px;
+  // margin: 10px;
+  // padding: 12px;
+  // text-align: center;
+  // text-decoration: none;
+  // width: 20%;
+}
+
+
+a:hover {
+  // background-color: $white;
+  // color: $black;
 }
 
 

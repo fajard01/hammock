@@ -1,0 +1,20 @@
+<!-- top navigation landing page -->
+
+<div id="main-nav" class="main-nav top">
+
+  <!-- brand -->
+  <h3 class="logo">
+    <span class="icon-aztec icon-4rem"></span>m_fajardo
+  </h3>
+
+  <nav>
+    <ul class="link-nav">
+      {% for link in site.data.navigation.navlinks %}
+      <li>
+        <a class="link" href={{ link.link | relative_url }}>{{ link.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+</div>

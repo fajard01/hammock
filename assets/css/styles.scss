@@ -3,6 +3,7 @@
 
 $baseurl: '{{ site.baseurl }}';
 @import 'main';
+@import 'fonts';
 @import 'landing';
 @import 'navigation';
 @import 'in';

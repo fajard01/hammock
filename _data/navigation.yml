@@ -1,38 +1,37 @@
-brand:
-  name: Mereida Fajardo
-  alt: Mereida Logo
-  id: imgLogo
-  src: /assets/img/init/bug.gif
-
 navlinks:
   - title: Home
     link: /
-  - title: In
-    link: /_pages/in.html
-  - title: Space
-    link: /_pages/space.html
-  - title: Time
-    link: /_pages/time.html
-  - title: Out
-    link: /_pages/out.html
-
-photolinks:
-  - title: In
+  - title: Episodes
     link: /_pages/in.html
     alt: Newsletter
     src: /assets/img/init/in.jpg
-  - title: Space
+  - title: Sites
     link: /_pages/space.html
-    
     alt: Places
     src: /assets/img/init/space.jpg
-  - title: Time
+  - title: Timeline
     link: /_pages/time.html
-  
     alt: Timeline
     src: /assets/img/init/time.jpg
-  - title: Out
+  - title: Limbo
     link: /_pages/out.html
+    alt: Departure
+    src: /assets/img/init/out.jpg
 
+photolinks:
+  - title: Epsodes
+    link: /_pages/in.html
+    alt: Newsletter
+    src: /assets/img/init/in.jpg
+  - title: Sites
+    link: /_pages/space.html
+    alt: Places
+    src: /assets/img/init/space.jpg
+  - title: Timeline
+    link: /_pages/time.html
+    alt: Timeline
+    src: /assets/img/init/time.jpg
+  - title: Limbo
+    link: /_pages/out.html
     alt: Departure
     src: /assets/img/init/out.jpg

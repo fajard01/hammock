@@ -5,13 +5,13 @@
 <html lang="en">
 
   <head>
-    {% include headTag.html %}
+    {% include headtag.html %}
   </head>
 
-  <body>
+  <body id={{ page.id }}>
 
     <header>
-      {% include landingNav.html %}
+      {% include navigation.html %}
     </header>
 
     <main>
@@ -19,12 +19,12 @@
         {{ content }}
       </section>
       <section>
-        {% include photoLinks.html %}
+        {% include photolinks.html %}
       </section>
     </main>
 
     <footer>
-      {% include landingFooter.html %}
+      {% include landingfooter.html %}
     </footer>
 
   </body>
