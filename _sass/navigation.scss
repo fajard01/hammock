@@ -1,22 +1,24 @@
-//  landing page nav
+//--- top navigation ---//
 
 .main-nav {
   align-items: center;
-  //background: transparent;
-  background-color: $black;
+  background-color: $bg-black1;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   opacity: .8;
   padding: 15px;
   position: fixed;
   top: 0;
+  transition: .5s;
   width: 100%;
+  z-index: 10000;
 
   .logo {
     color: $white;
     font-weight: bold;
 
-    .icon-4rem {
+    .icon-rem {
       font-size: 4rem;
       font-weight: lighter;
     }
@@ -43,63 +45,78 @@
   }
 }
 
+// navbar effect
 .top {
   background: transparent;
 }
 
+// mobile
+@media (max-width: 500px) {
+  .main-nav {
+    flex-direction: column;
 
-.photolink-wrapper {
-  overflow: hidden;
-  position: relative;
+    .logo {
+      font-size: 1.2rem;
+    }
 
-  .link-photo {
-    height: 100%;
-    transition: transform 1s;
-    width: 100%;
+    .icon-rem {
+      font-size: 2rem;
+    }
+
+    .link-nav {
+      flex-direction: column;
+    }
   }
 
-  .link-photo:hover {
+  .link {
+    font-size: .9rem;
+  }
+}
+
+
+//-- photo navigation --//
+
+.photolinks {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+
+  .photolink-wrapper {
+    margin: 80px;
+    overflow: hidden;
+    padding: 0;
     position: relative;
-    transform: scale(1.1);
+    z-index: 1;
+
+    img {
+      margin: 0;
+      transition: transform 1s;
+      width: 90%;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
   }
+}
 
-  .title {
-    color: $black;
-    font-size: 1.1em;
-    font-weight: bold;
-    left: 0;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 100%;
+.title {
+  color: $white;
+  margin-top: 20px;
+  text-decoration: none;
+
+  p {
+    font-size: .8rem;
   }
 }
 
 
-// default page nav
+//-- blog page close button --//
 
-
-a {
-  // border-radius: 3px;
-  // border-style: dashed;
-  // color: $white;
-  // float: left;
-  // font-size: 24px;
-  // margin: 10px;
-  // padding: 12px;
-  // text-align: center;
-  // text-decoration: none;
-  // width: 20%;
-}
-
-
-a:hover {
-  // background-color: $white;
-  // color: $black;
-}
-
-
-// blog page nav
 .blog-nav {
   // padding: 0;
   // margin: 0;

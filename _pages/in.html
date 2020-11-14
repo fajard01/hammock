@@ -1,26 +1,35 @@
 ---
 layout: default
 title: In
+id: in
 ---
 
 <!-- central container -->
-<div class="content">
-  <div class="container">
-    <h2>My Blog!</h2>
-  </div>
-  {% for news in site.data.newsblogs %}
-  <div class="container">
-    <a href={{ news.href | relative_url }}><img class="news-image"
-           alt={{ news.title }}
-           src={{ news.src | relative_url }} />
 
-      <!-- *optional* <div class="overlay"> -->
-      <div class="text">
+<div class="container-fluid blog-container">
+  <div>
+    <img class="blog-image" src={{ '/assets/img/init/blog.jpg' | relative_url }} alt="Blog Image" />
+    <div class="myblog">
+      <h3>My Blog!</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, similique.
+      </p>
+    </div>
+  </div>
+  <div class="blog-entries">
+
+    {% for news in site.data.newsblogs %}
+
+    <a href={{ news.href | relative_url }}><img class="entry-image" alt={{ news.title }} src={{ news.src | relative_url }} />
+
+      <div class="entry-text">
         {{ news.title }}
         <p>{{ news.date | date: "%-d %B %Y" }}</p>
       </div>
-      <!-- </div> -->
+
     </a>
+
+    {% endfor %}
+
   </div>
-  {% endfor %}
 </div>

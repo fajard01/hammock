@@ -1,44 +1,30 @@
 "use strict"
 
-let navbar;
-let scrolled;
 $(document).ready(function () {
-  navbar = document.getElementById('main-nav');
-  scrolled = false;
-});
-// const navbar = document.getElementById('main-nav');
-// let scrolled = false;
 
-window.onscroll = function () {
-  if (window.pageYOffset > 100) {
-    navbar.classList.remove('top');
-    if (!scrolled) {
-      navbar.style.transform = 'translateY(-70px)';
+  const navbar = document.getElementById('main-nav');
+  let scrolled = false;
+
+  window.onscroll = function () {
+    if (window.pageYOffset > 100) {
+      navbar.classList.remove('top');
+      if (!scrolled) {
+        navbar.style.transform = 'translateY(-70px)';
+      }
+      setTimeout(function () {
+        navbar.style.transform = 'translateY(0)';
+        scrolled = true;
+      }, 200);
+    } else {
+      navbar.classList.add('top');
+      scrolled = false;
     }
-    setTimeout(function () {
-      navbar.style.transform = 'translateY(0)';
-      scrolled = true;
-    }, 200);
-  } else {
-    navbar.classList.add('top');
-    scrolled = false;
-  }
-};
+  };
 
-// Smooth Scrolling
-$('#main-nav a, .link').on('click', function (e) {
-  if (this.hash !== '') {
-    e.preventDefault();
-
-    const hash = this.hash;
-
-    $('html, body').animate({
-        scrollTop: $(hash).offset().top - 100,
-      },
-      800
-    );
-  }
 });
+
+
+
 // TOGGLE TRANSPARENCY ON SCROLL //
 // $(window).scroll(function () {
 //   let scroll = $(window).scrollTop();
@@ -51,7 +37,7 @@ $('#main-nav a, .link').on('click', function (e) {
 //   }
 // });
 
-// var svg = document.getElementById('svgMap');
+// var svg = document.getElementById('svgmap');
 
 
 // ACTIVE HIGHLIGHT -> navbar.html //

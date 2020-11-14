@@ -17,21 +17,3 @@ navlinks:
     link: /_pages/out.html
     alt: Departure
     src: /assets/img/init/out.jpg
-
-photolinks:
-  - title: Epsodes
-    link: /_pages/in.html
-    alt: Newsletter
-    src: /assets/img/init/in.jpg
-  - title: Sites
-    link: /_pages/space.html
-    alt: Places
-    src: /assets/img/init/space.jpg
-  - title: Timeline
-    link: /_pages/time.html
-    alt: Timeline
-    src: /assets/img/init/time.jpg
-  - title: Limbo
-    link: /_pages/out.html
-    alt: Departure
-    src: /assets/img/init/out.jpg
