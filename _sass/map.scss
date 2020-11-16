@@ -1,6 +1,22 @@
+// map setups //
+
+
 .map-container {
-  margin-top: 200px;
-  padding-left: 200px;
+  position: relative;
+
+  .google-map {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .svgmap {
+    left: 662px;
+    position: absolute;
+    top: 172px;
+  }
+
 }
 
 svg g path:hover {

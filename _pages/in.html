@@ -5,8 +5,7 @@ id: in
 ---
 
 <!-- central container -->
-
-<div class="container-fluid blog-container">
+<div class="container-fluid bg-fullwidth blog-container">
   <div class>
     <img class="blog-image" src={{ '/assets/img/init/blog.jpg' | relative_url }} alt="Blog Image" />
     <div class="myblog">
@@ -16,6 +15,8 @@ id: in
       </p>
     </div>
   </div>
+
+
   <div class="blog-entries">
 
     {% for news in site.data.newsblogs %}
