@@ -8,21 +8,17 @@
     {% include headtag.html %}
   </head>
 
-  <!-- close button -->
-  <nav class="nav navbar navbar-expand-lg fixed-top blog-nav">
-    <a href={{ "/_pages/in.html" | relative_url }} onclick="history.back()" class="close">
-    </a>
-  </nav>
-
   <body>
-
-    <div class="container" id="blogBody">
-
+    <div class="container-fluid blog-body">
       <header>
-        <div class="blog-title">
-          <h3>{{ page.title }}</h3>
-          <h4>{{ page.date }}</h4>
-        </div>
+        <nav class="nav navbar navbar-expand-lg fixed-top blog-nav">
+          <div class="blog-title">
+            <h4>{{ page.title }}</h4>
+            <h6>{{ page.date }}</h6>
+          </div>
+          <a href={{ "/_pages/in.html" | relative_url }} onclick="history.back()" class="close">
+          </a>
+        </nav>
       </header>
 
       <main>

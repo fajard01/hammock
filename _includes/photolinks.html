@@ -4,8 +4,8 @@
   {% for photo in site.data.navigation.navlinks offset:1 %}
 
   <div class="col-xs-12 col-sm-6 col-lg-3 mx-auto photolink-wrapper">
-    <a href={{ photo.link | relative_url }}>
-      <img src={{ photo.src | relative_url }} alt={{ photo.alt }} class="link-photo" />
+    <a class="link-photo" href={{ photo.link | relative_url }}>
+      <img src={{ photo.src | relative_url }} alt={{ photo.alt }} />
 
       <div class="title">
         <h5>{{ photo.title }}</h5>

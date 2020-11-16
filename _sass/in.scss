@@ -55,9 +55,19 @@
   justify-content: space-between;
   margin: 50px;
 
+  .blog-entry {
+    text-decoration: none;
+  }
+
   .entry-image {
     margin: 40px;
+    margin-bottom: 10px;
+    transition: transform 1s;
     width: 300px;
+  }
+
+  .entry-image:hover {
+    transform: scale(1.05);
   }
 
   .entry-text {
@@ -65,6 +75,10 @@
     font-size: 15px;
     margin-bottom: 50px;
     margin-left: 40px;
-    text-decoration: none;
   }
+}
+
+.blog-iframe {
+  height: 100%;
+  width: 100%;
 }

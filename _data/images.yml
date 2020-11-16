@@ -50,6 +50,53 @@ img_024:
   src:     /assets/img/pix/024.jpg
 img_025:
   src:     /assets/img/pix/025.jpg
+img_026:   &img_026
+  src:     /assets/img/pix/026.jpg
+img_027:   &img_027
+  src:     /assets/img/pix/027.jpg
+img_028:   &img_028
+  src:     /assets/img/pix/028.jpg
+img_029:   &img_029
+  src:     /assets/img/pix/029.jpg
+img_030:   &img_030
+  src:     /assets/img/pix/030.jpg
+img_031:   &img_031
+  src:     /assets/img/pix/031.jpg
+img_032:   &img_032
+  src:     /assets/img/pix/032.jpg
+img_033:   &img_033
+  src:     /assets/img/pix/033.jpg
+img_034:   &img_034
+  src:     /assets/img/pix/034.jpg
+img_035:   &img_035
+  src:     /assets/img/pix/035.jpg
+img_036:   &img_036
+  src:     /assets/img/pix/036.jpg
+img_037:   &img_037
+  src:     /assets/img/pix/037.jpg
+img_038:   &img_038
+  src:     /assets/img/pix/038.jpg
+img_039:   &img_039
+  src:     /assets/img/pix/039.jpg
+img_040:   &img_040
+  src:     /assets/img/pix/040.jpg
+img_041:   &img_041
+  src:     /assets/img/pix/041.jpg
+img_042:   &img_042
+  src:     /assets/img/pix/042.jpg
+img_043:   &img_043
+  src:     /assets/img/pix/043.jpg
+img_044:   &img_044
+  src:     /assets/img/pix/044.jpg
+img_045:   &img_045
+  src:     /assets/img/pix/045.jpg
+img_046:   &img_046
+  src:     /assets/img/pix/046.jpg
+img_047:   &img_047
+  src:     /assets/img/pix/047.jpg
+img_048:   &img_048
+  src:     /assets/img/pix/048.jpg
+
 
 location:
   London:
@@ -72,6 +119,7 @@ location:
     - *img_020
     - *img_021
     - *img_022
+    - *img_026
 
 month:
   October:
@@ -93,3 +141,4 @@ month:
     - *img_020
     - *img_021
     - *img_022
+    - *img_026

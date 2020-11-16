@@ -7,7 +7,7 @@ id: in
 <!-- central container -->
 
 <div class="container-fluid blog-container">
-  <div>
+  <div class>
     <img class="blog-image" src={{ '/assets/img/init/blog.jpg' | relative_url }} alt="Blog Image" />
     <div class="myblog">
       <h3>My Blog!</h3>
@@ -20,7 +20,7 @@ id: in
 
     {% for news in site.data.newsblogs %}
 
-    <a href={{ news.href | relative_url }}><img class="entry-image" alt={{ news.title }} src={{ news.src | relative_url }} />
+    <a id="blog-entry" class="blog-entry" href={{ news.href | relative_url }}><img class="entry-image" alt={{ news.title }} src={{ news.src | relative_url }} />
 
       <div class="entry-text">
         {{ news.title }}

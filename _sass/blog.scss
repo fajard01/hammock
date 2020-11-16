@@ -1,220 +1,184 @@
-// _layout.blog.html
-// close X button
-
-.close {
-  height: 32px;
-  opacity: .5;
-  position: absolute;
-  right: 32px;
-  top: 32px;
-  width: 32px;
-}
-
-.close:hover {
-  opacity: 1;
-}
+//-- blog.html --//
 
 
-.close::before,
-.close::after {
-  background-color: $white;
-  content: ' ';
-  height: 33px;
-  left: 15px;
-  position: absolute;
-  width: 2px;
-}
-
-
-.close::before {
-  transform: rotate(45deg);
-}
-
-
-.close::after {
-  transform: rotate(-45deg);
-}
-// end close X button
-
-//  mixin
-// each row container on the blog page
-@mixin row-entry {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-// image or text spanning the whole width
-@mixin column-span {
-  display: block;
-  width: 100%;
-}
-
-
-// text entry spanning thw whole wodth
-@mixin center-blog {
-  // border-radius: 2px;
-  // border-style: dashed;
-  clear: both;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-@mixin column-blog {
-  margin-left: 20px;
-  margin-right: 60px;
-  text-align: center;
-}
-
-@mixin video-box {
-  border-radius: 2px;
-  border-style: dashed;
-}
-
-@mixin left-image-land {
-  float: left;
-  width: 100%;
-}
-
-@mixin right-image-port {
-  float: right;
-  max-height: 50%;
-}
-// end mixin
-
-
-// _blogs
-// blog title and date
-.blog-title {
-  margin-bottom: 50px;
-}
-
-// top mix row elements
-.mix-row {    // 12-10
-  @include row-entry;
-  height: 600px;
-
-  .mix-column {
-    margin-bottom: 50px;
-    max-height: 550px;
-
-    .depart {
-      @include left-image-land;
-      margin-bottom: 40px;
-      margin-top: 80px;
-    }
-
-    .video-1 {
-      @include video-box;
-      margin-left: 58px;
-      margin-top: 10px;
-      padding-top: 10px;
-    }
-
-    h4 {
-      text-align: center;
-    }
-
-    .vert-img {
-      @include right-image-port;
-      margin-left: 40px;
-      margin-top: -5px;
-      padding-top: 20px;
-    }
-  }
-}
-
-//  Peru image span and Welcome greeting
-.span-row {
-  @include row-entry;
+.blog-body {
+  background: $bg-black2;
+  height: 100%;
   margin: 0;
-
-  .span-column {
-    @include column-span;
-    .span-img {
-      width: 100%;
-    }
-
-    .welcome {
-      color: $white;
-      display: d-flex;
-      height: 50px;
-      margin-bottom: 50px;
-      text-align: center;
-    }
-  }
+  padding: 0;
+  width: 100%;
 }
 
-.blog-row {
-  @include row-entry;
-  height: 350px;
+.blog-nav {
+  align-self: center;
+  background: $bg-black3;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  margin: auto;
   padding-top: 50px;
+  width: 80%;
+
+
+  .blog-title {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-start;
+    position: absolute;
+    top: 30px;
+  }
+
+  .close {
+    display: inline-block;
+    height: 16px;
+    opacity: .5;
+    position: absolute;
+    right: 16px;
+    top: 30px;
+    width: 16px;
+    z-index: 2;
+  }
+
+  .close:hover {
+    opacity: 1;
+  }
+
+
+  .close::before,
+  .close::after {
+    background-color: $white;
+    content: '';
+    height: 42px;
+    position: absolute;
+    width: 2px;
+  }
+
+
+  .close::before {
+    transform: rotate(45deg);
+  }
+
+
+  .close::after {
+    transform: rotate(-45deg);
+  }
 }
 
-// begin of blog
+
+//-- blogs --//
+.blog-content {
+  background-color: $bg-black1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 0 200px;
+  width: 100%;
+}
+
 .blog {
-  @include center-blog;
-  .video-2 {
-    @include video-box;
-    // float: right;
-    margin-left: -80px;
-    margin-top: 10px;
+  line-height: 1.5rem;
+  margin: 20px 0;
+  padding: 15px;
+  text-align: center;
+}
+
+.side-blog {
+  width: 500px;
+}
+
+.top-row {
+  padding-top: 150px;
+}
+
+.media-row {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.text-n-pix {
+  align-items: flex-start;
+}
+
+.mix-sizes {
+  justify-content: space-around;
+}
+
+.media-column {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.landscape {
+  margin: 5px;
+  width: 300px;
+}
+
+.landscape-wider {
+  margin: 5px;
+  width: 450px;
+}
+
+.portrait {
+  height: 250px;
+  margin: 5px;
+}
+
+.video {
+  height: 345px;
+  margin: 0 auto;
+  width: 460px;
+}
+
+.span-img {
+  width: 100%;
+}
+
+.empty {
+  height: 600px;
+}
+
+// mobile
+@media (max-width: 500px) {
+  .blog-content {
+    padding: 0;
+  }
+
+  .blog {
+    font-size: .8rem;
+    line-height: .8rem;
+  }
+
+  .media-row {
+    align-content: flex-start;
+    align-items: flex-start;
   }
 }
 
-.line-break {
-  margin-bottom: 60px;
-}
-
-// row of drawings
-.draw-row {
-  @include row-entry;
-  // padding-left: 60px;
-  // padding-right: 60px;
-  height: 300px;
-  margin-bottom: 80px;
-
-  .draw-blog {
-    @include column-blog;
+// mobile landscape
+@media (max-width: 900px) and (max-height: 400px) {
+  .blog-content {
+    padding-top: 0;
   }
 
-  .draw-column {
-    max-height: 300px;
-    width: 60%;
-
-    .draw-img {
-      float: left;
-      max-height: 100%;
-    }
+  .blog {
+    font-size: .8rem;
+    line-height: .8rem;
   }
 
-  .video-3 {
-    @include video-box;
-    margin-top: 10px;
-  }
-}
-
-//  row of 4 landscape photos
-.tupac-row {
-  @include row-entry;
-  margin-left: 80px;
-  padding-top: 10px;
-
-  .tupac-column {
-    @include left-image-land;
-    .land-img {
-      margin-top: 20px;
-      width: 100%;
-    }
-  }
-
-  .column-blog {
-    @include column-blog;
-    padding-left: 120px;
-    padding-right: 120px;
-    // padding-top: 10px;
-    .video-3 {
-      margin-top: 10px;
-    }
+  .media-row {
+    align-content: flex-start;
+    align-items: flex-start;
   }
 }

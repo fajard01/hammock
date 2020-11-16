@@ -38,11 +38,12 @@
       margin: 0 20px;
       text-decoration: none;
     }
-
-    .link:hover {
-      border-bottom: $white 2px solid;
-    }
   }
+}
+
+.link:hover,
+.main-nav .active {
+  border-bottom: $white 2px solid;
 }
 
 // navbar effect
@@ -102,25 +103,18 @@
       transform: scale(1.05);
     }
   }
-}
 
-.title {
-  color: $white;
-  margin-top: 20px;
-  text-decoration: none;
+  .title {
+    color: $white;
+    margin-top: 20px;
+    width: 90%;
 
-  p {
-    font-size: .8rem;
+    p {
+      font-size: .8rem;
+    }
   }
-}
 
-
-//-- blog page close button --//
-
-.blog-nav {
-  // padding: 0;
-  // margin: 0;
-  padding-top: 150px;
-  position: relative;
-  width: 100%;
+  .link-photo:hover {
+    text-decoration: none;
+  }
 }
