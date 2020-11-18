@@ -24,6 +24,19 @@ $(document).ready(function () {
     }
   };
 
+  // adjust iframe size
+  const frame = document.getElementById("map-iframe");
+
+  if (frame) {
+    frame.onload = function () {
+      frame.style.height =
+        frame.contentWindow.document.body.scrollHeight + 'px';
+
+      frame.style.width =
+        frame.contentWindow.document.body.scrollWidth + 'px';
+    }
+  }
+
 });
 
 

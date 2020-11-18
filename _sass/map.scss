@@ -1,7 +1,8 @@
 // map setups //
 
-
 .map-container {
+  margin: 0;
+  padding: 0;
   position: relative;
 
   .google-map {
@@ -11,10 +12,17 @@
     z-index: -1;
   }
 
-  .svgmap {
-    left: 662px;
+  .map-caption {
+    left: 20vw;
     position: absolute;
-    top: 172px;
+    top: 45vh;
+    z-index: 1;
+  }
+
+  .svgmap {
+    left: 750px;
+    position: absolute;
+    top: 366px;
   }
 
 }
@@ -25,5 +33,5 @@ svg g path:hover {
 
 .label {
   fill: $white;
-  font: italic 8px sans-serif;
+  font: italic 14px sans-serif;
 }
