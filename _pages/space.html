@@ -26,13 +26,13 @@ id: space
 
       if (clicked_class != undefined) {
         let region = '#' + clicked_class;
+        let divelement = $('#modal-location').find(region);
 
-        if ($('#modal-location').find(region).length) {
-          $('#modal-location').modal('show');
-          $('#modal-location').on('show.bs.modal', function(e) {
-            console.log($('#modal-location').find(region));
-          })
+        if (divelement.length) {
+          divelement.toggle();
         }
+
+        $('#modal-location').modal('show');
       }
 
     });
