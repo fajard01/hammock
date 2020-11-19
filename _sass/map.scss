@@ -27,11 +27,27 @@
 
 }
 
+svg g path {
+  opacity: .7;
+}
+
 svg g path:hover {
-  opacity: .5;
+  opacity: .3;
 }
 
 .label {
   fill: $white;
   font: italic 14px sans-serif;
+}
+
+
+.carousel {
+  background: $bg-black3;
+}
+
+.carousel-inner .item img {
+  // display: inline-block;
+  // margin: 0 auto;
+  // object-fit: contain;
+  width: 70%;
 }

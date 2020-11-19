@@ -47,7 +47,7 @@
   }
 
   .entry-image:hover {
-    transform: scale(1.05);
+    opacity: .6;
   }
 
   .entry-text {
@@ -58,10 +58,6 @@
   }
 }
 
-.blog-iframe {
-  height: 100%;
-  width: 100%;
-}
 
 // mobile
 @media (max-width: 500px) {

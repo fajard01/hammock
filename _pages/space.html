@@ -1,10 +1,10 @@
 ---
-layout: mapping
+layout: default
 title: Space
 id: space
 ---
 
-<div class="container-fluid map-container">
+<div id="map-container" class="container-fluid map-container">
 
   <img src={{ "/assets/img/init/peru.jpg" | relative_url }} alt="Google Map" class="google-map">
   <div class="map-caption">
@@ -12,15 +12,29 @@ id: space
   </div>
   {% include svgmap.html %}
 
-
-  <!-- click on SVG region -->
-  <script type="text/javascript">
-    $(document).on('click', function(e) {
-      clicked_id = e.target.id;
-      clicked_class = $('#' + e.target.id).attr('name');
-      if (clicked_class != undefined) {
-        alert(clicked_class);
-      }
-    });
-  </script>
 </div>
+{% include spacecarousel.html %}
+
+
+<!-- click on SVG region -->
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    $(document).on('click', function(e) {
+      let clicked_id = e.target.id;
+      let clicked_class = $('#' + e.target.id).attr('name');
+
+      if (clicked_class != undefined) {
+        let region = '#' + clicked_class;
+
+        if ($('#modal-location').find(region).length) {
+          $('#modal-location').modal('show');
+          $('#modal-location').on('show.bs.modal', function(e) {
+            console.log($('#modal-location').find(region));
+          })
+        }
+      }
+
+    });
+  });
+</script>

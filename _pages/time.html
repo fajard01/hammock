@@ -4,13 +4,18 @@ title: Time
 ---
 
 <h1>Under construction</h1>
-
+<br><br><br><br>
 <div class="content">
 
-  {% for button in site.data.images.month.October %}
-  <p>
-    {{ button.src }}
-  </p>
+  {% for button in site.data.images.location %}
+    <h6>
+      {{ button[0] }}
+    </h6>
+    {% for link in button[1] %}
+      <p>{{ link }}</p>
+
+    {% endfor %}
+
   {% endfor %}
   <h2>Test month url linking from yaml works!!</h2>
 </div>

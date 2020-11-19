@@ -24,12 +24,15 @@
 // mobile
 @media (max-width: 500px) {
   .andes-title {
-    padding-top: 35vh;
+    padding-top: 27vh;
   }
 
-  h1,
+  h1 {
+    font-size: 1.9rem;
+  }
+
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
   }
 }
 

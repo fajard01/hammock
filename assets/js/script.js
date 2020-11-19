@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
 
-  // scroll transparency and animation
+  // navigation scroll transparency and animation
   const navbar = document.getElementById('main-nav');
   let scrolled = false;
 
@@ -23,20 +23,6 @@ $(document).ready(function () {
       }
     }
   };
-
-  // adjust iframe size
-  const frame = document.getElementById("map-iframe");
-
-  if (frame) {
-    frame.onload = function () {
-      frame.style.height =
-        frame.contentWindow.document.body.scrollHeight + 'px';
-
-      frame.style.width =
-        frame.contentWindow.document.body.scrollWidth + 'px';
-    }
-  }
-
 });
 
 
