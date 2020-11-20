@@ -6,9 +6,9 @@
     <div class="modal-content">
 
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;></span>
+        <h6 class="modal-title" id="modal-location-label">Where We Were</h6>
+        <button id="modal-close" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
         </button>
-        <h5 class="modal-title">Where We Were</h5>
       </div>
 
       <!-- begin carousel -->
@@ -20,32 +20,40 @@
           <!-- indicators -->
           <ol class="carousel-indicators">
             {% for i in (0..region[1].size) %}
+            {% if i == 0 %}
+            <li data-target={{ region[0] }} data-slide-to={{ '"' | append: i | append: '"'}} class="active"></li>
+            {% else %}
             <li data-target={{ region[0] }} data-slide-to={{ '"' | append: i | append: '"'}}></li>
+            {% endif %}
             {% endfor %}
           </ol>
           <div class="carousel-inner" role="listbox">
             {% for image in region[1] %}
-            <div class="item">
-              <img class="d-block w-100" src={{ image.src | relative_url }} alt={{ region[0] }}>
+            {% if image == region[1].first %}
+            <div class="carousel-item active">
+              {% else %}
+              <div class="carousel-item">
+                {% endif %}
+                <img class="d-block w-100 mx-auto photo" src={{ image.src | relative_url }} alt={{ region[0] }}>
+              </div>
+              {% endfor %}
             </div>
-            {% endfor %}
+
+            <!-- controls -->
+            <a class="carousel-control-prev" href={{ "#" | append: region[0] }} role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href={{ "#" | append: region[0] }} role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
+          {% endfor %}
 
-          <!-- controls -->
-          <a class="left carousel-control" href={{ "#" | append: region[0] }} role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
 
-          <a class="right carousel-control" href={{ "#" | append: region[0] }} role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
-        {% endfor %}
-
-
       </div>
     </div>
   </div>
-</div>

@@ -20,19 +20,27 @@ id: space
 <script type="text/javascript">
   $(document).ready(function() {
 
+    // who clicked?
     $(document).on('click', function(e) {
       let clicked_id = e.target.id;
+
+      // name of SVG path / region
       let clicked_class = $('#' + e.target.id).attr('name');
 
       if (clicked_class != undefined) {
+
+        // get the div element to show
         let region = '#' + clicked_class;
         let divelement = $('#modal-location').find(region);
 
         if (divelement.length) {
-          divelement.toggle();
-        }
+          // navbar goes under modal
+          document.getElementById('main-nav').setAttribute('z-index', '-1');
 
-        $('#modal-location').modal('show');
+          // render
+          divelement.show();
+          $('#modal-location').modal('show');
+        }
       }
 
     });

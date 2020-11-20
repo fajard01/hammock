@@ -41,13 +41,31 @@ svg g path:hover {
 }
 
 
+// modal
+
+.modal-content {
+  background-color: $bg-black3;
+
+  .modal-header {
+    background-color: $deep-blu;
+    border: 0;
+    color: $white;
+  }
+
+  .modal-body {
+    background-color: $horizon;
+  }
+}
+
+
+// image carousel
+
 .carousel {
   background: $bg-black3;
 }
 
-.carousel-inner .item img {
-  // display: inline-block;
-  // margin: 0 auto;
-  // object-fit: contain;
-  width: 70%;
+.carousel-inner .item .photo {
+  height: 275px;
+  max-height: 275px;
+  width: auto;
 }
