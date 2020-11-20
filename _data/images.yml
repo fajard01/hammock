@@ -96,6 +96,52 @@ img_047:   &img_047
   src:     /assets/img/pix/047.jpg
 img_048:   &img_048
   src:     /assets/img/pix/048.jpg
+img_049:   &img_049
+  src:     /assets/img/pix/049.jpg
+img_050:   &img_050
+  src:     /assets/img/pix/050.jpg
+img_051:   &img_051
+  src:     /assets/img/pix/051.jpg
+img_052:   &img_052
+  src:     /assets/img/pix/052.jpg
+img_053:   &img_053
+  src:     /assets/img/pix/053.jpg
+img_054:   &img_054
+  src:     /assets/img/pix/054.jpg
+img_055:   &img_055
+  src:     /assets/img/pix/055.jpg
+img_056:   &img_056
+  src:     /assets/img/pix/056.jpg
+img_057:   &img_057
+  src:     /assets/img/pix/057.jpg
+img_058:   &img_058
+  src:     /assets/img/pix/058.jpg
+img_059:   &img_059
+  src:     /assets/img/pix/059.jpg
+img_060:   &img_060
+  src:     /assets/img/pix/060.jpg
+img_061:   &img_061
+  src:     /assets/img/pix/061.jpg
+img_062:   &img_062
+  src:     /assets/img/pix/062.jpg
+img_063:   &img_063
+  src:     /assets/img/pix/063.jpg
+img_064:   &img_064
+  src:     /assets/img/pix/064.jpg
+img_065:   &img_065
+  src:     /assets/img/pix/065.jpg
+img_066:   &img_066
+  src:     /assets/img/pix/066.jpg
+img_067:   &img_067
+  src:     /assets/img/pix/067.jpg
+img_068:   &img_068
+  src:     /assets/img/pix/068.jpg
+img_069:   &img_069
+  src:     /assets/img/pix/069.jpg
+img_070:   &img_070
+  src:     /assets/img/pix/070.jpg
+img_071:   &img_071
+  src:     /assets/img/pix/071.jpg
 
 
 location:
@@ -120,6 +166,32 @@ location:
     - *img_021
     - *img_022
     - *img_026
+  Ancash:
+    - *img_050
+    - *img_051
+    - *img_052
+    - *img_053
+    - *img_054
+  Cajamarca:
+    - *img_049
+    - *img_055
+  Amazonas:
+    - *img_056
+    - *img_057
+    - *img_058
+    - *img_059
+    - *img_060
+    - *img_061
+    - *img_062
+    - *img_063
+    - *img_064
+    - *img_065
+    - *img_066
+    - *img_067
+    - *img_068
+    - *img_069
+    - *img_070
+    - *img_071
 
 month:
   October:
@@ -142,3 +214,27 @@ month:
     - *img_021
     - *img_022
     - *img_026
+  November:
+    - *img_049
+    - *img_050
+    - *img_051
+    - *img_052
+    - *img_053
+    - *img_054
+    - *img_055
+    - *img_056
+    - *img_057
+    - *img_058
+    - *img_059
+    - *img_060
+    - *img_061
+    - *img_062
+    - *img_063
+    - *img_064
+    - *img_065
+    - *img_066
+    - *img_067
+    - *img_068
+    - *img_069
+    - *img_070
+    - *img_071

@@ -40,7 +40,13 @@ id: space
           // render
           divelement.show();
           $('#modal-location').modal('show');
+
+          // reset on close
+          $('#modal-location').on('hidden.bs.modal', function(e) {
+            divelement.hide();
+          })
         }
+
       }
 
     });

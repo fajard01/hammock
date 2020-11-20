@@ -56,16 +56,3 @@ svg g path:hover {
     background-color: $horizon;
   }
 }
-
-
-// image carousel
-
-.carousel {
-  background: $bg-black3;
-}
-
-.carousel-inner .item .photo {
-  height: 275px;
-  max-height: 275px;
-  width: auto;
-}
