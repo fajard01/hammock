@@ -2,20 +2,22 @@
 
 .blog-container {
   align-content: center;
-  background-color: $bg-black1;
-  display: flex;
-  flex-direction: column;
+  background: url($baseurl + '/assets/img/init/blog.jpg') no-repeat center center / cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  display: block;
+  height: 39vh;
   padding: 0;
   position: relative;
 
   .blog-image {
     display: block;
-    opacity: .3;
     width: 100%;
+
   }
 
   .myblog {
-    color: $white;
+    color: $monk-hair;
     margin-top: 8vh;
     position: absolute;
     text-align: center;
@@ -29,6 +31,7 @@
 
 .blog-entries {
   align-items: center;
+  background: $monk-hair;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

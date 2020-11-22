@@ -45,6 +45,7 @@ svg g path:hover {
 
 .modal-content {
   background-color: $bg-black3;
+  width: 790px;
 
   .modal-header {
     background-color: $deep-blu;
@@ -54,5 +55,19 @@ svg g path:hover {
 
   .modal-body {
     background-color: $horizon;
+  }
+}
+
+
+.carousel {
+  width: auto;
+}
+
+.carousel-inner {
+  width: 750px;
+
+  .carousel-item .img {
+    height: 500px;
+    width: 100%;
   }
 }

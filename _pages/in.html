@@ -6,31 +6,32 @@ id: in
 
 <!-- central container -->
 <div class="container-fluid bg-fullwidth blog-container">
-  <div class>
-    <img class="blog-image" src={{ '/assets/img/init/blog.jpg' | relative_url }} alt="Blog Image" />
+  <div class="blog-image">
+    <!-- <img class="blog-image" src={{ '/assets/img/init/blog.jpg' | relative_url }} alt="Blog Image" /> -->
     <div class="myblog">
-      <h3>My Blog!</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, similique.
-      </p>
+      <h2>My Blog!</h2>
+      <h5>
+        What have you been up to?
+      </h5>
     </div>
-  </div>
-
-
-  <div class="blog-entries">
-
-    {% for news in site.data.newsblogs %}
-
-    <a id="blog-entry" class="blog-entry" href={{ news.href | relative_url }}><img class="entry-image" alt={{ news.title }} src={{ news.src | relative_url }} />
-
-      <div class="entry-text">
-        {{ news.title }}
-        <p>{{ news.date | date: "%-d %B %Y" }}</p>
-      </div>
-
-    </a>
-
-    {% endfor %}
 
   </div>
+</div>
+
+<div class="blog-entries">
+
+  {% for news in site.data.newsblogs %}
+
+  <a id="blog-entry" class="blog-entry" href={{ news.href | relative_url }}><img class="entry-image" alt={{ news.title }} src={{ news.src | relative_url }} />
+
+    <div class="entry-text">
+      {{ news.title }}
+      <p>{{ news.date | date: "%-d %B %Y" }}</p>
+    </div>
+
+  </a>
+
+  {% endfor %}
+
+</div>
 </div>

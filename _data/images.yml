@@ -142,6 +142,14 @@ img_070:   &img_070
   src:     /assets/img/pix/070.jpg
 img_071:   &img_071
   src:     /assets/img/pix/071.jpg
+img_072:   &img_072
+  src:     /assets/img/pix/072.jpg
+img_073:   &img_073
+  src:     /assets/img/pix/073.jpg
+img_074:   &img_074
+  src:     /assets/img/pix/074.jpg
+img_075:   &img_075
+  src:     /assets/img/pix/075.jpg
 
 
 location:
@@ -192,6 +200,12 @@ location:
     - *img_069
     - *img_070
     - *img_071
+  La Libertad:
+    - *img_072
+    - *img_073
+    - *img_074
+    - *img_075
+
 
 month:
   October:
@@ -238,3 +252,7 @@ month:
     - *img_069
     - *img_070
     - *img_071
+    - *img_072
+    - *img_073
+    - *img_074
+    - *img_075

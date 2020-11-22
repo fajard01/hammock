@@ -23,6 +23,7 @@ $(document).ready(function () {
       }
     }
   };
+
 });
 
 
@@ -37,3 +38,10 @@ $(function () {
     }
   });
 });
+
+// //Replace carousel images into background images.
+// $('.carousel .item img').each(function() {
+//   let imgsrc = $(this).attr('src');
+//   $(this).parent().css({'background-image': 'url('+imgsrc+')'});
+//   $(this).remove();
+// });

@@ -16,11 +16,12 @@ id: space
 {% include spacecarousel.html %}
 
 
-<!-- click on SVG region -->
+
 <script type="text/javascript">
+  // prepare click events
   $(document).ready(function() {
 
-    // who clicked?
+    // SVG click event
     $(document).on('click', function(e) {
       let clicked_id = e.target.id;
 
