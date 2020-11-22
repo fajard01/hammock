@@ -28,13 +28,13 @@ img_013:   &img_013
   src:     /assets/img/pix/013.jpg
 img_014:   &img_014
   src:     /assets/img/pix/014.jpg
-img_015:
+img_015:   &img_015
   src:     /assets/img/pix/015.jpg
-img_016:
+img_016:   &img_016
   src:     /assets/img/pix/016.jpg
-img_017:
+img_017:   &img_017
   src:     /assets/img/pix/017.jpg
-img_018:
+img_018:   &img_018
   src:     /assets/img/pix/018.jpg
 img_019:   &img_019
   src:     /assets/img/pix/019.jpg
@@ -44,11 +44,11 @@ img_021:   &img_021
   src:     /assets/img/pix/021.jpg
 img_022:   &img_022
   src:     /assets/img/pix/022.jpg
-img_023:
+img_023:   &img_023
   src:     /assets/img/pix/023.jpg
-img_024:
+img_024:   &img_024
   src:     /assets/img/pix/024.jpg
-img_025:
+img_025:   &img_025
   src:     /assets/img/pix/025.jpg
 img_026:   &img_026
   src:     /assets/img/pix/026.jpg
@@ -150,7 +150,36 @@ img_074:   &img_074
   src:     /assets/img/pix/074.jpg
 img_075:   &img_075
   src:     /assets/img/pix/075.jpg
-
+img_076:   &img_076
+  src:     /assets/img/pix/076.jpg
+img_077:   &img_077
+  src:     /assets/img/pix/077.jpg
+img_078:   &img_078
+  src:     /assets/img/pix/078.jpg
+img_079:   &img_079
+  src:     /assets/img/pix/079.jpg
+img_080:   &img_080
+  src:     /assets/img/pix/080.jpg
+img_081:   &img_081
+  src:     /assets/img/pix/081.jpg
+img_082:   &img_082
+  src:     /assets/img/pix/082.jpg
+img_083:   &img_083
+  src:     /assets/img/pix/083.jpg
+img_084:   &img_084
+  src:     /assets/img/pix/084.jpg
+img_085:   &img_085
+  src:     /assets/img/pix/085.jpg
+img_086:   &img_086
+  src:     /assets/img/pix/086.jpg
+img_087:   &img_087
+  src:     /assets/img/pix/087.jpg
+img_088:   &img_088
+  src:     /assets/img/pix/088.jpg
+img_089:   &img_089
+  src:     /assets/img/pix/089.jpg
+img_090:   &img_090
+  src:     /assets/img/pix/090.jpg
 
 location:
   London:
@@ -180,10 +209,14 @@ location:
     - *img_052
     - *img_053
     - *img_054
+    - *img_085
   Cajamarca:
-    - *img_049
     - *img_055
+    - *img_087
+    - *img_088
+    - *img_089
   Amazonas:
+    - *img_049
     - *img_056
     - *img_057
     - *img_058
@@ -200,12 +233,20 @@ location:
     - *img_069
     - *img_070
     - *img_071
-  La Libertad:
+    - *img_076
+    - *img_085
+  'La Libertad':
     - *img_072
     - *img_073
     - *img_074
     - *img_075
-
+    - *img_077
+    - *img_078
+    - *img_079
+    - *img_080
+    - *img_081
+    - *img_082
+    - *img_090
 
 month:
   October:
@@ -256,3 +297,15 @@ month:
     - *img_073
     - *img_074
     - *img_075
+    - *img_075
+    - *img_077
+    - *img_078
+    - *img_079
+    - *img_080
+    - *img_081
+    - *img_082
+    - *img_085
+    - *img_087
+    - *img_088
+    - *img_089
+    - *img_090

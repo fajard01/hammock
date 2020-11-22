@@ -4,15 +4,18 @@ title: Space
 id: space
 ---
 
-<div id="map-container" class="container-fluid map-container">
+<div class="container-fluid map">
 
-  <img src={{ "/assets/img/init/peru.jpg" | relative_url }} alt="Google Map" class="google-map">
-  <div class="map-caption">
-    <h3>Where Were We?</h3>
+  <div id="map-container" class="map-container">
+    <img src={{ "/assets/img/init/peru.jpg" | relative_url }} alt="Google Earth" class="google-earth" id="google-earth">
+    <div class="map-caption">
+      <h3>Where Were We?</h3>
+    </div>
+    {% include svgmap.html %}
   </div>
-  {% include svgmap.html %}
 
 </div>
+
 {% include spacecarousel.html %}
 
 
@@ -24,30 +27,31 @@ id: space
     // SVG click event
     $(document).on('click', function(e) {
       let clicked_id = e.target.id;
-
       // name of SVG path / region
       let clicked_class = $('#' + e.target.id).attr('name');
 
       if (clicked_class != undefined) {
 
         // get the div element to show
-        let region = '#' + clicked_class;
+        // NOTE: html id cannot have spaces
+        let region = '#' + clicked_class.replace(/ /g, "");
         let divelement = $('#modal-location').find(region);
 
         if (divelement.length) {
           // navbar goes under modal
           document.getElementById('main-nav').setAttribute('z-index', '-1');
 
-          // render
+          // show relevant div
           divelement.show();
+
+          // show modal
           $('#modal-location').modal('show');
 
-          // reset on close
+          // hide div on close
           $('#modal-location').on('hidden.bs.modal', function(e) {
             divelement.hide();
           })
         }
-
       }
 
     });

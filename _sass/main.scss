@@ -9,6 +9,8 @@
 
 // global variables
 $font-stack: Helvetica, sans-serif;
+
+// derived colors
 $white: #fff;
 $black: #000;
 $bg-black1: #18181e;
@@ -43,13 +45,34 @@ body {
 }
 
 
-//************* large devices only ******************//
-@media (min-width: 1200px) {}
-//************* medium devices only *****************//
-@media (min-width: 992px) and (max-width: 1199px) {}
-//************* small devices only ******************//
-@media (min-width: 768px) and (max-width: 991px) {}
-//************* small devices only ******************//
-@media (max-width: 767px) {}
-//************** extra small devices only ***********//
-@media (max-width: 332px) {}
+// Media Queries
+
+@mixin mq-xs {
+  @media (min-width: 320px) {
+    @content;
+  }
+}
+
+@mixin mq-land {
+  @media (min-width: 480px) and (max-height: 550px) {
+    @content;
+  }
+}
+
+@mixin mq-sm {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin mq-md {
+  @media (min-width: 720px) {
+    @content;
+  }
+}
+
+@mixin mq-lg {
+  @media (min-width: 1000px) {
+    @content;
+  }
+}

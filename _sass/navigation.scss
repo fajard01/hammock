@@ -51,13 +51,30 @@
   background: transparent;
 }
 
-// mobile
-@media (max-width: 500px) {
+@include mq-xs {
   .main-nav {
     flex-direction: column;
 
     .logo {
-      font-size: 1.2rem;
+      font-size: 1rem;
+    }
+
+    .icon-rem {
+      font-size: 1.6rem;
+    }
+  }
+
+  .link {
+    font-size: .5rem;
+  }
+}
+
+@include mq-land {
+  .main-nav {
+    flex-direction: row;
+
+    .logo {
+      font-size: 1.5rem;
     }
 
     .icon-rem {
@@ -66,7 +83,58 @@
   }
 
   .link {
-    font-size: .5rem;
+    font-size: .7rem;
+  }
+}
+
+
+@include mq-sm {
+  .main-nav {
+    // flex-direction: column;
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    .icon-rem {
+      font-size: 2rem;
+    }
+  }
+
+  .link {
+    font-size: .7rem;
+  }
+}
+
+@include mq-md {
+  .main-nav {
+    flex-direction: row;
+  }
+
+  .logo {
+    font-size: 1.7rem;
+  }
+
+  .icon-rem {
+    font-size: 2.2rem;
+  }
+}
+
+@include mq-lg {
+  .main-nav {
+    flex-direction: row;
+  }
+
+  .logo {
+    font-size: 2.6rem;
+  }
+
+  .icon-rem {
+    font-size: 3rem;
+  }
+
+  .link {
+    font-size: 1.2rem;
   }
 }
 
