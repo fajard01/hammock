@@ -248,106 +248,104 @@ location:
     - *img_082
     - *img_090
 month:
-  October:
-    '5 2019':
-      event: Arrival
-      img:
-        - *img_000
-        - *img_001
-        - *img_002
-        - *img_003
-    '7 2019':
-      event: Lima
-      img:
-        - *img_005
-        - *img_006
-        - *img_007
-        - *img_008
-        - *img_009
-        - *img_010
-        - *img_011
-        - *img_012
-        - *img_013
-        - *img_014
-        - *img_019
-        - *img_020
-        - *img_021
-        - *img_022
-        - *img_026
-        - *img_027
-        - *img_028
-        - *img_029
-        - *img_030
-        - *img_031
-        - *img_032
-        - *img_033
-        - *img_034
-        - *img_035
-        - *img_036
-        - *img_037
-        - *img_038
-        - *img_039
-        - *img_040
-        - *img_045
-        - *img_046
-        - *img_047
-        - *img_048
-    '23 2019':
-      event: Iglesia Las Nazarenas
-      img:
-        - *img_041
-        - *img_042
-        - *img_043
-        - *img_044
-    '28 2019':
-      event: Catarata del Gocta
-      img:
-        - *img_057
-        - *img_058
-        - *img_059
-        - *img_060
-        - *img_061
-        - *img_062
-    '29 2019':
-      event: Kuélap and Leymebamba
-      img:
-        - *img_049
-        - *img_063
-        - *img_064
-        - *img_065
-        - *img_066
-        - *img_067
-        - *img_068
-        - *img_069
-        - *img_056
-        - *img_070
-        - *img_071
-    '30 2019':
-      event: Kuntur Wasi and Querococha
-      img:
-        - *img_050
-        - *img_051
-        - *img_052
-        - *img_053
-        - *img_054
-        - *img_055
-        - *img_085
-        - *img_087
-        - *img_088
-        - *img_089
-  November:
-    '2 2019':
-      event: Chan Chan
-      img:
-        - *img_072
-        - *img_073
-        - *img_074
-        - *img_075
-        - *img_075
-        - *img_077
-        - *img_078
-        - *img_079
-        - *img_080
-        - *img_081
-        - *img_082
-        - *img_090
+  '05 October 2019':
+    event: Arrival
+    img:
+      - *img_000
+      - *img_001
+      - *img_002
+      - *img_003
+  '07 October 2019':
+    event: Lima
+    img:
+      - *img_005
+      - *img_006
+      - *img_007
+      - *img_008
+      - *img_009
+      - *img_010
+      - *img_011
+      - *img_012
+      - *img_013
+      - *img_014
+      - *img_019
+      - *img_020
+      - *img_021
+      - *img_022
+      - *img_026
+      - *img_027
+      - *img_028
+      - *img_029
+      - *img_030
+      - *img_031
+      - *img_032
+      - *img_033
+      - *img_034
+      - *img_035
+      - *img_036
+      - *img_037
+      - *img_038
+      - *img_039
+      - *img_040
+      - *img_045
+      - *img_046
+      - *img_047
+      - *img_048
+  '23 October 2019':
+    event: Iglesia Las Nazarenas
+    img:
+      - *img_041
+      - *img_042
+      - *img_043
+      - *img_044
+  '28 October 2019':
+    event: Catarata del Gocta
+    img:
+      - *img_057
+      - *img_058
+      - *img_059
+      - *img_060
+      - *img_061
+      - *img_062
+  '29 October 2019':
+    event: Kuélap and Leymebamba
+    img:
+      - *img_049
+      - *img_063
+      - *img_064
+      - *img_065
+      - *img_066
+      - *img_067
+      - *img_068
+      - *img_069
+      - *img_056
+      - *img_070
+      - *img_071
+  '30 October 2019':
+    event: Kuntur Wasi and Querococha
+    img:
+      - *img_050
+      - *img_051
+      - *img_052
+      - *img_053
+      - *img_054
+      - *img_055
+      - *img_085
+      - *img_087
+      - *img_088
+      - *img_089
+  '02 November 2019':
+    event: Chan Chan
+    img:
+      - *img_072
+      - *img_073
+      - *img_074
+      - *img_075
+      - *img_075
+      - *img_077
+      - *img_078
+      - *img_079
+      - *img_080
+      - *img_081
+      - *img_082
+      - *img_090
