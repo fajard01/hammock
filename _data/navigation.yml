@@ -5,11 +5,11 @@ navlinks:
     link: /_pages/in.html
     alt: Newsletter
     src: /assets/img/init/in.jpg
-  - title: Places
+  - title: Regions
     link: /_pages/space.html
     alt: Places
     src: /assets/img/init/space.jpg
-  - title: Timeline
+  - title: Trails
     link: /_pages/time.html
     alt: Timeline
     src: /assets/img/init/time.jpg

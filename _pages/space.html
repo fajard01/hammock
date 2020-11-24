@@ -27,6 +27,7 @@ id: space
     // SVG click event
     $(document).on('click', function(e) {
       let clicked_id = e.target.id;
+      console.log(clicked_id);
       // name of SVG path / region
       let clicked_class = $('#' + e.target.id).attr('name');
 
