@@ -4,16 +4,26 @@ title: Out
 id: in
 ---
 
+<<<<<<< HEAD
 <div class="grid-container">
   {% assign vid = '.mp4' %}
   {% for item in site.data.c19 %}
   {% if item[1].src contains vid %}
   <figure class={{ 'grid-item' | append: forloop.index }}>
     <video class="video" type="video/mp4" controls>
+=======
+<div class="flex-container">
+  {% assign vid = '.mp4' %}
+  {% for item in site.data.epilog %}
+  {% if item[1].src contains vid %}
+  <figure class="flex-item">
+    <video class={{ 'flex-item' | append: forloop.index }} type="video/mp4" controls>
+>>>>>>> b6c2376 (first full working draft!)
       <source src={{ item[1].src | relative_url }} type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption>
+<<<<<<< HEAD
       {{ item[1].tag }}
     </figcaption>
   </figure>
@@ -24,6 +34,18 @@ id: in
     </a>
     <figcaption>
       {{ item[1].tag }}
+=======
+      <h2>{{ item[1].tag }}</h2>
+    </figcaption>
+  </figure>
+  {% else %}
+  <figure class="flex-item">
+    <a href={{ item[1].src | relative_url}} data-lightbox='cases'>
+      <img class={{ 'flex-item' | append: forloop.index }} src={{ item[1].src | relative_url}} />
+    </a>
+    <figcaption>
+      <h2>{{ item[1].tag }}</h2>
+>>>>>>> b6c2376 (first full working draft!)
     </figcaption>
   </figure>
 

@@ -3,16 +3,16 @@
 <!-- modal setup -->
 <div class="modal fade" id="modal-location" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="image">
-    <div class="modal-content">
+    <div class="modal-content carousel-content">
 
-      <div class="modal-header">
+      <div class="modal-header carousel-header">
         <h6 class="modal-title" id="modal-location-label">Where We Were</h6>
         <button id="modal-close" type="button" class="close" data-dismiss="modal" style="color: white;" aria-label="Close"><span aria-hidden="true" id="close-button">&times;</span>
         </button>
       </div>
 
       <!-- begin carousel -->
-      <div class="modal-body">
+      <div class="modal-body carousel-body">
 
         {% for region in site.data.images.location %}
 

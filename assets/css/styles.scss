@@ -1,7 +1,7 @@
 ---
 ---
 
-$baseurl: '{{ site.baseurl }}';
+$baseurl: "{{ site.baseurl }}";
 @import 'main';
 @import 'fonts';
 @import 'landing';
@@ -10,4 +10,8 @@ $baseurl: '{{ site.baseurl }}';
 @import 'blog';
 @import 'map';
 @import 'time';
+<<<<<<< HEAD
 @import 'c19'
+=======
+@import 'out';
+>>>>>>> b6c2376 (first full working draft!)

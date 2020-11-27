@@ -49,18 +49,18 @@ svg g path:hover {
 
 // modal
 
-.modal-content {
+.carousel-content {
   background-color: $bg-black3;
   right: 50%;
   width: 790px;
 
-  .modal-header {
+  .carousel-header {
     background-color: $deep-blu;
     border: 0;
     color: $white;
   }
 
-  .modal-body {
+  .carousel-body {
     background-color: $horizon;
   }
 }

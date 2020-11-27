@@ -1,11 +1,10 @@
-// container
 $background: $bg-black2;
 $box-shadow: 0 1px 22px 4px rgba(0, 0, 0, .07);
 $border: 1px solid rgba(191, 191, 191, .4);
 $items: 7;
 $rows: ceil($items / 2);
 
-// card sizing
+// card-sizing
 
 $card-height: 250px;
 $card-width: 450px;
@@ -17,11 +16,11 @@ $marker-size: 9px;
 
 // colors
 
-$steps: #6d7f97;
-$colors:#6d7f97,
-#151411,
-#1b2723,
-#1c263e;
+$steps: #46b8e9;
+$colors: #46b8e9,
+#3ee9d1,
+#ce43eb,
+#4d92eb;
 $timeline: #bdbdbd;
 
 // calculations
@@ -60,17 +59,14 @@ $marker-dist: $card-width + $outer-margin / 2 - $marker-size / 2;
 
 $counter: $items - $rows + 2;
 @for $i from 1 through $rows {
-  .card:nth-child(#{ $i * 2 - 1}) { order: $i; }
-  .card:nth-child(#{ $i * 2}) { order: $counter; }
+  .card:nth-child(#{ $i * 2 - 1 }) { order: $i; }
+  .card:nth-child(#{ $i * 2 }) { order: $counter; }
   $counter: $counter + 1;
 }
 
-.timehead {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-}
+
+// timeline starts
+
 
 .timeline {
   background: $background;
@@ -78,20 +74,30 @@ $counter: $items - $rows + 2;
   border-top: $border;
   padding: 100px 0;
 
-  h1 {
-    font-size: 3rem;
-    font-weight: 200;
-    margin-bottom: 20px;
-    text-align: center;
-  }
+  .timehead {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
 
-  .leader {
-    margin: auto;
-    margin-bottom: 45px;
-    max-width: 90%;
-    text-align: center;
+    h2 {
+      font-size: 3rem;
+      font-weight: 200;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+
+    .leader {
+      margin: auto;
+      margin-bottom: 45px;
+      max-width: 90%;
+      text-align: center;
+    }
   }
 }
+
+// wrapper for the cards
 
 .card-wrapper {
   margin: auto;
@@ -113,25 +119,27 @@ $counter: $items - $rows + 2;
     position: absolute;
     top: 0;
     // z-index: 1;
-
     @include mq-lg {
       border-left: 1px solid $timeline;
     }
   }
 }
 
+// card entries
+
 .card {
-  background-color: $bg-black2;
+  background: $bg-black2;
+  border-radius: 10%;
   display: block;
   margin: 10px auto 80px;
   max-width: 94%;
   position: relative;
-  // z-index: 2;
 
   @include mq-sm {
     box-shadow: $box-shadow;
     max-width: 60%;
   }
+
 
   @include mq-md {
     max-width: 40%;
@@ -148,6 +156,7 @@ $counter: $items - $rows + 2;
       margin-right: $outer-margin / 2;
 
       .head::after {
+
         @extend %arrow;
         border-left-style: solid;
         border-left-width: 15px;
@@ -165,6 +174,7 @@ $counter: $items - $rows + 2;
       margin-left: $outer-margin / 2;
 
       .head::after {
+
         @extend %arrow;
         border-right-style: solid;
         border-right-width: 15px;
@@ -182,37 +192,64 @@ $counter: $items - $rows + 2;
     }
   }
 
-  .head {
-    align-items: center;
-    color: $white;
-    display: flex;
-    font-weight: 400;
-    position: relative;
+  .timeline-photo {
+    border: $snow 2px solid;
+    border-radius: 10%;
+    height: 180px;
+    width: 450px;
 
-    .number-box {
-      background: rgba($black, .17);
-      display: inline;
-      float: left;
-      font-size: $number-size;
-      font-weight: 600;
-      line-height: $number-size;
-      margin: $inner-margin;
-      padding: 10px;
+    .view-btn {
+      border-radius: 50%;
+      opacity: .5;
     }
 
-    h2 {
-      font-size: 1.3rem;
-      font-weight: inherit;
-      letter-spacing: 2px;
-      line-height: 1rem;
-      margin: 0;
-      padding-bottom: 6px;
-      text-transform: uppercase;
+    .view-btn:hover {
+      opacity: 1;
+    }
+  }
 
-      @include mq-sm {
-        font-size: 165%;
-        line-height: 1.2rem;
+  @for $i from 1 through $items {
+    &--step#{$i} {
+      $color: nth($colors, ((($i - 1) % 4) + 1));
+      .card { background-color: $color; }
+      .head::after {
+        border-color: $color;
       }
+    }
+  }
+}
+
+// card title
+
+.card-head {
+  align-items: center;
+  color: $white;
+  display: flex;
+  font-weight: 400;
+  position: relative;
+
+  .number-box {
+    display: inline;
+    float: left;
+    font-size: $number-size;
+    font-weight: 600;
+    line-height: $number-size;
+    margin: $inner-margin;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: inherit;
+    letter-spacing: 2px;
+    line-height: 1rem;
+    margin: 0;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+
+    @include mq-sm {
+      font-size: 165%;
+      line-height: 1.2rem;
     }
 
     span {
@@ -225,54 +262,53 @@ $counter: $items - $rows + 2;
       }
     }
   }
+}
 
+<<<<<<< HEAD
   .body {
     background: $bg-black3;
     border: $snow 5px solid;
     border-radius: 25%;
     border-top: 0;
     padding: $inner-margin;
-
-    @include mq-lg {
-      height: $body-height;
-    }
-
-    p {
-      font-size: 14px;
-      line-height: 18px;
-      margin-bottom: $inner-margin;
-    }
-
-    img {
-      display: block;
-      width: 100%;
-    }
-
-    .view-btn {
-      border-radius: 50%;
-      color: $black;
-      opacity: .7;
-    }
-
-    .view-btn:hover {
-      color: $white;
-    }
-  }
-
-  @for $i from 1 through $items {
-    &--step#{$i} {
-      $color: nth($colors, ((($i - 1) % 4) + 1));
-      background-color: $color;
-
-      .head::after {
-        border-color: $color;
-      }
-    }
-  }
-}
+=======
+>>>>>>> b6c2376 (first full working draft!)
 
 // modal
 
+.flextime {
+
+  .modal-lg {
+    border: 0;
+
+    .modal-timeline-header {
+      background: $bg-black2;
+      color: $white;
+    }
+
+    .modalbox {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+  }
+
+  .modalphoto {
+    border: $snow 4px solid;
+    width: 250px;
+  }
+}
+
+.modal.left .modal-lg,
+.modal.right .modal-lg {
+  height: 100%;
+  margin: auto;
+  position: fixed;
+}
+
+<<<<<<< HEAD
 .modal-lg {
   .time-modal {
     background: $snow;
@@ -338,4 +374,33 @@ $counter: $items - $rows + 2;
 
 .modal.right.fade.in .modal-dialog {
   right: 0;
+=======
+.modal.left .timeline-content,
+.modal.right .timeline-content {
+  background: $bg-black3;
+  height: 100%;
+  overflow-y: auto;
+  transform: translate3d(0%, 0, 0);
+  width: 740px;
+}
+
+// left
+.modal.left.fade .modal-lg {
+  left: 0;
+  transition: opacity .6s linear, left .6s ease-out;
+}
+
+.modal.left.fade.show .modal-lg {
+  left: 16%;
+}
+
+// right
+.modal.right.fade .modal-lg {
+  right: -50%;
+  transition: opacity .6s linear, right .6s ease-out;
+}
+
+.modal.right.fade.show .modal-lg {
+  right: 17%;
+>>>>>>> b6c2376 (first full working draft!)
 }

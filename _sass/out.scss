@@ -1,0 +1,190 @@
+.flex-container {
+  align-items: center;
+  background: $bg-black1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // height: 100vh;
+  justify-content: space-around;
+  padding-top: 8%;
+
+  .flex-item {
+    padding: 0;
+
+    h2 {
+      font-size: 1.4rem;
+    }
+
+    .flex-item1 {
+      border: $salt-lake 20px;
+      border-bottom: $deep-blu 80px;
+      border-right: $salt-lake 160px;
+      border-style: solid;
+      width: 400px;
+    }
+
+    .flex-item2 {
+      border: $banana 20px;
+      border-bottom: $red-cap 80px;
+      border-left: $red-cap 130px;
+      border-style: solid;
+      height: 200px;
+    }
+
+    .flex-item3 {
+      border: $white 2px solid;
+      height: 280px;
+    }
+
+    .flex-item4 {
+      border: $jungle 40px;
+      border-left: $fuzzy-green 40px solid;
+      border-style: solid;
+      border-top: $fuzzy-green 40px solid;
+      width: 300px;
+    }
+
+    .flex-item5 {
+      border: $horizon 35px;
+      border-color: $horizon;
+      border-left: $deep-blu 250px;
+      border-style: solid;
+      width: 500px;
+    }
+
+    .flex-item6 {
+      border: $snow 20px;
+      border-bottom: $edge 20px;
+      border-left: $snow 80px;
+      border-right: $snow 80px;
+      border-style: solid;
+      width: 250px;
+    }
+
+    .flex-item7 {
+      border: $white 2px solid;
+      height: 350px;
+    }
+
+    .flex-item8 {
+      border: $purple-cap 35px solid;
+      border-bottom: $salt-lake 35px solid;
+      border-top: $salt-lake 35px solid;
+      height: 300px;
+    }
+
+    .flex-item9 {
+      border-bottom: $german-yellow 85px solid;
+      border-left: $red-cap 20px solid;
+      border-right: $red-cap 20px solid;
+      border-top: $german-yellow 85px solid;
+      width: 250px;
+    }
+
+    .flex-item10 {
+      height: 250px;
+    }
+
+    .flex-item11 {
+      border: $banana 30px dashed;
+      width: 230px;
+    }
+
+    .flex-item12 {
+      border: $white 2px solid;
+      height: 300px;
+    }
+
+    .flex-item13 {
+      height: 350px;
+    }
+
+    .flex-item14 {
+      border-left: $red-cap 100px dotted;
+      border-right: $red-cap 100px dotted;
+      height: 200px;
+    }
+
+    .flex-item15 {
+      height: 350px;
+    }
+
+    .flex-item16 {
+      border: $jungle 40px groove;
+      width: 350px;
+    }
+
+    .flex-item17 {
+      border: $atmosphere 60px dashed;
+      width: 600px;
+    }
+
+    .flex-item18 {
+      border: $deep-blu 30px solid;
+      border-right: $adobe 250px solid;
+      height: 350px;
+    }
+
+    .flex-item19 {
+      border: $purple-cap 50px dotted;
+      border-radius: 15%;
+      height: 400px;
+    }
+
+    .flex-item20 {
+      border: $fuzzy-green 70px solid;
+      border-radius: 50%;
+      height: 390px;
+    }
+
+    .flex-item21 {
+      border: $white 2px solid;
+      height: 280px;
+    }
+
+    .flex-item22 {
+      width: 340px;
+    }
+
+    .flex-item23 {
+      border: $white 10px solid;
+      width: 440px;
+    }
+
+    .flex-item24 {
+      width: 440px;
+    }
+
+    .flex-item25 {
+      border-bottom: $jungle 70px solid;
+      border-top: $jungle 70px solid;
+      height: 450px;
+    }
+
+    .flex-item26 {
+      border: $atmosphere 40px groove;
+      height: 350px;
+    }
+
+    .flex-item27 {
+      border-bottom: $red-cap 60px solid;
+      border-left: $edge 90px dashed;
+      border-right: $edge 90px dashed;
+      border-top: $red-cap 60px solid;
+      width: 500px;
+    }
+
+    .flex-item28 {
+      width: 400px;
+    }
+
+    .flex-item29 {
+      width: 400px;
+    }
+
+    .flex-item30 {
+      border: $white 2px solid;
+      height: 280px;
+    }
+  }
+}
