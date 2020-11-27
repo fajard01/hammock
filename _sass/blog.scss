@@ -85,6 +85,11 @@
   width: 100%;
 }
 
+hr {
+  background: linear-gradient(to right, $bg-black3, $white, $bg-black3);
+  height: 1px;
+}
+
 .blog {
   line-height: 1.5rem;
   margin: 20px 0;

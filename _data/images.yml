@@ -180,6 +180,24 @@ img_089:   &img_089
   src:     /assets/img/pix/089.jpg
 img_090:   &img_090
   src:     /assets/img/pix/090.jpg
+img_091:   &img_091
+  src:     /assets/img/pix/091.jpg
+img_092:   &img_092
+  src:     /assets/img/pix/092.jpg
+img_093:   &img_093
+  src:     /assets/img/pix/093.jpg
+img_094:   &img_094
+  src:     /assets/img/pix/094.jpg
+img_095:   &img_095
+  src:     /assets/img/pix/095.jpg
+img_096:   &img_096
+  src:     /assets/img/pix/096.jpg
+img_097:   &img_097
+  src:     /assets/img/pix/097.jpg
+img_098:   &img_098
+  src:     /assets/img/pix/098.jpg
+img_099:   &img_099
+  src:     /assets/img/pix/099.jpg
 
 location:
   London:
@@ -204,6 +222,10 @@ location:
     - *img_021
     - *img_022
     - *img_026
+    - *img_091
+    - *img_096
+    - *img_097
+    - *img_098
   Ancash:
     - *img_050
     - *img_051
@@ -211,6 +233,7 @@ location:
     - *img_053
     - *img_054
     - *img_085
+    - *img_099
   Cajamarca:
     - *img_055
     - *img_087
@@ -248,6 +271,11 @@ location:
     - *img_081
     - *img_082
     - *img_090
+    - *img_092
+    - *img_093
+    - *img_094
+    - *img_095
+  
 month:
   '05 October 2019':
     event: Arrival
@@ -292,6 +320,7 @@ month:
       - *img_046
       - *img_047
       - *img_048
+      - *img_091
   '23 October 2019':
     event: Iglesia Las Nazarenas
     img:
@@ -350,3 +379,17 @@ month:
       - *img_081
       - *img_082
       - *img_090
+      - *img_092
+      - *img_093
+      - *img_094
+      - *img_095
+  '04 November 2019':
+    event: Lima
+    img:
+      - *img_096
+      - *img_097
+      - *img_098
+  '11 November 2019':
+    event: Huaraz
+    img:
+      - *img_099
