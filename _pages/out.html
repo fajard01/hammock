@@ -4,17 +4,30 @@ title: Out
 id: in
 ---
 
-<div class="content">
-  <h1>Under construction</h1>
+<div class="grid-container">
+  {% assign vid = '.mp4' %}
+  {% for item in site.data.c19 %}
+  {% if item[1].src contains vid %}
+  <figure class={{ 'grid-item' | append: forloop.index }}>
+    <video class="video" type="video/mp4" controls>
+      <source src={{ item[1].src | relative_url }} type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption>
+      {{ item[1].tag }}
+    </figcaption>
+  </figure>
+  {% else %}
+  <figure class={{ 'grid-item' | append: forloop.index }}>
+    <a href={{ item[1].src | relative_url}} data-lightbox='cases'>
+      <img class="grid-photo" src={{ item[1].src | relative_url}} />
+    </a>
+    <figcaption>
+      {{ item[1].tag }}
+    </figcaption>
+  </figure>
 
+  {% endif %}
 
-
-  <p>
-    {% for month in site.data.images.month %}
-    {{ forloop.index | append: month[0] }}
-  </p>
-  <p>
-    {{ month[1].img[0].src }}
-  </p>
   {% endfor %}
 </div>

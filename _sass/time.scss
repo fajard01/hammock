@@ -228,7 +228,7 @@ $counter: $items - $rows + 2;
 
   .body {
     background: $bg-black3;
-    border: $border;
+    border: $snow 5px solid;
     border-radius: 25%;
     border-top: 0;
     padding: $inner-margin;
@@ -273,14 +273,69 @@ $counter: $items - $rows + 2;
 
 // modal
 
-.modalbox {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.modal-lg {
+  .time-modal {
+    background: $snow;
+    color: $black;
 
-  .modalphoto {
-    width: 250px;
+    // .btn {
+    //   border: $black 2px solid;
+    // }
   }
+
+  .btn {
+    border: $black 2px solid;
+  }
+
+  .modalbox {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .modalphoto {
+      width: 250px;
+    }
+  }
+}
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+  height: 100%;
+  margin: auto;
+  position: fixed;
+  width: 740px;
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+  transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+  padding: 15px 15px 80px;
+}
+
+// left
+.modal.left.fade .modal-dialog {
+  left: 380px;
+  transition: opacity .6s linear, left .6s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog {
+  left: 0;
+}
+
+// right
+.modal.right.fade .modal-dialog {
+  right: -320px;
+  transition: opacity .6s linear, right .6s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+  right: 0;
 }
