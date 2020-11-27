@@ -4,126 +4,64 @@ title: Time
 id: time
 ---
 
-<<<<<<< HEAD
-<section id="timeline" class="timeline">
+<section id=timeline class="timeline">
 
   <div class="timehead">
     <h2>When We Were</h2>
-    <p class="leader">In A Series of %! Fortunate Events.</p>
-    <p class="small">Qlick photos to expand.</p>
+    <p class="leader">In A Series of <strong>%#!</strong>fortunate Events</p>
+    <br>
     <img src={{ "/assets/img/init/bug.gif" | relative_url }} alt="Moving Bug" style="margin-left: 6px;">
   </div>
 
   <div class="card-wrapper">
 
     {% for date in site.data.images.month %}
-    {% assign mod = forloop.index | modulo: 2 %}
-    <div class="card" class={{ "card--step" | append: forloop.index }}>
+    <div class="card">
 
       <!-- card title -->
-      <div class="head">
+      <div class="head card-head">
         <div class="number-box">
           <span>{{ forloop.index }}</span>
         </div>
-        <h5><span class="small">{{ date[0] }}</span>{{ date[1].event }}</h5>
+        <h2><span class="small">{{ date[0 ]}}</span>{{ date[1].event }}</h2>
       </div>
 
-      <!-- card photo -->
-      <div class="body" style="background: url({{ date[1].img[0].src | relative_url }}) no-repeat center center / cover;">
-        <!-- card button -->
+      <div class="timeline-photo" style="background: url({{ date[1].img[0].src | relative_url }}) no-repeat center center / cover;">
         <button type="button" class="btn btn-primary view-btn" data-toggle="modal" data-target={{ '#flextime' | append: forloop.index }}>View Photos</button>
       </div>
 
-      <!-- modal left and right sliders -->
-      {% if mod==0 %}
-      <div id={{ 'flextime' | append: forloop.index }} class="modal left fade flextime" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-        {% else %}
-        <div id={{ 'flextime' | append: forloop.index }} class="modal right fade flextime" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-          {% endif %}
 
+      <!-- begin modal -->
+      {% assign mod = forloop.index | modulo: 2 %}
 
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header time-modal">
-                <h6 class="modal-title" id="modal-location-label">{{ date[1].event }}</h6>
-                <button id="modal-close" type="button" class="close" data-dismiss="modal" style="color: white;" aria-label="Close"><span aria-hidden="true" id="close-button">&times;</span>
-                </button>
-              </div>
-              <div class="flex-container modalbox">
-                {% for photo in date[1].img %}
-                <a href={{ photo.src | relative_url }} data-lightbox='cases'>
-                  <img class="modalphoto" src={{ photo.src | relative_url}} />
-                </a>
-                {% endfor %}
-              </div>
+      <!-- decides who pops from left or right -->
+      <div id={{ 'flextime' | append: forloop.index }} {% if mod==0 %} class="modal left fade flextime" {% else %} class="modal right fade flextime" {% endif %} tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content timeline-content">
+
+            <!-- event and close button -->
+            <div class="modal-header modal-timeline-header">
+              <h6 class="modal-title" id="modal-location-label">{{ date[1].event }} <small>(Click image to expand)</small></h6>
+              <button id="modal-close" type="button" class="close" data-dismiss="modal" style="color: white;" aria-label="Close"><span aria-hidden="true" id="close-button">&times;</span>
+              </button>
             </div>
-          </div>
 
+            <!-- photos -->
+            <div class="flex-container modalbox">
+              {% for photo in date[1].img %}
+              <a href={{ photo.src | relative_url }} data-lightbox='cases'>
+                <img class="modalphoto" src={{ photo.src | relative_url}} />
+              </a>
+              {% endfor %}
+            </div>
+
+          </div>
         </div>
       </div>
-      {% endfor %}
 
     </div>
-=======
-<section id=timeline class="timeline">
+    {% endfor %}
 
-	<div class="timehead">
-		<h2>When We Were</h2>
-		<p class="leader">In A Series of <strong>%#!</strong>fortunate Events</p>
-		<br>
-		<img src={{ "/assets/img/init/bug.gif" | relative_url }} alt="Moving Bug" style="margin-left: 6px;">
-	</div>
-
-	<div class="card-wrapper">
-
-		{% for date in site.data.images.month %}
-		<div class="card">
-
-			<!-- card title -->
-			<div class="head card-head">
-				<div class="number-box">
-					<span>{{ forloop.index }}</span>
-				</div>
-				<h2><span class="small">{{ date[0 ]}}</span>{{ date[1].event }}</h2>
-			</div>
-
-			<div class="timeline-photo" style="background: url({{ date[1].img[0].src | relative_url }}) no-repeat center center / cover;">
-				<button type="button" class="btn btn-primary view-btn" data-toggle="modal" data-target={{ '#flextime' | append: forloop.index }}>View Photos</button>
-			</div>
-
-
-			<!-- begin modal -->
-			{% assign mod = forloop.index | modulo: 2 %}
-
-			<!-- decides who pops from left or right -->
-			<div id={{ 'flextime' | append: forloop.index }} {% if mod==0 %} class="modal left fade flextime" {% else %} class="modal right fade flextime" {% endif %} tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content timeline-content">
-
-						<!-- event and close button -->
-						<div class="modal-header modal-timeline-header">
-							<h6 class="modal-title" id="modal-location-label">{{ date[1].event }} <small>(Click image to expand)</small></h6>
-							<button id="modal-close" type="button" class="close" data-dismiss="modal" style="color: white;" aria-label="Close"><span aria-hidden="true" id="close-button">&times;</span>
-							</button>
-						</div>
-
-						<!-- photos -->
-						<div class="flex-container modalbox">
-							{% for photo in date[1].img %}
-							<a href={{ photo.src | relative_url }} data-lightbox='cases'>
-								<img class="modalphoto" src={{ photo.src | relative_url}} />
-							</a>
-							{% endfor %}
-						</div>
-
-					</div>
-				</div>
-			</div>
-
-		</div>
-		{% endfor %}
-
-	</div>
->>>>>>> b6c2376 (first full working draft!)
+  </div>
 </section>
