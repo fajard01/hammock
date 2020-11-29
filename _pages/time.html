@@ -50,7 +50,7 @@ id: time
             <!-- photos -->
             <div class="flex-container modalbox">
               {% for photo in date[1].img %}
-              <a href={{ photo.src | relative_url }} data-lightbox='cases'>
+              <a href={{ photo.src | relative_url }} data-lightbox={{ date[1].event }}>
                 <img class="modalphoto" src={{ photo.src | relative_url}} />
               </a>
               {% endfor %}

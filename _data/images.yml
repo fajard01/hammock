@@ -306,6 +306,22 @@ img_152:   &img_152
   src:     /assets/img/pix/152.jpg
 img_153:   &img_153
   src:     /assets/img/pix/153.jpg
+img_154:   &img_154
+  src:     /assets/img/pix/154.jpg
+img_155:   &img_155
+  src:     /assets/img/pix/155.jpg
+img_156:   &img_156
+  src:     /assets/img/pix/156.jpg
+img_157:   &img_157
+  src:     /assets/img/pix/157.jpg
+img_158:   &img_158
+  src:     /assets/img/pix/158.jpg
+img_159:   &img_159
+  src:     /assets/img/pix/159.jpg
+img_160:   &img_160
+  src:     /assets/img/pix/160.jpg
+img_161:   &img_161
+  src:     /assets/img/pix/161.jpg
 
 
 location:
@@ -439,6 +455,14 @@ location:
     - *img_151
     - *img_152
     - *img_153
+    - *img_154
+    - *img_155
+    - *img_156
+    - *img_157
+    - *img_158
+    - *img_159
+    - *img_160
+    - *img_161
 
 month:
   '05 October 2019':
@@ -623,3 +647,11 @@ month:
       - *img_151
       - *img_152
       - *img_153
+      - *img_154
+      - *img_155
+      - *img_156
+      - *img_157
+      - *img_158
+      - *img_159
+      - *img_160
+      - *img_161
