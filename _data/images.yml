@@ -198,6 +198,115 @@ img_098:   &img_098
   src:     /assets/img/pix/098.jpg
 img_099:   &img_099
   src:     /assets/img/pix/099.jpg
+img_100:   &img_100
+  src:     /assets/img/pix/100.jpg
+img_101:   &img_101
+  src:     /assets/img/pix/101.jpg
+img_102:   &img_102
+  src:     /assets/img/pix/102.jpg
+img_103:   &img_103
+  src:     /assets/img/pix/103.jpg
+img_104:   &img_104
+  src:     /assets/img/pix/104.jpg
+img_105:   &img_105
+  src:     /assets/img/pix/105.jpg
+img_106:   &img_106
+  src:     /assets/img/pix/106.jpg
+img_107:   &img_107
+  src:     /assets/img/pix/107.jpg
+img_108:   &img_108
+  src:     /assets/img/pix/108.jpg
+img_109:   &img_109
+  src:     /assets/img/pix/109.jpg
+img_110:   &img_110
+  src:     /assets/img/pix/110.jpg
+img_111:   &img_111
+  src:     /assets/img/pix/111.jpg
+img_112:   &img_112
+  src:     /assets/img/pix/112.jpg
+img_113:   &img_113
+  src:     /assets/img/pix/113.jpg
+img_114:   &img_114
+  src:     /assets/img/pix/114.jpg
+img_115:   &img_115
+  src:     /assets/img/pix/115.jpg
+img_116:   &img_116
+  src:     /assets/img/pix/116.jpg
+img_117:   &img_117
+  src:     /assets/img/pix/117.jpg
+img_118:   &img_118
+  src:     /assets/img/pix/118.jpg
+img_119:   &img_119
+  src:     /assets/img/pix/119.jpg
+img_120:   &img_120
+  src:     /assets/img/pix/120.jpg
+img_121:   &img_121
+  src:     /assets/img/pix/121.jpg
+img_122:   &img_122
+  src:     /assets/img/pix/122.jpg
+img_123:   &img_123
+  src:     /assets/img/pix/123.jpg
+img_124:   &img_124
+  src:     /assets/img/pix/124.jpg
+img_125:   &img_125
+  src:     /assets/img/pix/125.jpg
+img_126:   &img_126
+  src:     /assets/img/pix/126.jpg
+img_127:   &img_127
+  src:     /assets/img/pix/127.jpg
+img_128:   &img_128
+  src:     /assets/img/pix/128.jpg
+img_129:   &img_129
+  src:     /assets/img/pix/129.jpg
+img_130:   &img_130
+  src:     /assets/img/pix/130.jpg
+img_131:   &img_131
+  src:     /assets/img/pix/131.jpg
+img_132:   &img_132
+  src:     /assets/img/pix/132.jpg
+img_133:   &img_133
+  src:     /assets/img/pix/133.jpg
+img_134:   &img_134
+  src:     /assets/img/pix/134.jpg
+img_135:   &img_135
+  src:     /assets/img/pix/135.jpg
+img_136:   &img_136
+  src:     /assets/img/pix/136.jpg
+img_137:   &img_137
+  src:     /assets/img/pix/137.jpg
+img_138:   &img_138
+  src:     /assets/img/pix/138.jpg
+img_139:   &img_139
+  src:     /assets/img/pix/139.jpg
+img_140:   &img_140
+  src:     /assets/img/pix/140.jpg
+img_141:   &img_141
+  src:     /assets/img/pix/141.jpg
+img_142:   &img_142
+  src:     /assets/img/pix/142.jpg
+img_143:   &img_143
+  src:     /assets/img/pix/143.jpg
+img_144:   &img_144
+  src:     /assets/img/pix/144.jpg
+img_145:   &img_145
+  src:     /assets/img/pix/145.jpg
+img_146:   &img_146
+  src:     /assets/img/pix/146.jpg
+img_147:   &img_147
+  src:     /assets/img/pix/147.jpg
+img_148:   &img_148
+  src:     /assets/img/pix/148.jpg
+img_149:   &img_149
+  src:     /assets/img/pix/149.jpg
+img_150:   &img_150
+  src:     /assets/img/pix/150.jpg
+img_151:   &img_151
+  src:     /assets/img/pix/151.jpg
+img_152:   &img_152
+  src:     /assets/img/pix/152.jpg
+img_153:   &img_153
+  src:     /assets/img/pix/153.jpg
+
 
 location:
   London:
@@ -234,6 +343,34 @@ location:
     - *img_054
     - *img_085
     - *img_099
+    - *img_100
+    - *img_101
+    - *img_102
+    - *img_103
+    - *img_104
+    - *img_105
+    - *img_106
+    - *img_107
+    - *img_108
+    - *img_109
+    - *img_110
+    - *img_111
+    - *img_112
+    - *img_113
+    - *img_114
+    - *img_115
+    - *img_116
+    - *img_117
+    - *img_118
+    - *img_119
+    - *img_120
+    - *img_121
+    - *img_122
+    - *img_123
+    - *img_124
+    - *img_125
+    - *img_126
+    - *img_127
   Cajamarca:
     - *img_055
     - *img_087
@@ -275,7 +412,34 @@ location:
     - *img_093
     - *img_094
     - *img_095
-  
+  Loreto:
+    - *img_128
+    - *img_129
+    - *img_130
+    - *img_131
+    - *img_132
+    - *img_133
+    - *img_134
+    - *img_135
+    - *img_136
+    - *img_137
+    - *img_138
+    - *img_139
+    - *img_140
+    - *img_141
+    - *img_142
+    - *img_143
+    - *img_144
+    - *img_145
+    - *img_146
+    - *img_147
+    - *img_148
+    - *img_149
+    - *img_150
+    - *img_151
+    - *img_152
+    - *img_153
+
 month:
   '05 October 2019':
     event: Arrival
@@ -389,7 +553,73 @@ month:
       - *img_096
       - *img_097
       - *img_098
-  '11 November 2019':
-    event: Huaraz
+  '12 November 2019':
+    event: Chavín de Huántar
     img:
       - *img_099
+      - *img_100
+      - *img_101
+      - *img_102
+      - *img_103
+  '14 November 2019':
+    event: Yungay
+    img:
+      - *img_104
+      - *img_105
+      - *img_106
+      - *img_107
+  '15 November 2019':
+    event: Nevado Pastoruri
+    img:
+      - *img_108
+      - *img_109
+      - *img_110
+      - *img_111
+      - *img_112
+      - *img_113
+      - *img_114
+      - *img_115
+      - *img_116
+      - *img_117
+      - *img_118
+      - *img_119
+      - *img_120
+  '16 November 2019':
+    event: Laguna Paron
+    img:
+      - *img_121
+      - *img_122
+      - *img_123
+      - *img_124
+      - *img_125
+      - *img_126
+      - *img_127
+  '20 November 2019':
+    event: Iquitos
+    img:
+      - *img_128
+      - *img_129
+      - *img_130
+      - *img_131
+      - *img_132
+      - *img_133
+      - *img_134
+      - *img_135
+      - *img_136
+      - *img_137
+      - *img_138
+      - *img_139
+      - *img_140
+      - *img_141
+      - *img_142
+      - *img_143
+      - *img_144
+      - *img_145
+      - *img_146
+      - *img_147
+      - *img_148
+      - *img_149
+      - *img_150
+      - *img_151
+      - *img_152
+      - *img_153

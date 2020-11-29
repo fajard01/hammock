@@ -1,7 +1,7 @@
 $background: $bg-black2;
 $box-shadow: 0 1px 22px 4px rgba(0, 0, 0, .07);
 $border: 1px solid rgba(191, 191, 191, .4);
-$items: 9;
+$items: 13;
 $rows: ceil($items / 2);
 
 // card-sizing
@@ -80,8 +80,12 @@ $counter: $items - $rows + 2;
     flex-direction: column;
     padding-top: 50px;
 
+    .ex {
+      color: $banana;
+    }
+
     h2 {
-      font-size: 3rem;
+      font-size: 2.7rem;
       font-weight: 200;
       margin-bottom: 20px;
       text-align: center;
@@ -199,6 +203,7 @@ $counter: $items - $rows + 2;
     width: 450px;
 
     .view-btn {
+      background: $deep-blu;
       border-radius: 50%;
       opacity: .5;
     }
@@ -236,10 +241,14 @@ $counter: $items - $rows + 2;
     line-height: $number-size;
     margin: $inner-margin;
     padding: 10px;
+
+    .ex {
+      color: $red-cap;
+    }
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: inherit;
     letter-spacing: 2px;
     line-height: 1rem;
@@ -248,7 +257,7 @@ $counter: $items - $rows + 2;
     text-transform: uppercase;
 
     @include mq-sm {
-      font-size: 165%;
+      // font-size: 165%;
       line-height: 1.2rem;
     }
 
@@ -266,13 +275,18 @@ $counter: $items - $rows + 2;
 
 // modal
 
-.flextime {
+// .flextime {
 
-  .modal-lg {
-    border: 0;
+.modal-lg {
+  border: 0;
+
+  .timeline-content {
+    display: flex;
+    width: 100%;
 
     .modal-timeline-header {
       background: $bg-black2;
+      border: 0;
       color: $white;
     }
 
@@ -280,16 +294,19 @@ $counter: $items - $rows + 2;
       align-items: center;
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
-      width: 100%;
+      justify-content: space-between;
+      margin: 10px;
+      width: auto;
     }
   }
-
-  .modalphoto {
-    border: $snow 4px solid;
-    width: 250px;
-  }
 }
+
+.modalphoto {
+  border: $snow 4px solid;
+  margin: 5px;
+  width: 250px;
+}
+// }
 
 .modal.left .modal-lg,
 .modal.right .modal-lg {

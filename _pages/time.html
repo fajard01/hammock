@@ -7,8 +7,8 @@ id: time
 <section id=timeline class="timeline">
 
   <div class="timehead">
-    <h2>When We Were</h2>
-    <p class="leader">In A Series of <strong>%#!</strong>fortunate Events</p>
+    <h2>Wh<span class="ex">e</span>n W<span class="ex">e</span> W<span class="ex">e</span>r<span class="ex">e</span></h2>
+    <p class="leader">In A Series of <strong class="ex">%#!</strong>fortunate Events</p>
     <br>
     <img src={{ "/assets/img/init/bug.gif" | relative_url }} alt="Moving Bug" style="margin-left: 6px;">
   </div>
@@ -21,7 +21,7 @@ id: time
       <!-- card title -->
       <div class="head card-head">
         <div class="number-box">
-          <span>{{ forloop.index }}</span>
+          <span class="ex">{{ forloop.index }}</span>
         </div>
         <h2><span class="small">{{ date[0 ]}}</span>{{ date[1].event }}</h2>
       </div>
