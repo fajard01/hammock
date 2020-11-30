@@ -322,7 +322,58 @@ img_160:   &img_160
   src:     /assets/img/pix/160.jpg
 img_161:   &img_161
   src:     /assets/img/pix/161.jpg
-
+img_162:   &img_162
+  src:     /assets/img/pix/162.jpg
+img_163:   &img_163
+  src:     /assets/img/pix/163.jpg
+img_164:   &img_164
+  src:     /assets/img/pix/164.jpg
+img_165:   &img_165
+  src:     /assets/img/pix/165.jpg
+img_166:   &img_166
+  src:     /assets/img/pix/166.jpg
+img_167:   &img_167
+  src:     /assets/img/pix/167.jpg
+img_168:   &img_168
+  src:     /assets/img/pix/168.jpg
+img_169:   &img_169
+  src:     /assets/img/pix/169.jpg
+img_170:   &img_170
+  src:     /assets/img/pix/170.jpg
+img_171:   &img_171
+  src:     /assets/img/pix/171.jpg
+img_172:   &img_172
+  src:     /assets/img/pix/172.jpg
+img_173:   &img_173
+  src:     /assets/img/pix/173.jpg
+img_174:   &img_174
+  src:     /assets/img/pix/174.jpg
+img_175:   &img_175
+  src:     /assets/img/pix/175.jpg
+img_176:   &img_176
+  src:     /assets/img/pix/176.jpg
+img_177:   &img_177
+  src:     /assets/img/pix/177.jpg
+img_178:   &img_178
+  src:     /assets/img/pix/178.jpg
+img_179:   &img_179
+  src:     /assets/img/pix/179.jpg
+img_180:   &img_180
+  src:     /assets/img/pix/180.jpg
+img_181:   &img_181
+  src:     /assets/img/pix/181.jpg
+img_182:   &img_182
+  src:     /assets/img/pix/182.jpg
+img_183:   &img_183
+  src:     /assets/img/pix/183.jpg
+img_184:   &img_184
+  src:     /assets/img/pix/184.jpg
+img_185:   &img_185
+  src:     /assets/img/pix/185.jpg
+img_187:   &img_187
+  src:     /assets/img/pix/187.jpg
+img_188:   &img_188
+  src:     /assets/img/pix/188.jpg
 
 location:
   London:
@@ -463,6 +514,33 @@ location:
     - *img_159
     - *img_160
     - *img_161
+    - *img_177
+    - *img_178
+    - *img_179
+    - *img_187
+    - *img_188
+  Cusco:
+    - *img_162
+    - *img_163
+    - *img_164
+    - *img_165
+    - *img_166
+    - *img_167
+    - *img_168
+    - *img_169
+    - *img_170
+    - *img_171
+    - *img_172
+    - *img_173
+    - *img_174
+    - *img_175
+    - *img_180
+    - *img_181
+    - *img_182
+    - *img_183
+    - *img_184
+    - *img_185
+    - *img_186
 
 month:
   '05 October 2019':
@@ -654,4 +732,39 @@ month:
       - *img_158
       - *img_159
       - *img_160
+      - *img_177
+  '17 December 2019':
+    event: Hotel
+    img:
       - *img_161
+      - *img_178
+      - *img_179
+      - *img_187
+      - *img_188
+  '18 December 2019':
+    event: Cusco
+    img:
+      - *img_162
+      - *img_163
+      - *img_164
+      - *img_165
+      - *img_166
+      - *img_167
+      - *img_168
+      - *img_169
+      - *img_170
+      - *img_171
+      - *img_172
+      - *img_173
+      - *img_174
+      - *img_175
+  '04 January 2020':
+    event: Camping Kinsacocha
+    img:
+      - *img_180
+      - *img_181
+      - *img_182
+      - *img_183
+      - *img_184
+      - *img_185
+      - *img_186
