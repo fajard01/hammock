@@ -27,14 +27,11 @@
 
   .link-nav {
     display: flex;
-    // flex-direction: row;
-    // flex-wrap: wrap;
     list-style: none;
-    padding-top: 8px;
+    padding-top: 10px;
 
     .link {
       color: $white;
-      // flex: 1 0;
       font-size: .9rem;
       font-weight: 600;
       margin: 0 20px;
@@ -43,10 +40,20 @@
   }
 }
 
-.link:hover,
-.main-nav .active {
+.link::after {
+  content: '';
+  display: block;
+  height: 2px;
+  transition: width .3s;
+  width: 0;
+}
+
+
+.link:hover::after {
   border-bottom: $white 1px solid;
-  width: 100%;
+  margin-left: 18px;
+  // padding-right: 20px;
+  width: 78%;
 }
 
 // navbar effect

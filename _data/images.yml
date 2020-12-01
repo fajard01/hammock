@@ -370,10 +370,86 @@ img_184:   &img_184
   src:     /assets/img/pix/184.jpg
 img_185:   &img_185
   src:     /assets/img/pix/185.jpg
+img_186:   &img_186
+  src:     /assets/img/pix/186.jpg
 img_187:   &img_187
   src:     /assets/img/pix/187.jpg
 img_188:   &img_188
   src:     /assets/img/pix/188.jpg
+img_189:   &img_189
+  src:     /assets/img/pix/189.jpg
+img_190:   &img_190
+  src:     /assets/img/pix/190.jpg
+img_191:   &img_191
+  src:     /assets/img/pix/191.jpg
+img_192:   &img_192
+  src:     /assets/img/pix/192.jpg
+img_193:   &img_193
+  src:     /assets/img/pix/193.jpg
+img_194:   &img_194
+  src:     /assets/img/pix/194.jpg
+img_195:   &img_195
+  src:     /assets/img/pix/195.jpg
+img_196:   &img_196
+  src:     /assets/img/pix/196.jpg
+img_197:   &img_197
+  src:     /assets/img/pix/197.jpg
+img_198:   &img_198
+  src:     /assets/img/pix/198.jpg
+img_199:   &img_199
+  src:     /assets/img/pix/199.jpg
+img_200:   &img_200
+  src:     /assets/img/pix/200.jpg
+img_201:   &img_201
+  src:     /assets/img/pix/201.jpg
+img_202:   &img_202
+  src:     /assets/img/pix/202.jpg
+img_203:   &img_203
+  src:     /assets/img/pix/203.jpg
+img_204:   &img_204
+  src:     /assets/img/pix/204.jpg
+img_205:   &img_205
+  src:     /assets/img/pix/205.jpg
+img_206:   &img_206
+  src:     /assets/img/pix/206.jpg
+img_207:   &img_207
+  src:     /assets/img/pix/207.jpg
+img_208:   &img_208
+  src:     /assets/img/pix/208.jpg
+img_209:   &img_209
+  src:     /assets/img/pix/209.jpg
+img_210:   &img_210
+  src:     /assets/img/pix/210.jpg
+img_211:   &img_211
+  src:     /assets/img/pix/211.jpg
+img_212:   &img_212
+  src:     /assets/img/pix/212.jpg
+img_213:   &img_213
+  src:     /assets/img/pix/213.jpg
+img_214:   &img_214
+  src:     /assets/img/pix/214.jpg
+img_215:   &img_215
+  src:     /assets/img/pix/215.jpg
+img_216:   &img_216
+  src:     /assets/img/pix/216.jpg
+img_217:   &img_217
+  src:     /assets/img/pix/217.jpg
+img_218:   &img_218
+  src:     /assets/img/pix/218.jpg
+img_219:   &img_219
+  src:     /assets/img/pix/219.jpg
+img_220:   &img_220
+  src:     /assets/img/pix/220.jpg
+img_221:   &img_221
+  src:     /assets/img/pix/221.jpg
+img_222:   &img_222
+  src:     /assets/img/pix/222.jpg
+img_223:   &img_223
+  src:     /assets/img/pix/223.jpg
+img_224:   &img_224
+  src:     /assets/img/pix/224.jpg
+img_225:   &img_225
+  src:     /assets/img/pix/225.jpg
 
 location:
   London:
@@ -541,6 +617,43 @@ location:
     - *img_184
     - *img_185
     - *img_186
+    - *img_189
+    - *img_190
+    - *img_191
+    - *img_192
+    - *img_193
+    - *img_194
+    - *img_195
+    - *img_196
+    - *img_197
+    - *img_198
+    - *img_199
+    - *img_200
+    - *img_201
+    - *img_202
+    - *img_203
+    - *img_204
+    - *img_205
+    - *img_206
+    - *img_207
+    - *img_208
+    - *img_209
+    - *img_210
+    - *img_211
+    - *img_212
+    - *img_213
+    - *img_214
+    - *img_215
+    - *img_216
+    - *img_217
+    - *img_218
+    - *img_219
+    - *img_220
+    - *img_221
+    - *img_222
+    - *img_223
+    - *img_224
+    - *img_225
 
 month:
   '05 October 2019':
@@ -768,3 +881,46 @@ month:
       - *img_184
       - *img_185
       - *img_186
+  '14 January 2020':
+    event: Salkantay Trail
+    img:
+      - *img_189
+      - *img_190
+      - *img_191
+      - *img_192
+      - *img_193
+      - *img_194
+      - *img_195
+      - *img_196
+      - *img_197
+      - *img_198
+      - *img_199
+      - *img_200
+      - *img_201
+      - *img_202
+      - *img_203
+      - *img_204
+      - *img_205
+  '18 January 2020':
+    event: Machu Picchu
+    img:
+      - *img_206
+      - *img_207
+      - *img_208
+      - *img_209
+      - *img_210
+      - *img_211
+      - *img_212
+      - *img_213
+      - *img_214
+      - *img_215
+      - *img_216
+      - *img_217
+      - *img_218
+      - *img_219
+      - *img_220
+      - *img_221
+      - *img_222
+      - *img_223
+      - *img_224
+      - *img_225

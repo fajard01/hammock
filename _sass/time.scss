@@ -1,7 +1,7 @@
 $background: $bg-black2;
 $box-shadow: 0 1px 22px 4px rgba(0, 0, 0, .07);
 $border: 1px solid rgba(191, 191, 191, .4);
-$items: 16;
+$items: 18;
 $rows: ceil($items / 2);
 
 // card-sizing
@@ -294,7 +294,7 @@ $counter: $items - $rows + 2;
       align-items: center;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-evenly;
       margin: 10px;
       width: auto;
     }
@@ -303,6 +303,7 @@ $counter: $items - $rows + 2;
 
 .modalphoto {
   border: $snow 4px solid;
+  flex: 4 1;
   margin: 5px;
   width: 250px;
 }

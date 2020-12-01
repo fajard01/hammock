@@ -17,7 +17,7 @@
         {% for region in site.data.images.location %}
 
         <!-- NOTE: html id cannot have spaces -->
-        <div id={{ region[0] | remove: ' ' }} class="carousel slide" onload="updateSVG({{ region[0] }})" data-ride="carousel" style="display:none;">
+        <div id={{ region[0] | remove: ' ' }} class="carousel slide" data-ride="carousel" style="display:none;">
 
           <!-- indicators -->
           <ol class="carousel-indicators">
@@ -29,6 +29,7 @@
             {% endif %}
             {% endfor %}
           </ol>
+
           <div class="carousel-inner" role="listbox">
             {% for image in region[1] %}
             {% if image == region[1].first %}
@@ -38,10 +39,10 @@
                 {% endif %}
                 <div id="img" class="img" style="background: url({{ image.src | relative_url }}) no-repeat center center / cover;">
                 </div>
-                <!-- <img class="d-block w-100 mx-auto photo" src={{ image.src | relative_url }} alt={{ region[0] }}> -->
+
                 <div class="carousel-caption d-none d-md-block">
                   <h5>{{ region[0] }}</h5>
-                  <!-- <p>...</p> -->
+
                 </div>
               </div>
               {% endfor %}
