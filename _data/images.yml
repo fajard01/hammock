@@ -450,6 +450,66 @@ img_224:   &img_224
   src:     /assets/img/pix/224.jpg
 img_225:   &img_225
   src:     /assets/img/pix/225.jpg
+img_226:   &img_226
+  src:     /assets/img/pix/226.jpg
+img_227:   &img_227
+  src:     /assets/img/pix/227.jpg
+img_228:   &img_228
+  src:     /assets/img/pix/228.jpg
+img_229:   &img_229
+  src:     /assets/img/pix/229.jpg
+img_230:   &img_230
+  src:     /assets/img/pix/230.jpg
+img_231:   &img_231
+  src:     /assets/img/pix/231.jpg
+img_232:   &img_232
+  src:     /assets/img/pix/232.jpg
+img_233:   &img_233
+  src:     /assets/img/pix/233.jpg
+img_234:   &img_234
+  src:     /assets/img/pix/234.jpg
+img_235:   &img_235
+  src:     /assets/img/pix/235.jpg
+img_236:   &img_236
+  src:     /assets/img/pix/236.jpg
+img_237:   &img_237
+  src:     /assets/img/pix/237.jpg
+img_238:   &img_238
+  src:     /assets/img/pix/238.jpg
+img_239:   &img_239
+  src:     /assets/img/pix/239.jpg
+img_240:   &img_240
+  src:     /assets/img/pix/240.jpg
+img_241:   &img_241
+  src:     /assets/img/pix/241.jpg
+img_242:   &img_242
+  src:     /assets/img/pix/242.jpg
+img_243:   &img_243
+  src:     /assets/img/pix/243.jpg
+img_244:   &img_244
+  src:     /assets/img/pix/244.jpg
+img_245:   &img_245
+  src:     /assets/img/pix/245.jpg
+img_246:   &img_246
+  src:     /assets/img/pix/246.jpg
+img_247:   &img_247
+  src:     /assets/img/pix/247.jpg
+img_248:   &img_248
+  src:     /assets/img/pix/248.jpg
+img_249:   &img_249
+  src:     /assets/img/pix/249.jpg
+img_250:   &img_250
+  src:     /assets/img/pix/250.jpg
+img_251:   &img_251
+  src:     /assets/img/pix/251.jpg
+img_252:   &img_252
+  src:     /assets/img/pix/252.jpg
+img_253:   &img_253
+  src:     /assets/img/pix/253.jpg
+img_254:   &img_254
+  src:     /assets/img/pix/254.jpg
+img_255:   &img_255
+  src:     /assets/img/pix/255.jpg
 
 location:
   London:
@@ -654,6 +714,38 @@ location:
     - *img_223
     - *img_224
     - *img_225
+  'La Paz':
+    - *img_226
+    - *img_227
+    - *img_228
+    - *img_229
+    - *img_230
+    - *img_231
+    - *img_232
+    - *img_233
+    - *img_234
+  Potosi:
+    - *img_235
+    - *img_236
+    - *img_237
+    - *img_238
+    - *img_239
+    - *img_240
+    - *img_241
+    - *img_242
+    - *img_243
+    - *img_244
+    - *img_245
+    - *img_246
+    - *img_247
+    - *img_248
+    - *img_249
+    - *img_250
+    - *img_251
+    - *img_252
+    - *img_253
+    - *img_254
+    - *img_255
 
 month:
   '05 October 2019':
@@ -924,3 +1016,41 @@ month:
       - *img_223
       - *img_224
       - *img_225
+  '22 January 2020':
+    event: La Paz
+    img:
+      - *img_226
+      - *img_227
+      - *img_226
+      - *img_227
+      - *img_228
+      - *img_229
+      - *img_230
+      - *img_231
+      - *img_232
+      - *img_233
+      - *img_234
+  '24 January 2020':
+    event: Salar de Uyuni
+    img:
+      - *img_235
+      - *img_236
+      - *img_237
+      - *img_238
+      - *img_239
+      - *img_240
+      - *img_241
+      - *img_242
+      - *img_243
+      - *img_244
+      - *img_245
+      - *img_246
+      - *img_247
+      - *img_248
+      - *img_249
+      - *img_250
+      - *img_251
+      - *img_252
+      - *img_253
+      - *img_254
+      - *img_255
