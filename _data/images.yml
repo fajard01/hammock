@@ -598,6 +598,20 @@ img_298:   &img_298
   src:     /assets/img/pix/298.jpg
 img_299:   &img_299
   src:     /assets/img/pix/299.jpg
+img_300:   &img_300
+  src:     /assets/img/pix/300.jpg
+img_301:   &img_301
+  src:     /assets/img/pix/301.jpg
+img_302:   &img_302
+  src:     /assets/img/pix/302.jpg
+img_303:   &img_303
+  src:     /assets/img/pix/303.jpg
+img_304:   &img_304
+  src:     /assets/img/pix/304.jpg
+img_305:   &img_305
+  src:     /assets/img/pix/305.jpg
+img_306:   &img_306
+  src:     /assets/img/pix/306.jpg
 
 location:
   London:
@@ -881,6 +895,14 @@ location:
     - *img_297
     - *img_298
     - *img_299
+  Tumbes:
+    - *img_300
+    - *img_301
+    - *img_302
+    - *img_303
+    - *img_304
+    - *img_305
+    - *img_306
 
 month:
   '05 October 2019':
@@ -1242,3 +1264,13 @@ month:
       - *img_297
       - *img_298
       - *img_299
+  '12 February 2020':
+    event: Tumbes
+    img:
+      - *img_300
+      - *img_301
+      - *img_302
+      - *img_303
+      - *img_304
+      - *img_305
+      - *img_306
