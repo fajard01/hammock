@@ -510,6 +510,52 @@ img_254:   &img_254
   src:     /assets/img/pix/254.jpg
 img_255:   &img_255
   src:     /assets/img/pix/255.jpg
+img_256:   &img_256
+  src:     /assets/img/pix/256.jpg
+img_257:   &img_257
+  src:     /assets/img/pix/257.jpg
+img_258:   &img_258
+  src:     /assets/img/pix/258.jpg
+img_259:   &img_259
+  src:     /assets/img/pix/259.jpg
+img_260:   &img_260
+  src:     /assets/img/pix/260.jpg
+img_261:   &img_261
+  src:     /assets/img/pix/261.jpg
+img_262:   &img_262
+  src:     /assets/img/pix/262.jpg
+img_263:   &img_263
+  src:     /assets/img/pix/263.jpg
+img_264:   &img_264
+  src:     /assets/img/pix/264.jpg
+img_265:   &img_265
+  src:     /assets/img/pix/265.jpg
+img_266:   &img_266
+  src:     /assets/img/pix/266.jpg
+img_267:   &img_267
+  src:     /assets/img/pix/267.jpg
+img_268:   &img_268
+  src:     /assets/img/pix/268.jpg
+img_269:   &img_269
+  src:     /assets/img/pix/269.jpg
+img_270:   &img_270
+  src:     /assets/img/pix/270.jpg
+img_271:   &img_271
+  src:     /assets/img/pix/271.jpg
+img_272:   &img_272
+  src:     /assets/img/pix/272.jpg
+img_273:   &img_273
+  src:     /assets/img/pix/273.jpg
+img_274:   &img_274
+  src:     /assets/img/pix/274.jpg
+img_275:   &img_275
+  src:     /assets/img/pix/275.jpg
+img_276:   &img_276
+  src:     /assets/img/pix/276.jpg
+img_277:   &img_277
+  src:     /assets/img/pix/277.jpg
+img_278:   &img_278
+  src:     /assets/img/pix/278.jpg
 
 location:
   London:
@@ -724,7 +770,9 @@ location:
     - *img_232
     - *img_233
     - *img_234
-  Potosi:
+    - *img_256
+    - *img_257
+  Potosí:
     - *img_235
     - *img_236
     - *img_237
@@ -746,6 +794,29 @@ location:
     - *img_253
     - *img_254
     - *img_255
+  Puno:
+    - *img_258
+    - *img_259
+    - *img_260
+    - *img_261
+    - *img_262
+    - *img_263
+    - *img_264
+    - *img_265
+    - *img_266
+    - *img_267
+    - *img_268
+    - *img_269
+    - *img_270
+    - *img_271
+    - *img_272
+    - *img_273
+    - *img_274
+    - *img_275
+    - *img_276
+    - *img_277
+    - *img_278
+
 
 month:
   '05 October 2019':
@@ -1030,6 +1101,8 @@ month:
       - *img_232
       - *img_233
       - *img_234
+      - *img_256
+      - *img_257
   '24 January 2020':
     event: Salar de Uyuni
     img:
@@ -1054,3 +1127,27 @@ month:
       - *img_253
       - *img_254
       - *img_255
+  '28 January 2020':
+    event: Copacabana
+    img:
+      - *img_258
+      - *img_259
+      - *img_260
+      - *img_261
+      - *img_262
+      - *img_263
+      - *img_264
+      - *img_265
+      - *img_266
+      - *img_267
+      - *img_268
+      - *img_269
+      - *img_270
+      - *img_271
+      - *img_272
+      - *img_273
+      - *img_274
+      - *img_275
+      - *img_276
+      - *img_277
+      - *img_278
