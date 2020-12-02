@@ -542,7 +542,7 @@ img_270:   &img_270
   src:     /assets/img/pix/270.jpg
 img_271:   &img_271
   src:     /assets/img/pix/271.jpg
-img_272:   &img_272
+img_272:   &img_262
   src:     /assets/img/pix/272.jpg
 img_273:   &img_273
   src:     /assets/img/pix/273.jpg
@@ -556,6 +556,48 @@ img_277:   &img_277
   src:     /assets/img/pix/277.jpg
 img_278:   &img_278
   src:     /assets/img/pix/278.jpg
+img_279:   &img_279
+  src:     /assets/img/pix/279.jpg
+img_280:   &img_280
+  src:     /assets/img/pix/280.jpg
+img_281:   &img_281
+  src:     /assets/img/pix/281.jpg
+img_282:   &img_282
+  src:     /assets/img/pix/282.jpg
+img_283:   &img_283
+  src:     /assets/img/pix/283.jpg
+img_284:   &img_284
+  src:     /assets/img/pix/284.jpg
+img_285:   &img_285
+  src:     /assets/img/pix/285.jpg
+img_286:   &img_286
+  src:     /assets/img/pix/286.jpg
+img_287:   &img_287
+  src:     /assets/img/pix/287.jpg
+img_288:   &img_288
+  src:     /assets/img/pix/288.jpg
+img_289:   &img_289
+  src:     /assets/img/pix/289.jpg
+img_290:   &img_290
+  src:     /assets/img/pix/290.jpg
+img_291:   &img_291
+  src:     /assets/img/pix/291.jpg
+img_292:   &img_292
+  src:     /assets/img/pix/292.jpg
+img_293:   &img_293
+  src:     /assets/img/pix/293.jpg
+img_294:   &img_294
+  src:     /assets/img/pix/294.jpg
+img_295:   &img_295
+  src:     /assets/img/pix/295.jpg
+img_296:   &img_296
+  src:     /assets/img/pix/296.jpg
+img_297:   &img_297
+  src:     /assets/img/pix/297.jpg
+img_298:   &img_298
+  src:     /assets/img/pix/298.jpg
+img_299:   &img_299
+  src:     /assets/img/pix/299.jpg
 
 location:
   London:
@@ -816,7 +858,29 @@ location:
     - *img_276
     - *img_277
     - *img_278
-
+  Arequipa:
+    - *img_279
+    - *img_280
+    - *img_281
+    - *img_282
+    - *img_283
+    - *img_284
+    - *img_285
+    - *img_286
+    - *img_287
+    - *img_288
+    - *img_289
+    - *img_290
+  Ica:
+    - *img_291
+    - *img_292
+    - *img_293
+    - *img_294
+    - *img_295
+    - *img_296
+    - *img_297
+    - *img_298
+    - *img_299
 
 month:
   '05 October 2019':
@@ -1151,3 +1215,30 @@ month:
       - *img_276
       - *img_277
       - *img_278
+  '31 January 2020':
+    event: Arequipa
+    img:
+      - *img_279
+      - *img_280
+      - *img_281
+      - *img_282
+      - *img_283
+      - *img_284
+      - *img_285
+      - *img_286
+      - *img_287
+      - *img_288
+      - *img_289
+      - *img_290
+  '04 February 2020':
+    event: Nazca
+    img:
+      - *img_291
+      - *img_292
+      - *img_293
+      - *img_294
+      - *img_295
+      - *img_296
+      - *img_297
+      - *img_298
+      - *img_299
