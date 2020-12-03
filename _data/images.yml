@@ -668,6 +668,86 @@ img_333:   &img_333
   src:     /assets/img/pix/333.jpg
 img_334:   &img_334
   src:     /assets/img/pix/334.jpg
+img_335:   &img_335
+  src:     /assets/img/pix/335.jpg
+img_336:   &img_336
+  src:     /assets/img/pix/336.jpg
+img_337:   &img_337
+  src:     /assets/img/pix/337.jpg
+img_338:   &img_338
+  src:     /assets/img/pix/338.jpg
+img_339:   &img_339
+  src:     /assets/img/pix/339.jpg
+img_340:   &img_340
+  src:     /assets/img/pix/340.jpg
+img_341:   &img_341
+  src:     /assets/img/pix/341.jpg
+img_342:   &img_342
+  src:     /assets/img/pix/342.jpg
+img_343:   &img_343
+  src:     /assets/img/pix/343.jpg
+img_344:   &img_344
+  src:     /assets/img/pix/344.jpg
+img_345:   &img_345
+  src:     /assets/img/pix/345.jpg
+img_346:   &img_346
+  src:     /assets/img/pix/346.jpg
+img_347:   &img_347
+  src:     /assets/img/pix/347.jpg
+img_348:   &img_348
+  src:     /assets/img/pix/348.jpg
+img_349:   &img_349
+  src:     /assets/img/pix/349.jpg
+img_350:   &img_350
+  src:     /assets/img/pix/350.jpg
+img_351:   &img_351
+  src:     /assets/img/pix/351.jpg
+img_352:   &img_352
+  src:     /assets/img/pix/352.jpg
+img_353:   &img_353
+  src:     /assets/img/pix/353.jpg
+img_354:   &img_354
+  src:     /assets/img/pix/354.jpg
+img_355:   &img_355
+  src:     /assets/img/pix/355.jpg
+img_356:   &img_356
+  src:     /assets/img/pix/356.jpg
+img_357:   &img_357
+  src:     /assets/img/pix/357.jpg
+img_358:   &img_358
+  src:     /assets/img/pix/358.jpg
+img_359:   &img_359
+  src:     /assets/img/pix/359.jpg
+img_360:   &img_360
+  src:     /assets/img/pix/360.jpg
+img_361:   &img_361
+  src:     /assets/img/pix/361.jpg
+img_362:   &img_362
+  src:     /assets/img/pix/362.jpg
+img_363:   &img_363
+  src:     /assets/img/pix/363.jpg
+img_364:   &img_364
+  src:     /assets/img/pix/364.jpg
+img_365:   &img_365
+  src:     /assets/img/pix/365.jpg
+img_366:   &img_366
+  src:     /assets/img/pix/366.jpg
+img_367:   &img_367
+  src:     /assets/img/pix/367.jpg
+img_368:   &img_368
+  src:     /assets/img/pix/368.jpg
+img_369:   &img_369
+  src:     /assets/img/pix/369.jpg
+img_370:   &img_370
+  src:     /assets/img/pix/370.jpg
+img_371:   &img_371
+  src:     /assets/img/pix/371.jpg
+img_372:   &img_372
+  src:     /assets/img/pix/372.jpg
+img_373:   &img_373
+  src:     /assets/img/pix/373.jpg
+img_374:   &img_374
+  src:     /assets/img/pix/374.jpg
 
 location:
   London:
@@ -732,6 +812,38 @@ location:
     - *img_125
     - *img_126
     - *img_127
+    - *img_343
+    - *img_344
+    - *img_345
+    - *img_346
+    - *img_347
+    - *img_348
+    - *img_349
+    - *img_350
+    - *img_351
+    - *img_352
+    - *img_353
+    - *img_354
+    - *img_355
+    - *img_356
+    - *img_357
+    - *img_358
+    - *img_359
+    - *img_360
+    - *img_361
+    - *img_362
+    - *img_363
+    - *img_364
+    - *img_365
+    - *img_366
+    - *img_367
+    - *img_368
+    - *img_369
+    - *img_370
+    - *img_371
+    - *img_372
+    - *img_373
+    - *img_374
   Cajamarca:
     - *img_055
     - *img_087
@@ -988,6 +1100,14 @@ location:
     - *img_304
     - *img_305
     - *img_306
+  Huánuco:
+    - *img_336
+    - *img_337
+    - *img_338
+    - *img_339
+    - *img_340
+    - *img_341
+    - *img_342
 
 month:
   '05 October 2019':
@@ -1387,3 +1507,54 @@ month:
       - *img_332
       - *img_333
       - *img_334
+  '07 March 2020':
+    event: La Unión
+    img:
+      - *img_336
+      - *img_337
+      - *img_338
+      - *img_339
+      - *img_340
+      - *img_341
+      - *img_342
+  '09 March 2020':
+    event: Huáraz
+    img:
+      - *img_343
+      - *img_344
+      - *img_345
+  '10 March 2020':
+    event: Laguna Churup / 69
+    img:
+      - *img_346
+      - *img_347
+      - *img_348
+      - *img_349
+      - *img_350
+      - *img_351
+      - *img_352
+      - *img_353
+      - *img_354
+      - *img_355
+      - *img_356
+      - *img_357
+      - *img_358
+      - *img_359
+      - *img_360
+      - *img_361
+  '13 March 2020':
+    event: Sta Cruz Trail
+    img:
+      - *img_362
+      - *img_363
+      - *img_364
+      - *img_365
+      - *img_366
+      - *img_367
+      - *img_368
+      - *img_369
+      - *img_370
+      - *img_371
+      - *img_372
+      - *img_373
+      - *img_374
