@@ -612,6 +612,62 @@ img_305:   &img_305
   src:     /assets/img/pix/305.jpg
 img_306:   &img_306
   src:     /assets/img/pix/306.jpg
+img_307:   &img_307
+  src:     /assets/img/pix/307.jpg
+img_308:   &img_308
+  src:     /assets/img/pix/308.jpg
+img_309:   &img_309
+  src:     /assets/img/pix/309.jpg
+img_310:   &img_310
+  src:     /assets/img/pix/310.jpg
+img_311:   &img_311
+  src:     /assets/img/pix/311.jpg
+img_312:   &img_312
+  src:     /assets/img/pix/312.jpg
+img_313:   &img_313
+  src:     /assets/img/pix/313.jpg
+img_314:   &img_314
+  src:     /assets/img/pix/314.jpg
+img_315:   &img_315
+  src:     /assets/img/pix/315.jpg
+img_316:   &img_316
+  src:     /assets/img/pix/316.jpg
+img_317:   &img_317
+  src:     /assets/img/pix/317.jpg
+img_318:   &img_318
+  src:     /assets/img/pix/318.jpg
+img_319:   &img_319
+  src:     /assets/img/pix/319.jpg
+img_320:   &img_320
+  src:     /assets/img/pix/320.jpg
+img_321:   &img_321
+  src:     /assets/img/pix/321.jpg
+img_322:   &img_322
+  src:     /assets/img/pix/322.jpg
+img_323:   &img_323
+  src:     /assets/img/pix/323.jpg
+img_324:   &img_324
+  src:     /assets/img/pix/324.jpg
+img_325:   &img_325
+  src:     /assets/img/pix/325.jpg
+img_326:   &img_326
+  src:     /assets/img/pix/326.jpg
+img_327:   &img_327
+  src:     /assets/img/pix/327.jpg
+img_328:   &img_328
+  src:     /assets/img/pix/328.jpg
+img_329:   &img_329
+  src:     /assets/img/pix/329.jpg
+img_330:   &img_330
+  src:     /assets/img/pix/330.jpg
+img_331:   &img_331
+  src:     /assets/img/pix/331.jpg
+img_332:   &img_332
+  src:     /assets/img/pix/332.jpg
+img_333:   &img_333
+  src:     /assets/img/pix/333.jpg
+img_334:   &img_334
+  src:     /assets/img/pix/334.jpg
 
 location:
   London:
@@ -701,6 +757,7 @@ location:
     - *img_071
     - *img_076
     - *img_085
+
   'La Libertad':
     - *img_072
     - *img_073
@@ -757,6 +814,34 @@ location:
     - *img_179
     - *img_187
     - *img_188
+    - *img_307
+    - *img_308
+    - *img_309
+    - *img_310
+    - *img_311
+    - *img_312
+    - *img_313
+    - *img_314
+    - *img_315
+    - *img_316
+    - *img_317
+    - *img_318
+    - *img_319
+    - *img_320
+    - *img_321
+    - *img_322
+    - *img_323
+    - *img_324
+    - *img_325
+    - *img_326
+    - *img_327
+    - *img_328
+    - *img_329
+    - *img_330
+    - *img_331
+    - *img_332
+    - *img_333
+    - *img_334
   Cusco:
     - *img_162
     - *img_163
@@ -1274,3 +1359,31 @@ month:
       - *img_304
       - *img_305
       - *img_306
+  '12 February 2020':
+    event: Boat
+    img:
+      - *img_307
+      - *img_308
+      - *img_309
+      - *img_310
+      - *img_311
+      - *img_316
+      - *img_317
+  '25 February 2020':
+    event: Jungle
+    img:
+      - *img_318
+      - *img_322
+      - *img_322
+      - *img_323
+      - *img_324
+      - *img_325
+      - *img_326
+      - *img_327
+      - *img_328
+      - *img_329
+      - *img_330
+      - *img_331
+      - *img_332
+      - *img_333
+      - *img_334
