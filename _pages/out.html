@@ -5,6 +5,16 @@ id: in
 text:
 ---
 
+<div class="container greet">
+  <div class="cascading-text">
+    {% for letter in site.data.greet %}
+    <span class="cascading-text__letter">
+      {{ letter }}
+    </span>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="flex-container">
   {% assign vid = '.mp4' %}
   {% for item in site.data.epilog %}

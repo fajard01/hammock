@@ -1,4 +1,85 @@
+$travel: 50px;
+$fontsize: 4rem;
+$fontweight: 800;
+$wordlength: 12;
+$animationduration: 1s;
+$animationinterval: .2s;
 
+$colors: $banana, $red-cap, $salt-lake, $horizon, $fuzzy-green, $deep-blu, $edge, $jungle, $adobe;
+
+.greet {
+  // background: $line-mid;
+  color: $white;
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.cascading-text {
+  font-weight: $fontweight;
+  height: 150px;
+  line-height: 150px;
+
+  &__letter {
+    display: inline-block;
+    font-size: $fontsize;
+    opacity: 0;
+
+    @for $i from 1 through $wordlength {
+      $thiscolor: nth($colors, $i % 9 + 1);
+
+      &:nth-of-type(#{ $i }) {
+        @if $i % 2 == 0 {
+          animation-delay: $animationinterval * $i;
+          animation-duration: $animationduration;
+          animation-fill-mode: forwards;
+          animation-name: enter-bottom;
+          color: $thiscolor;
+          transform: translateY(-100%);
+        } @else {
+          animation-delay: $animationinterval * $i;
+          animation-duration: $animationduration;
+          animation-fill-mode: forwards;
+          animation-name: enter;
+          color: $thiscolor;
+          transform: translateY(100%);
+        }
+      }
+    }
+  }
+}
+
+@keyframes enter {
+  0% {
+    opacity: 0;
+    transform: translateY($travel * -1);
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes enter-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY($travel);
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .flex-container {
   align-content: center;
@@ -8,9 +89,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 8%;
-  margin-top: 30vh;
-  padding: 8%;
+  margin: 4%;
+  // margin-top: 10vh;
+  padding: 5%;
 }
 
 .flex-item {
