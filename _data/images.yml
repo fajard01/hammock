@@ -748,6 +748,10 @@ img_373:   &img_373
   src:     /assets/img/pix/373.jpg
 img_374:   &img_374
   src:     /assets/img/pix/374.jpg
+img_375:   &img_375
+  src:     /assets/img/pix/375.jpg
+img_376:   &img_376
+  src:     /assets/img/pix/376.jpg
 
 location:
   London:
