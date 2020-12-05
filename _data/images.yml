@@ -542,7 +542,7 @@ img_270:   &img_270
   src:     /assets/img/pix/270.jpg
 img_271:   &img_271
   src:     /assets/img/pix/271.jpg
-img_272:   &img_262
+img_272:   &img_272
   src:     /assets/img/pix/272.jpg
 img_273:   &img_273
   src:     /assets/img/pix/273.jpg
@@ -772,6 +772,28 @@ img_385:   &img_385
   src:     /assets/img/pix/385.jpg
 img_386:   &img_386
   src:     /assets/img/pix/386.jpg
+img_387:   &img_387
+  src:     /assets/img/pix/387.jpg
+img_388:   &img_388
+  src:     /assets/img/pix/388.jpg
+img_389:   &img_389
+  src:     /assets/img/pix/389.jpg
+img_390:   &img_390
+  src:     /assets/img/pix/390.jpg
+img_391:   &img_391
+  src:     /assets/img/pix/391.jpg
+img_392:   &img_392
+  src:     /assets/img/pix/392.jpg
+img_393:   &img_393
+  src:     /assets/img/pix/393.jpg
+img_394:   &img_394
+  src:     /assets/img/pix/394.jpg
+img_395:   &img_395
+  src:     /assets/img/pix/395.jpg
+img_396:   &img_396
+  src:     /assets/img/pix/396.jpg
+img_397:   &img_397
+  src:     /assets/img/pix/397.jpg
 
 location:
   London:
@@ -800,6 +822,7 @@ location:
     - *img_096
     - *img_097
     - *img_098
+    - *img_387
   Ancash:
     - *img_050
     - *img_051
@@ -873,6 +896,16 @@ location:
     - *img_384
     - *img_385
     - *img_386
+    - *img_388
+    - *img_389
+    - *img_390
+    - *img_391
+    - *img_392
+    - *img_393
+    - *img_394
+    - *img_395
+    - *img_396
+    - *img_397
   Cajamarca:
     - *img_055
     - *img_087
@@ -1588,6 +1621,14 @@ month:
       - *img_365
       - *img_366
       - *img_367
+      - *img_388
+      - *img_389
+      - *img_390
+      - *img_391
+      - *img_392
+      - *img_393
+      - *img_394
+      - *img_395
       - *img_368
       - *img_369
       - *img_370
@@ -1595,3 +1636,5 @@ month:
       - *img_372
       - *img_373
       - *img_374
+      - *img_396
+      - *img_397
