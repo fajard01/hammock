@@ -10,10 +10,10 @@
 
 .blog-nav {
   align-self: center;
-  background: $bg-black3;
+  background: $atmosphere;
   display: flex;
   flex-direction: row;
-  height: 100px;
+  height: 90px;
   margin: auto;
   padding-top: 50px;
   width: 80%;
@@ -75,7 +75,7 @@
 
 
 .blog-content {
-  background-color: $bg-black1;
+  background-color: $edge;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -90,6 +90,8 @@ hr {
 }
 
 .blog {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
   line-height: 1.5rem;
   margin: 20px 0;
   padding: 15px;
