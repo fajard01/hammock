@@ -1,7 +1,7 @@
 $background: $bg-black2;
 $box-shadow: 0 1px 22px 4px rgba(0, 0, 0, .07);
 $border: 1px solid rgba(191, 191, 191, .4);
-$items: 29;
+$items: 30;
 $rows: ceil($items / 2);
 
 // card-sizing
@@ -80,24 +80,8 @@ $counter: $items - $rows + 2;
     flex-direction: column;
     padding-top: 50px;
 
-    .ex {
-      color: $banana;
-    }
-
-    h2 {
-      font-size: 2.7rem;
-      font-weight: 200;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
-
-    .leader {
-      margin: auto;
-      margin-bottom: 45px;
-      max-width: 90%;
-      text-align: center;
-    }
+    .head { @include head; }
+    .subhead { @include subhead; }
   }
 }
 

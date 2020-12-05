@@ -760,6 +760,18 @@ img_379:   &img_379
   src:     /assets/img/pix/379.jpg
 img_380:   &img_380
   src:     /assets/img/pix/380.jpg
+img_381:   &img_381
+  src:     /assets/img/pix/381.jpg
+img_382:   &img_382
+  src:     /assets/img/pix/382.jpg
+img_383:   &img_383
+  src:     /assets/img/pix/383.jpg
+img_384:   &img_384
+  src:     /assets/img/pix/384.jpg
+img_385:   &img_385
+  src:     /assets/img/pix/385.jpg
+img_386:   &img_386
+  src:     /assets/img/pix/386.jpg
 
 location:
   London:
@@ -856,6 +868,11 @@ location:
     - *img_372
     - *img_373
     - *img_374
+    - *img_382
+    - *img_383
+    - *img_384
+    - *img_385
+    - *img_386
   Cajamarca:
     - *img_055
     - *img_087
@@ -1536,16 +1553,21 @@ month:
       - *img_344
       - *img_345
   '10 March 2020':
-    event: Laguna Churup / 69
+    event: Laguna Churup
+    img:
+      - *img_382
+      - *img_383
+      - *img_384
+      - *img_385
+      - *img_386
+  '12 March 2020':
+    event: Laguna 69
     img:
       - *img_346
       - *img_347
       - *img_348
       - *img_349
       - *img_350
-      - *img_351
-      - *img_352
-      - *img_353
       - *img_354
       - *img_355
       - *img_356
@@ -1554,6 +1576,9 @@ month:
       - *img_359
       - *img_360
       - *img_361
+      - *img_351
+      - *img_352
+      - *img_353
   '13 March 2020':
     event: Sta Cruz Trail
     img:

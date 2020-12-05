@@ -11,12 +11,24 @@
   position: relative;
 
   .myblog {
-    color: $white;
+    color: $deep-blu;
     margin-left: 25vw;
-    margin-top: 10vh;
+    margin-top: 7vh;
     position: absolute;
     text-align: left;
     top: 0;
+
+    .head {
+      @include head;
+
+      font-size: 3.4rem;
+      font-weight: 600;
+    }
+
+    .subhead { @include subhead;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
   }
 }
 

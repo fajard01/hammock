@@ -9,9 +9,23 @@
 
       <div class="title">
         <h5>{{ photo.title }}</h5>
+        {% if photo.title == 'Episodes' %}
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, aliquid vero dolorem suscipit, ipsum ex. Deleniti labore, autem aliquam. Praesentium.
+          My series of 22 newsletters, the written record of our stay.
         </p>
+        {% elsif photo.title == 'Places' %}
+        <p>
+          An interactive map of Peru and Bolivia to point us where we were.
+        </p>
+        {% elsif photo.title == 'Timeline' %}
+        <p>
+          A chronological look of events.
+        </p>
+        {% elsif photo.title == 'Limbo' %}
+        <p>
+          A surprise. Just Junk Accumulated.
+        </p>
+        {% endif %}
       </div>
 
     </a>

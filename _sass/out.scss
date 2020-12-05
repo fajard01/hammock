@@ -1,14 +1,20 @@
 $travel: 50px;
-$fontsize: 4rem;
+$fontsize: 3rem;
 $fontweight: 800;
-$wordlength: 12;
+$wordlength: 34;
 $animationduration: 1s;
 $animationinterval: .2s;
 
-$colors: $banana, $red-cap, $salt-lake, $horizon, $fuzzy-green, $deep-blu, $edge, $jungle, $adobe;
+$colors: $banana, $violet, $red-cap, $green-yellow, $deep-blu, $salt-lake, $horizon, $edge;
+
+// $red-cap, $salt-lake, $horizon, $fuzzy-green, $deep-blu, $edge, $jungle, $adobe, $violet;
+
+$numcolors: length($colors);
 
 .greet {
   background: $adobe;
+  border-bottom: $snow 12px solid;
+  border-top: $snow 12px solid;
   color: $white;
   display: block;
   margin-top: 100px;
@@ -21,12 +27,13 @@ $colors: $banana, $red-cap, $salt-lake, $horizon, $fuzzy-green, $deep-blu, $edge
   line-height: 150px;
 
   &__letter {
+    color: $white;
     display: inline-block;
     font-size: $fontsize;
     opacity: 0;
 
     @for $i from 1 through $wordlength {
-      $thiscolor: nth($colors, $i % 9 + 1);
+      $thiscolor: nth($colors, $i % $numcolors + 1);
 
       &:nth-of-type(#{ $i }) {
         @if $i % 2 == 0 {

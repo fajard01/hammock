@@ -18,10 +18,13 @@
   }
 
   .map-caption {
-    left: 20vw;
+    left: 18vw;
     position: absolute;
     top: 45vh;
     z-index: 1;
+
+    .head { @include head; }
+    .subhead { @include subhead; }
   }
 
   .svgmap {

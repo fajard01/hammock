@@ -32,6 +32,25 @@ $purple-cap: #89513f;
 $german-yellow: #886223;
 $line-end: #f0f0f0;
 $line-mid: #8c8b8b;
+$violet: #3104b4;
+$green-yellow: #5fb404;
+
+// font title sizes
+@mixin head {
+  font-size: 2.7rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@mixin subhead {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: auto;
+  margin-bottom: 45px;
+  max-width: 90%;
+  text-align: center;
+}
 
 // global settings
 * {
