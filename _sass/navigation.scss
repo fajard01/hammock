@@ -38,7 +38,12 @@
       text-decoration: none;
     }
   }
+
+  .link.active {
+    border-bottom: $white 1px solid;
+  }
 }
+
 
 .link::after {
   content: '';

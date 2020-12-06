@@ -19,14 +19,15 @@
     top: 0;
 
     .head {
-      @include head;
+      // @include head;
 
-      font-size: 3.4rem;
+      font-size: 3.2rem;
       font-weight: 600;
     }
 
-    .subhead { @include subhead;
-      font-size: 1.8rem;
+    .subhead {
+      // @include subhead;
+      font-size: 1.6rem;
       font-weight: 600;
     }
   }
