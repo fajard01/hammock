@@ -5,12 +5,12 @@
 <html lang="en">
 
   <head>
-    {% include headtag.html %}
+    {% include_cached headtag.html %}
   </head>
 
   <body id={{ page.id }}>
     <header>
-      {% include navigation.html %}
+      {% include_cached navigation.html %}
     </header>
     <main>
       {{ content }}

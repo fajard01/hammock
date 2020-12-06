@@ -11,7 +11,7 @@
   <body id={{ page.id }}>
 
     <header>
-      {% include navigation.html %}
+      {% include_cached navigation.html %}
     </header>
 
     <main>
@@ -19,7 +19,7 @@
         {{ content }}
       </section>
       <section class="link-section">
-        {% include photolinks.html %}
+        {% include_cached photolinks.html %}
       </section>
     </main>
 

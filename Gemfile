@@ -8,6 +8,8 @@ gem "jekyll", '~> 4.0'
 
 gem 'jekyll-theme-hacker', '~> 0.1.1'
 
+gem 'jekyll-include-cache'
+
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'

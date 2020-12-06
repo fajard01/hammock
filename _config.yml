@@ -3,6 +3,7 @@ baseurl: /hammock
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-timeago
