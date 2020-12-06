@@ -816,6 +816,52 @@ img_407:   &img_407
   src:     /assets/img/pix/407.jpg
 img_408:   &img_408
   src:     /assets/img/pix/408.jpg
+img_409:   &img_409
+  src:     /assets/img/pix/409.jpg
+img_410:   &img_410
+  src:     /assets/img/pix/410.jpg
+img_411:   &img_411
+  src:     /assets/img/pix/411.jpg
+img_412:   &img_412
+  src:     /assets/img/pix/412.jpg
+img_413:   &img_413
+  src:     /assets/img/pix/413.jpg
+img_414:   &img_414
+  src:     /assets/img/pix/414.jpg
+img_415:   &img_415
+  src:     /assets/img/pix/415.jpg
+img_416:   &img_416
+  src:     /assets/img/pix/416.jpg
+img_417:   &img_417
+  src:     /assets/img/pix/417.jpg
+img_418:   &img_418
+  src:     /assets/img/pix/418.jpg
+img_419:   &img_419
+  src:     /assets/img/pix/419.jpg
+img_420:   &img_420
+  src:     /assets/img/pix/420.jpg
+img_421:   &img_421
+  src:     /assets/img/pix/421.jpg
+img_422:   &img_422
+  src:     /assets/img/pix/422.jpg
+img_423:   &img_423
+  src:     /assets/img/pix/423.jpg
+img_424:   &img_424
+  src:     /assets/img/pix/424.jpg
+img_425:   &img_425
+  src:     /assets/img/pix/425.jpg
+img_426:   &img_426
+  src:     /assets/img/pix/426.jpg
+img_427:   &img_427
+  src:     /assets/img/pix/427.jpg
+img_428:   &img_428
+  src:     /assets/img/pix/428.jpg
+img_429:   &img_429
+  src:     /assets/img/pix/429.jpg
+img_430:   &img_430
+  src:     /assets/img/pix/430.jpg
+img_431:   &img_431
+  src:     /assets/img/pix/431.jpg
 
 location:
   London:
@@ -1058,7 +1104,12 @@ location:
     - *img_172
     - *img_173
     - *img_174
+    - *img_427
     - *img_175
+    - *img_428
+    - *img_429
+    - *img_430
+    - *img_431
     - *img_180
     - *img_181
     - *img_182
@@ -1076,6 +1127,10 @@ location:
     - *img_196
     - *img_197
     - *img_198
+    - *img_418
+    - *img_419
+    - *img_420
+    - *img_421
     - *img_199
     - *img_200
     - *img_201
@@ -1083,6 +1138,8 @@ location:
     - *img_203
     - *img_204
     - *img_205
+    - *img_422
+    - *img_423
     - *img_206
     - *img_207
     - *img_208
@@ -1094,6 +1151,9 @@ location:
     - *img_214
     - *img_215
     - *img_216
+    - *img_424
+    - *img_425
+    - *img_426
     - *img_217
     - *img_218
     - *img_219
@@ -1126,17 +1186,24 @@ location:
     - *img_236
     - *img_237
     - *img_238
+    - *img_411
     - *img_239
     - *img_240
     - *img_241
     - *img_242
     - *img_243
     - *img_244
+    - *img_412
     - *img_245
     - *img_246
     - *img_247
+    - *img_413
+    - *img_414
+    - *img_415
     - *img_248
     - *img_249
+    - *img_416
+    - *img_417
     - *img_250
     - *img_251
     - *img_252
@@ -1158,6 +1225,8 @@ location:
     - *img_269
     - *img_270
     - *img_271
+    - *img_409
+    - *img_410
     - *img_272
     - *img_273
     - *img_274
@@ -1423,6 +1492,11 @@ month:
       - *img_172
       - *img_173
       - *img_174
+      - *img_428
+      - *img_429
+      - *img_430
+      - *img_431
+      - *img_427
       - *img_175
   '04 January 2020':
     event: Camping Kinsacocha
@@ -1447,6 +1521,10 @@ month:
       - *img_196
       - *img_197
       - *img_198
+      - *img_418
+      - *img_419
+      - *img_420
+      - *img_421
       - *img_199
       - *img_200
       - *img_201
@@ -1457,6 +1535,8 @@ month:
   '18 January 2020':
     event: Machu Picchu
     img:
+      - *img_422
+      - *img_423
       - *img_206
       - *img_207
       - *img_208
@@ -1468,6 +1548,9 @@ month:
       - *img_214
       - *img_215
       - *img_216
+      - *img_424
+      - *img_425
+      - *img_426
       - *img_217
       - *img_218
       - *img_219
@@ -1500,17 +1583,24 @@ month:
       - *img_236
       - *img_237
       - *img_238
+      - *img_411
       - *img_239
       - *img_240
       - *img_241
       - *img_242
       - *img_243
       - *img_244
+      - *img_412
       - *img_245
       - *img_246
       - *img_247
+      - *img_413
+      - *img_414
+      - *img_415
       - *img_248
       - *img_249
+      - *img_416
+      - *img_417
       - *img_250
       - *img_251
       - *img_252
@@ -1535,6 +1625,8 @@ month:
       - *img_270
       - *img_271
       - *img_272
+      - *img_409
+      - *img_410
       - *img_273
       - *img_274
       - *img_275
