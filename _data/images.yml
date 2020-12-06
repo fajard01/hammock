@@ -862,6 +862,17 @@ img_430:   &img_430
   src:     /assets/img/pix/430.jpg
 img_431:   &img_431
   src:     /assets/img/pix/431.jpg
+img_432:   &img_432
+  src:     /assets/img/pix/432.jpg
+img_433:   &img_433
+  src:     /assets/img/pix/433.jpg
+img_434:   &img_434
+  src:     /assets/img/pix/434.jpg
+img_435:   &img_435
+  src:     /assets/img/pix/435.jpg
+img_436:   &img_436
+  src:     /assets/img/pix/436.jpg
+####
 
 location:
   London:
@@ -916,6 +927,10 @@ location:
     - *img_114
     - *img_115
     - *img_116
+    - *img_433
+    - *img_434
+    - *img_435
+    - *img_436
     - *img_117
     - *img_118
     - *img_119
@@ -1050,6 +1065,7 @@ location:
     - *img_158
     - *img_159
     - *img_160
+    - *img_432
     - *img_161
     - *img_177
     - *img_178
@@ -1178,7 +1194,7 @@ location:
     - *img_252
     - *img_253
     - *img_407
-    - *img_208
+    - *img_408
     - *img_256
     - *img_257
   Potosí:
@@ -1204,10 +1220,6 @@ location:
     - *img_249
     - *img_416
     - *img_417
-    - *img_250
-    - *img_251
-    - *img_252
-    - *img_253
     - *img_254
     - *img_255
   Puno:
@@ -1417,6 +1429,10 @@ month:
       - *img_114
       - *img_115
       - *img_116
+      - *img_433
+      - *img_434
+      - *img_435
+      - *img_436
       - *img_117
       - *img_118
       - *img_119
@@ -1467,6 +1483,7 @@ month:
       - *img_158
       - *img_159
       - *img_160
+      - *img_432
       - *img_177
   '17 December 2019':
     event: Hotel
@@ -1574,6 +1591,10 @@ month:
       - *img_232
       - *img_233
       - *img_234
+      - *img_250
+      - *img_251
+      - *img_252
+      - *img_253
       - *img_256
       - *img_257
   '24 January 2020':
@@ -1601,10 +1622,6 @@ month:
       - *img_249
       - *img_416
       - *img_417
-      - *img_250
-      - *img_251
-      - *img_252
-      - *img_253
       - *img_254
       - *img_255
   '28 January 2020':
