@@ -950,6 +950,14 @@ location:
     - *img_125
     - *img_126
     - *img_127
+    - *img_335
+    - *img_336
+    - *img_337
+    - *img_338
+    - *img_339
+    - *img_340
+    - *img_341
+    - *img_342
     - *img_343
     - *img_344
     - *img_345
@@ -1722,7 +1730,6 @@ month:
       - *img_318
       - *img_398
       - *img_322
-      - *img_322
       - *img_323
       - *img_324
       - *img_399
@@ -1743,6 +1750,7 @@ month:
   '07 March 2020':
     event: La Unión
     img:
+      - *img_335
       - *img_336
       - *img_337
       - *img_338
