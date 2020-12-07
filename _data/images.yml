@@ -872,6 +872,14 @@ img_435:   &img_435
   src:     /assets/img/pix/435.jpg
 img_436:   &img_436
   src:     /assets/img/pix/436.jpg
+img_437:   &img_437
+  src:     /assets/img/pix/437.jpg
+img_438:   &img_438
+  src:     /assets/img/pix/438.jpg
+img_439:   &img_439
+  src:     /assets/img/pix/439.jpg
+img_440:   &img_440
+  src:     /assets/img/pix/440.jpg
 ####
 
 location:
@@ -1114,6 +1122,8 @@ location:
     - *img_166
     - *img_167
     - *img_168
+    - *img_437
+    - *img_438
     - *img_169
     - *img_170
     - *img_171
@@ -1254,6 +1264,8 @@ location:
     - *img_283
     - *img_405
     - *img_284
+    - *img_439
+    - *img_440
     - *img_285
     - *img_286
     - *img_287
@@ -1503,6 +1515,8 @@ month:
       - *img_166
       - *img_167
       - *img_168
+      - *img_437
+      - *img_438
       - *img_169
       - *img_170
       - *img_171
@@ -1660,6 +1674,8 @@ month:
       - *img_283
       - *img_405
       - *img_284
+      - *img_439
+      - *img_440
       - *img_285
       - *img_286
       - *img_287

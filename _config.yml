@@ -1,13 +1,32 @@
-title: "Jekyll Actions Demo"
+title: Tales From the Far Side
+tagline: Peru in six months
+description: >-
+  Mereida and Gemma's adventures in Peru
+
+owner:
+  name: Danny Fajardo
+  bio: "An HTML, CSS and JavaScript project using Jekyll."
+  email: fajardodanny@yahoo.co.uk
+  linkedin: #username
+  github: fajard01
+
+tags:
+  - GitHub
+  - GitHub Pages
+
+locale: en_GB
 baseurl: /hammock
 theme: jekyll-theme-hacker
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-timeago
+
 livereload: true
+
 include:
   - _pages
   - _blogs
