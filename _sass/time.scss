@@ -320,6 +320,18 @@ $counter: $items - $rows + 2;
   @include mq-xs {
     left: -50%;
   }
+
+  @include mq-land {
+    left: -50%;
+  }
+
+  @include mq-md {
+    left: -50%;
+  }
+
+  @include mq-lg {
+    left: -50%;
+  }
 }
 
 .modal.left.fade.show .modal-lg {
@@ -331,6 +343,14 @@ $counter: $items - $rows + 2;
 
   @include mq-land {
     left: 10%;
+  }
+
+  @include mq-md {
+    left: 5%;
+  }
+
+  @include mq-lg {
+    left: 5%;
   }
 }
 
@@ -349,5 +369,13 @@ $counter: $items - $rows + 2;
 
   @include mq-land {
     right: 40%;
+  }
+
+  @include mq-md {
+    right: 30%;
+  }
+
+  @include mq-lg {
+    right: 30%;
   }
 }

@@ -88,13 +88,13 @@ body {
 }
 
 @mixin mq-sm {
-  @media (min-width: 480px) {
+  @media (min-width: 480px) and  (max-width: 719px) {
     @content;
   }
 }
 
 @mixin mq-md {
-  @media (min-width: 720px) {
+  @media (min-width: 720px) and (max-width: 999px) {
     @content;
   }
 }
