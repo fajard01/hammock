@@ -302,24 +302,52 @@ $counter: $items - $rows + 2;
   overflow-y: auto;
   transform: translate3d(0%, 0, 0);
   width: 740px;
+
+  @include mq-xs {
+    width: 300px;
+  }
+
+  @include mq-land {
+    width: 400px;
+  }
 }
 
 // left
 .modal.left.fade .modal-lg {
   left: 0;
   transition: opacity .6s linear, left .6s ease-out;
+
+  @include mq-xs {
+    left: -50%;
+  }
 }
 
 .modal.left.fade.show .modal-lg {
-  left: 16%;
+  left: 50%;
+
+  @include mq-xs {
+    left: -20%;
+  }
+
+  @include mq-land {
+    left: 10%;
+  }
 }
 
 // right
 .modal.right.fade .modal-lg {
-  right: -50%;
+  right: 0%;
   transition: opacity .6s linear, right .6s ease-out;
 }
 
 .modal.right.fade.show .modal-lg {
-  right: 17%;
+  right: 50%;
+
+  @include mq-xs {
+    right: 60%;
+  }
+
+  @include mq-land {
+    right: 40%;
+  }
 }
