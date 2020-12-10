@@ -56,6 +56,51 @@ $numcolors: length($colors);
   }
 }
 
+@include mq-xs {
+  .greet {
+    margin-top: 200px;
+
+    .cascading-text {
+      height: 70px;
+      line-height: 70px;
+
+      &__letter {
+        font-size: .7rem;
+      }
+    }
+  }
+}
+
+@include mq-sm {
+  .greet {
+    margin-top: 200px;
+
+    .cascading-text {
+      height: 100px;
+      line-height: 100px;
+
+      &__letter {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@include mq-md {
+  .greet {
+    margin-top: 200px;
+
+    .cascading-text {
+      height: 100px;
+      line-height: 100px;
+
+      &__letter {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
 @keyframes enter {
   0% {
     opacity: 0;

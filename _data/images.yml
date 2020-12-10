@@ -880,6 +880,14 @@ img_439:   &img_439
   src:     /assets/img/pix/439.jpg
 img_440:   &img_440
   src:     /assets/img/pix/440.jpg
+img_441:   &img_441
+  src:     /assets/img/pix/441.jpg
+img_442:   &img_442
+  src:     /assets/img/pix/442.jpg
+img_443:   &img_443
+  src:     /assets/img/pix/443.jpg
+img_444:   &img_444
+  src:     /assets/img/pix/444.jpg
 ####
 
 location:
@@ -978,7 +986,9 @@ location:
     - *img_360
     - *img_361
     - *img_362
+    - *img_442
     - *img_363
+    - *img_444
     - *img_364
     - *img_365
     - *img_366
@@ -987,6 +997,7 @@ location:
     - *img_369
     - *img_370
     - *img_371
+    - *img_443
     - *img_372
     - *img_373
     - *img_374
@@ -1003,6 +1014,7 @@ location:
     - *img_393
     - *img_394
     - *img_395
+    - *img_441
     - *img_396
     - *img_397
   Cajamarca:
@@ -1784,18 +1796,18 @@ month:
       - *img_355
       - *img_356
       - *img_357
-      - *img_358
-      - *img_359
       - *img_360
       - *img_361
       - *img_351
       - *img_352
       - *img_353
+      - *img_362
   '13 March 2020':
     event: Sta Cruz Trail
     img:
-      - *img_362
+      - *img_442
       - *img_363
+      - *img_444
       - *img_364
       - *img_365
       - *img_366
@@ -1808,10 +1820,12 @@ month:
       - *img_393
       - *img_394
       - *img_395
+      - *img_441
       - *img_368
       - *img_369
       - *img_370
       - *img_371
+      - *img_443
       - *img_372
       - *img_373
       - *img_374

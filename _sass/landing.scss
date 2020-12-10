@@ -112,4 +112,12 @@
   background: $bg-black3;
   margin: 0;
   padding: 40px;
+
+  .about-company {
+    color: $white;
+
+    .notes {
+      font-size: .8rem;
+    }
+  }
 }

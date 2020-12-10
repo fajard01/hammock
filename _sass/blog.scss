@@ -19,13 +19,18 @@
   padding-top: 50px;
   width: 80%;
 
-
   .blog-title {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 30px;
+  }
+
+  .blog-click {
+    display: inline-block;
+    margin-left: 45%;
+    position: absolute;
   }
 
   .blog-close {

@@ -76,7 +76,7 @@ body {
 // Media Queries
 
 @mixin mq-xs {
-  @media (min-width: 320px) and  (max-width: 479px) {
+  @media (max-width: 479px) {
     @content;
   }
 }
