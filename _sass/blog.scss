@@ -176,7 +176,7 @@ hr {
 }
 
 .empty {
-  height: 600px;
+  height: 400px;
 }
 
 // mobile
@@ -223,20 +223,4 @@ hr {
     margin: 0 auto;
     width: 368px;
   }
-}
-
-// ipads
-@media (min-width: 750px) and (max-width: 1000px) and (min-height: 1000px) {
-  // .blog-content {
-  //   padding-top: 0;
-  // }
-  //
-  // .blog {
-  //   font-size: .8rem;
-  //   line-height: .8rem;
-  // }
-  //
-  // .media-row {
-  //   flex-direction: column;
-  // }
 }
