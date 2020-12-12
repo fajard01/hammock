@@ -1,6 +1,28 @@
 .footer-section {
   .about-company {
     padding-right: 120px;
+
+    .notes {
+      color: $snow;
+    }
+  }
+
+  .m-0 {
+    li {
+      color: $snow;
+    }
+
+    li:hover {
+      color: $white;
+    }
+  }
+
+  .resources {
+    color: $snow;
+  }
+
+  .resources:hover {
+    color: $white;
   }
 
   .foot {
@@ -16,6 +38,10 @@
       justify-content: space-around;
     }
 
+    // .nav-item:hover {
+    //   color: $white;
+    // }
+
     .copyright-text {
       font-size: 1.2rem;
       font-weight: 600;
@@ -24,5 +50,13 @@
 
   .nav-item {
     margin: 0 20px;
+  }
+}
+
+.nav-flex-icons {
+  .fa-facebook-square:hover,
+  .fa-instagram:hover,
+  .fa-wix:hover {
+    color: $snow;
   }
 }
