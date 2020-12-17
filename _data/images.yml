@@ -32,10 +32,6 @@ img_015:   &img_015
   src:     /assets/img/pix/015.jpg
 img_016:   &img_016
   src:     /assets/img/pix/016.jpg
-img_017:   &img_017
-  src:     /assets/img/pix/017.jpg
-img_018:   &img_018
-  src:     /assets/img/pix/018.jpg
 img_019:   &img_019
   src:     /assets/img/pix/019.jpg
 img_020:   &img_020
@@ -44,8 +40,6 @@ img_021:   &img_021
   src:     /assets/img/pix/021.jpg
 img_022:   &img_022
   src:     /assets/img/pix/022.jpg
-img_023:   &img_023
-  src:     /assets/img/pix/023.jpg
 img_024:   &img_024
   src:     /assets/img/pix/024.jpg
 img_025:   &img_025
@@ -70,14 +64,6 @@ img_034:   &img_034
   src:     /assets/img/pix/034.jpg
 img_035:   &img_035
   src:     /assets/img/pix/035.jpg
-img_036:   &img_036
-  src:     /assets/img/pix/036.jpg
-img_037:   &img_037
-  src:     /assets/img/pix/037.jpg
-img_038:   &img_038
-  src:     /assets/img/pix/038.jpg
-img_039:   &img_039
-  src:     /assets/img/pix/039.jpg
 img_040:   &img_040
   src:     /assets/img/pix/040.jpg
 img_041:   &img_041
@@ -888,6 +874,10 @@ img_443:   &img_443
   src:     /assets/img/pix/443.jpg
 img_444:   &img_444
   src:     /assets/img/pix/444.jpg
+img_445:   &img_445
+  src:     /assets/img/pix/445.jpg
+img_446:   &img_446
+  src:     /assets/img/pix/446.jpg
 ####
 
 location:
@@ -912,7 +902,27 @@ location:
     - *img_020
     - *img_021
     - *img_022
+    - *img_024
+    - *img_025
     - *img_026
+    - *img_027
+    - *img_028
+    - *img_029
+    - *img_030
+    - *img_031
+    - *img_032
+    - *img_033
+    - *img_034
+    - *img_035
+    - *img_040
+    - *img_041
+    - *img_042
+    - *img_043
+    - *img_044
+    - *img_045
+    - *img_046
+    - *img_047
+    - *img_048
     - *img_091
     - *img_096
     - *img_097
@@ -1021,11 +1031,11 @@ location:
     - *img_055
     - *img_087
     - *img_088
-    - *img_089
   Amazonas:
     - *img_049
     - *img_056
     - *img_057
+    - *img_445
     - *img_058
     - *img_059
     - *img_060
@@ -1042,8 +1052,9 @@ location:
     - *img_071
     - *img_076
     - *img_085
-
+    - *img_089
   'La Libertad':
+    - *img_446
     - *img_072
     - *img_073
     - *img_074
@@ -1332,6 +1343,7 @@ month:
   '07 October 2019':
     event: Lima
     img:
+      - *img_004
       - *img_005
       - *img_006
       - *img_007
@@ -1346,6 +1358,8 @@ month:
       - *img_020
       - *img_021
       - *img_022
+      - *img_024
+      - *img_025
       - *img_026
       - *img_027
       - *img_028
@@ -1356,10 +1370,6 @@ month:
       - *img_033
       - *img_034
       - *img_035
-      - *img_036
-      - *img_037
-      - *img_038
-      - *img_039
       - *img_040
       - *img_045
       - *img_046
@@ -1377,10 +1387,12 @@ month:
     event: Catarata del Gocta
     img:
       - *img_057
+      - *img_445
       - *img_058
       - *img_059
       - *img_060
       - *img_061
+      - *img_089
       - *img_062
   '29 October 2019':
     event: Kuélap and Leymebamba
@@ -1397,18 +1409,23 @@ month:
       - *img_070
       - *img_071
   '30 October 2019':
-    event: Kuntur Wasi and Querococha
+    event: Kuntur Wasi
     img:
-      - *img_050
-      - *img_051
-      - *img_052
-      - *img_053
-      - *img_054
-      - *img_055
-      - *img_085
       - *img_087
       - *img_088
-      - *img_089
+      - *img_055
+  '31 October 2019':
+    event: Chan Chan and Huaca de la Luna
+    img:
+      - *img_077
+      - *img_078
+      - *img_079
+      - *img_080
+      - *img_081
+      - *img_082
+      - *img_083
+      - *img_084
+      - *img_446
   '02 November 2019':
     event: Chan Chan
     img:
@@ -1417,12 +1434,6 @@ month:
       - *img_074
       - *img_075
       - *img_075
-      - *img_077
-      - *img_078
-      - *img_079
-      - *img_080
-      - *img_081
-      - *img_082
       - *img_090
       - *img_092
       - *img_093
@@ -1437,6 +1448,12 @@ month:
   '12 November 2019':
     event: Chavín de Huántar
     img:
+      - *img_050
+      - *img_051
+      - *img_052
+      - *img_053
+      - *img_054
+      - *img_085
       - *img_099
       - *img_100
       - *img_101
@@ -1812,6 +1829,8 @@ month:
     event: Sta Cruz Trail
     img:
       - *img_442
+      - *img_361
+      - *img_362
       - *img_363
       - *img_444
       - *img_364
