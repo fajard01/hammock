@@ -18,7 +18,7 @@ id: in
   <a id="blog-entry" class="blog-entry" href={{ news.href | relative_url }}><img class="entry-image" alt={{ news.title }} src={{ news.src | relative_url }} />
 
     <div class="entry-text">
-      {{ news.title }}
+      <h6>{{ news.title }}</h6>
       <p>{{ news.date | date: "%-d %B %Y" }}</p>
     </div>
 

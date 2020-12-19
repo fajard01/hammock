@@ -1633,8 +1633,6 @@ month:
     img:
       - *img_226
       - *img_227
-      - *img_226
-      - *img_227
       - *img_228
       - *img_229
       - *img_230

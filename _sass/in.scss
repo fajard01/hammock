@@ -64,9 +64,18 @@
 
   .entry-text {
     color: $white;
-    font-size: 15px;
     margin-bottom: 50px;
     margin-left: 40px;
+
+    h6 {
+      font-size: 1.1rem;
+      line-height: 1.1rem;
+    }
+
+    p {
+      font-size: .9rem;
+      line-height: .9rem;
+    }
   }
 }
 
