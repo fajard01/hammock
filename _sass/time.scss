@@ -51,6 +51,7 @@ $marker-dist: $card-width + $outer-margin / 2 - $marker-size / 2;
     height: $marker-size;
     position: absolute;
     width: $marker-size;
+    z-index: 2;
   }
 }
 
@@ -111,6 +112,12 @@ $counter: $items - $rows + 2;
       border-left: 1px solid $timeline;
     }
   }
+
+  .show {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
 }
 
 // card entries
@@ -121,7 +128,10 @@ $counter: $items - $rows + 2;
   display: block;
   margin: 10px auto 80px;
   max-width: 94%;
+  opacity: 0;
   position: relative;
+  transition: all .5s ease-in-out;
+  visibility: none;
 
   @include mq-sm {
     box-shadow: $box-shadow;
@@ -142,6 +152,7 @@ $counter: $items - $rows + 2;
 
     &:nth-child(odd) {
       margin-right: $outer-margin / 2;
+      transform: translateX(-200px);
 
       .head::after {
 
@@ -154,12 +165,14 @@ $counter: $items - $rows + 2;
       .head::before {
 
         @extend %marker;
-        left: $marker-dist + 1;
+        left: $marker-dist;
       }
     }
 
     &:nth-child(even) {
       margin-left: $outer-margin / 2;
+      transform: translateX(200px);
+
 
       .head::after {
 
@@ -171,7 +184,7 @@ $counter: $items - $rows + 2;
 
       .head::before {
         @extend %marker;
-        right: $marker-dist - 1;
+        right: $marker-dist - 2;
       }
     }
 
@@ -206,6 +219,10 @@ $counter: $items - $rows + 2;
       }
     }
   }
+}
+
+.card-wrapper .show {
+  transform: none;
 }
 
 // card title
